@@ -6,6 +6,7 @@
         Console.WriteLine("Hola bienvenido al sistema");
         Console.WriteLine("Ingrese su nombre");
         nombre = Console.ReadLine();    
+        Console.WriteLine("Un placer " + nombre);
 
     }
 }
