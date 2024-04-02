@@ -7,6 +7,6 @@
         Console.WriteLine("Ingrese su nombre");
         nombre = Console.ReadLine();    
         Console.WriteLine("Un placer ");
-        Console.WriteLine("Messi");
+        
     }
 }
