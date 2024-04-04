@@ -85,6 +85,7 @@
                 break;
         }
 
-        Console.WriteLine("Estimado Cliente " + nombre + ", Le deseamos un feliz viaje");       
+        Console.WriteLine("Estimado Cliente " + nombre);
+        
     }
 }
