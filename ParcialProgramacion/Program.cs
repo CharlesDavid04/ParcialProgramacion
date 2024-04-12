@@ -788,7 +788,40 @@
 
                 break;
 
-            case "ISLAS COCOS (AUSTRALIA)":
+            case "ISLA NOLFORK":
+
+                Console.WriteLine("¿Cuantos dias planea viajar?");
+                dias = int.Parse(Console.ReadLine());
+
+                Console.WriteLine("Escoja la clase de su vuelo:");
+                Console.WriteLine("Turista");
+                Console.WriteLine("Primera clase");
+                Console.WriteLine("Negocios");
+                clase = Console.ReadLine();
+
+
+
+                if (clase == "turista")
+                {
+                    costo = dias * 170;
+                    Console.WriteLine("El costo de su ticket es de " + costo + " dolares");
+                }
+
+                if (clase == "primera clase")
+                {
+                    costo = dias * 190;
+                    Console.WriteLine("El costo de su ticket es de " + costo + " dolares");
+                }
+
+                if (clase == "negocios")
+                {
+                    costo = dias * 225;
+                    Console.WriteLine("El costo de su ticket es de " + costo + " dolares");
+                }
+
+                break;
+
+            case "ISLAS COCOS":
 
                 Console.WriteLine("¿Cuantos dias planea viajar?");
                 dias = int.Parse(Console.ReadLine());
@@ -821,7 +854,7 @@
 
                 break;
 
-            case "ISLA DE NAVIDAD (AUSTRALIA)":
+            case "ISLA DE NAVIDAD":
 
                 Console.WriteLine("¿Cuantos dias planea viajar?");
                 dias = int.Parse(Console.ReadLine());
@@ -887,7 +920,7 @@
 
                 break;
 
-            case "NIUE (NUEVA ZELANDA)":
+            case "NIUE":
 
                 Console.WriteLine("¿Cuantos dias planea viajar?");
                 dias = int.Parse(Console.ReadLine());
@@ -920,7 +953,73 @@
 
                 break;
 
-            case "ISLAS COOK (NUEVA ZELANDA)":
+            case "ISLAS COOK":
+
+                Console.WriteLine("¿Cuantos dias planea viajar?");
+                dias = int.Parse(Console.ReadLine());
+
+                Console.WriteLine("Escoja la clase de su vuelo:");
+                Console.WriteLine("Turista");
+                Console.WriteLine("Primera clase");
+                Console.WriteLine("Negocios");
+                clase = Console.ReadLine();
+
+
+
+                if (clase == "turista")
+                {
+                    costo = dias * 160;
+                    Console.WriteLine("El costo de su ticket es de " + costo + " dolares");
+                }
+
+                if (clase == "primera clase")
+                {
+                    costo = dias * 170;
+                    Console.WriteLine("El costo de su ticket es de " + costo + " dolares");
+                }
+
+                if (clase == "negocios")
+                {
+                    costo = dias * 200;
+                    Console.WriteLine("El costo de su ticket es de " + costo + " dolares");
+                }
+
+                break;
+
+            case "ISLAS MARIANAS DEL NORTE":
+
+                Console.WriteLine("¿Cuantos dias planea viajar?");
+                dias = int.Parse(Console.ReadLine());
+
+                Console.WriteLine("Escoja la clase de su vuelo:");
+                Console.WriteLine("Turista");
+                Console.WriteLine("Primera clase");
+                Console.WriteLine("Negocios");
+                clase = Console.ReadLine();
+
+
+
+                if (clase == "turista")
+                {
+                    costo = dias * 200;
+                    Console.WriteLine("El costo de su ticket es de " + costo + " dolares");
+                }
+
+                if (clase == "primera clase")
+                {
+                    costo = dias * 250;
+                    Console.WriteLine("El costo de su ticket es de " + costo + " dolares");
+                }
+
+                if (clase == "negocios")
+                {
+                    costo = dias * 275;
+                    Console.WriteLine("El costo de su ticket es de " + costo + " dolares");
+                }
+
+                break;
+
+            case "MICRONESIA":
 
                 Console.WriteLine("¿Cuantos dias planea viajar?");
                 dias = int.Parse(Console.ReadLine());
@@ -941,13 +1040,46 @@
 
                 if (clase == "primera clase")
                 {
-                    costo = dias * 190;
+                    costo = dias * 200;
                     Console.WriteLine("El costo de su ticket es de " + costo + " dolares");
                 }
 
                 if (clase == "negocios")
                 {
-                    costo = dias * 225;
+                    costo = dias * 275;
+                    Console.WriteLine("El costo de su ticket es de " + costo + " dolares");
+                }
+
+                break;
+
+            case "NAURU":
+
+                Console.WriteLine("¿Cuantos dias planea viajar?");
+                dias = int.Parse(Console.ReadLine());
+
+                Console.WriteLine("Escoja la clase de su vuelo:");
+                Console.WriteLine("Turista");
+                Console.WriteLine("Primera clase");
+                Console.WriteLine("Negocios");
+                clase = Console.ReadLine();
+
+
+
+                if (clase == "turista")
+                {
+                    costo = dias * 200;
+                    Console.WriteLine("El costo de su ticket es de " + costo + " dolares");
+                }
+
+                if (clase == "primera clase")
+                {
+                    costo = dias * 275;
+                    Console.WriteLine("El costo de su ticket es de " + costo + " dolares");
+                }
+
+                if (clase == "negocios")
+                {
+                    costo = dias * 325;
                     Console.WriteLine("El costo de su ticket es de " + costo + " dolares");
                 }
 
