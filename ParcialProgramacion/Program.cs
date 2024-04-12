@@ -8,7 +8,6 @@
         double costo;
         int dias;
         string clase;
-
         //Se piden los datos al usuario
         Console.WriteLine("Hola bienvenido al sistema para compra de boletos aéreos");
         Console.WriteLine("Ingrese su nombre para continuar");
@@ -1547,8 +1546,6 @@
 
                 break;
         }
-
-        Console.WriteLine("Estimado Cliente " + nombre);
         
     }
 }
