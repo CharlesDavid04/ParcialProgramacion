@@ -1451,7 +1451,7 @@
                 break;
             case "OCEANIA":
 
-                onsole.WriteLine("DESTINOS DISPONIBLES: ");
+                Console.WriteLine("DESTINOS DISPONIBLES: ");
                 Console.WriteLine("AUSTRALIA");
                 Console.WriteLine("ISLA NOLFORK");
                 Console.WriteLine("ISLAS COCOS");
@@ -2703,6 +2703,6 @@
                 break;
         }
 
-
+        Console.ReadKey();
     }
 }
