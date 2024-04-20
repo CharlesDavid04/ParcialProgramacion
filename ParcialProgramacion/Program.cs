@@ -24,9 +24,12 @@
         switch (continente)
         {
             case "AMERICA":
+
                 break;
+
             case "EUROPA":
-                Console.WriteLine("seleccione su pais");
+
+                Console.WriteLine("DESTINOS DISPONIBLES:");
                 Console.WriteLine(" RUSIA");
                 Console.WriteLine(" ALEMANIA");
                 Console.WriteLine("REINO UNIDO ");
@@ -67,10 +70,9 @@
                 Console.WriteLine("  LIECHTENSTEIN");
                 Console.WriteLine(" MONACO");
 
-
                 pais = Console.ReadLine();
 
-                switch (pais)
+                switch (pais.ToUpper())
                 {
                     case "RUSIA":
                         Console.WriteLine("cuantos dias desea viajar");
@@ -1175,7 +1177,8 @@
                             costo = dias * 750;
                             Console.WriteLine("el costo de su ticket es de " + costo + "dolares");
                         }
-                        break;
+                        
+                    break;
 
                     case "MONACO":
                         Console.WriteLine("cuantos dias desea viajar");
@@ -1204,18 +1207,13 @@
                             costo = dias * 1000;
                             Console.WriteLine("el costo de su ticket es de " + costo + "dolares");
                         }
-                        break;
 
-
+                    break;
 
                 }
 
-        
+            break;
 
-
-
-    
-                break;
             case "ASIA":
                 Console.WriteLine("DESTINOS DISPONIBLES: ");
                 Console.WriteLine("AFAGANISTAN");
@@ -2638,6 +2636,7 @@
                 }
 
                 break;
+
             case "OCEANIA":
 
                 Console.WriteLine("DESTINOS DISPONIBLES: ");
@@ -3467,6 +3466,7 @@
                 }
 
                 break;
+
             case "AFRICA":
 
                 Console.WriteLine("DESTINOS DISPONIBLES: ");
@@ -5120,24 +5120,12 @@
                             Console.WriteLine("El costo de su ticket es de " + costo + " dolares");
                         }
                         break;
-
-
-
-                
-
-                
-            
-                   
-
                 }
+            break;
 
-
-                break;
             default:
-                Console.WriteLine("ERROR: ");
+                Console.WriteLine("Usted ha ingresado un destino inválido");
                 break;
         }
-
-        Console.ReadKey();
     }
 }
