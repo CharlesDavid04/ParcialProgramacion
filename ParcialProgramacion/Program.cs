@@ -9,22 +9,28 @@
         Random rnd = new Random();
 
         //Se piden los datos al usuario
-        Console.WriteLine("Hola bienvenido al sistema para compra de boletos aéreos");
+        Console.WriteLine("Hola bienvenido a aerolíneas Skyweb, usted ha ingresado al sistema para la compra de un boleto aéreo");
         Console.WriteLine("Ingrese su nombre para continuar");
+        Console.WriteLine(" ");
         nombre = Console.ReadLine();
+        Console.WriteLine(" ");
 
-        Console.WriteLine("A que continente desea viajar " + nombre);
+        Console.WriteLine("Bienvenido " + nombre + " Seleccione el continente de su destino");
+        Console.WriteLine(" ");
         Console.WriteLine("AMERICA");
         Console.WriteLine("ASIA");
         Console.WriteLine("AFRICA");
         Console.WriteLine("EUROPA");
         Console.WriteLine("OCEANIA");
+        Console.WriteLine(" ");
         continente = Console.ReadLine().ToUpper();
 
         switch (continente)
         {
             case "AMERICA":
-                Console.WriteLine("Pais que desea viajar");
+                Console.WriteLine(" ");
+                Console.WriteLine("DESTINOS DISPONIBLES: ");
+                Console.WriteLine(" ");
                 Console.WriteLine("ESTADOS UNIDOS");
                 Console.WriteLine("CANADA");
                 Console.WriteLine("MEXICO");
@@ -59,7 +65,9 @@
                 Console.WriteLine("BARBADOS");
                 Console.WriteLine("GRANADA");
                 Console.WriteLine("TRINIDAD Y TOBAGO");
+                Console.WriteLine(" ");
                 pais = Console.ReadLine().ToUpper();
+
                 switch (pais)
                 {
                     case "ESTADOS UNIDOS":
@@ -1169,7 +1177,9 @@
 
             case "EUROPA":
 
+                Console.WriteLine(" ");
                 Console.WriteLine("DESTINOS DISPONIBLES:");
+                Console.WriteLine(" ");
                 Console.WriteLine(" RUSIA");
                 Console.WriteLine(" ALEMANIA");
                 Console.WriteLine("REINO UNIDO ");
@@ -1209,6 +1219,7 @@
                 Console.WriteLine(" ANDORRA");
                 Console.WriteLine("  LIECHTENSTEIN");
                 Console.WriteLine(" MONACO");
+                Console.WriteLine(" ");
 
                 pais = Console.ReadLine();
 
@@ -4354,7 +4365,9 @@
 
             case "OCEANIA":
 
+                Console.WriteLine(" ");
                 Console.WriteLine("DESTINOS DISPONIBLES: ");
+                Console.WriteLine(" ");
                 Console.WriteLine("AUSTRALIA");
                 Console.WriteLine("ISLA NOLFORK");
                 Console.WriteLine("ISLAS COCOS");
@@ -4379,6 +4392,7 @@
                 Console.WriteLine("TUVALU");
                 Console.WriteLine("VANATU");
                 Console.WriteLine("WALLIS Y FUTUNA");
+                Console.WriteLine(" ");
 
                 pais = Console.ReadLine();
 
@@ -5184,7 +5198,9 @@
 
             case "AFRICA":
 
+                Console.WriteLine(" ");
                 Console.WriteLine("DESTINOS DISPONIBLES: ");
+                Console.WriteLine(" ");
                 Console.WriteLine("ANGOLA");
                 Console.WriteLine("ARGELIA");
                 Console.WriteLine("BENIN");
@@ -5238,7 +5254,7 @@
                 Console.WriteLine("UGANDA");
                 Console.WriteLine("ZAMBIA");
                 Console.WriteLine("ZIMBABUE");
-
+                Console.WriteLine(" ");
 
                 pais = Console.ReadLine();
 
@@ -7210,7 +7226,7 @@
                 break;
 
             default:
-                Console.WriteLine("Usted ha ingresado un destino inválido");
+                Console.WriteLine("Usted ha ingresado un destino inválido, por favor intente de nuevo");
                 break;
         }
 
