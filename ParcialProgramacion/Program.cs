@@ -3,11 +3,11 @@
     public static void Main(string[] args)
     {
         //Declaramos variables que influyen en el costo del vuelo
-        string nombre, continente;
-        string pais;
+        string nombre, continente, pais, clase;
         double costo;
-        int dias;
-        string clase;
+        int dias, codigo;
+        Random rnd = new Random();
+
         //Se piden los datos al usuario
         Console.WriteLine("Hola bienvenido al sistema para compra de boletos aéreos");
         Console.WriteLine("Ingrese su nombre para continuar");
@@ -83,7 +83,7 @@
                         Console.WriteLine("negocios");
                         clase = Console.ReadLine();
 
-                        if (clase == "primeraclase")
+                        if (clase == "primera clase")
                         {
                             costo = dias * 200;
                             Console.WriteLine("el costo de su ticket es de " + costo + "dolares");
@@ -1192,27 +1192,32 @@
                         if (clase == "primeraclase")
                         {
                             costo = dias * 1200;
-                            Console.WriteLine("el costo de su ticket es de " + costo + "dolares");
+                            Console.WriteLine("el costo de su ticket es de " + costo + " dolares");
                         }
 
                         if (clase == "turista")
                         {
                             costo = dias * 900;
-                            Console.WriteLine("el costo de su ticket es de " + costo + "dolares ");
+                            Console.WriteLine("el costo de su ticket es de " + costo + " dolares ");
 
                         }
 
                         if (clase == "negocios")
                         {
                             costo = dias * 1000;
-                            Console.WriteLine("el costo de su ticket es de " + costo + "dolares");
+                            Console.WriteLine("el costo de su ticket es de " + costo + " dolares");
                         }
 
-                    break;
+                        codigo = rnd.Next(100000, 999999);
+                        Console.WriteLine("Estimado cliente " + nombre + " Usted ha comprado un vuelo desde El Salvador con destino a " + pais);
+                        Console.WriteLine("Con una duracion de " + dias + " dias");
+                        Console.WriteLine("El numero de su vuelo es: " + codigo + " ¡le deseamos un excelente viaje");
+                        Console.ReadKey();
 
+                        break;                       
                 }
 
-            break;
+            break;               
 
             case "ASIA":
                 Console.WriteLine("DESTINOS DISPONIBLES: ");
@@ -5127,5 +5132,8 @@
                 Console.WriteLine("Usted ha ingresado un destino inválido");
                 break;
         }
+
+       
+
     }
 }
