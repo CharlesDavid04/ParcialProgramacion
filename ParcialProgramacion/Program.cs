@@ -7,7 +7,7 @@
         double costo;
         int dias, codigo;
         Random rnd = new Random();
-
+        
         //Se piden los datos al usuario
         Console.WriteLine("Hola bienvenido al sistema para compra de boletos aéreos");
         Console.WriteLine("Ingrese su nombre para continuar");
@@ -1177,8 +1177,14 @@
                             costo = dias * 750;
                             Console.WriteLine("el costo de su ticket es de " + costo + "dolares");
                         }
-                        
-                    break;
+
+                        codigo = rnd.Next(100000, 999999);
+                        Console.WriteLine("Estimado cliente " + nombre + " Usted ha comprado un vuelo desde El Salvador con destino a " + pais);
+                        Console.WriteLine("Con una duracion de " + dias + " dias");
+                        Console.WriteLine("El numero de su vuelo es: " + codigo + " ¡le deseamos un excelente viaje");
+                        Console.ReadKey();
+
+                        break;
 
                     case "MONACO":
                         Console.WriteLine("cuantos dias desea viajar");
