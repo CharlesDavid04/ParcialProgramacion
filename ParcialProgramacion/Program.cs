@@ -24,7 +24,42 @@
         switch (continente)
         {
             case "AMERICA":
-
+                Console.WriteLine("Pais que desea viajar");
+                Console.WriteLine("ESTADOS UNIDOS");
+                Console.WriteLine("CANADA");
+                Console.WriteLine("MEXICO");
+                Console.WriteLine("GUATEMALA");
+                Console.WriteLine("BELICE");
+                Console.WriteLine("HONDURAS");
+                Console.WriteLine("NICARAGUA");
+                Console.WriteLine("COSTA RICA");
+                Console.WriteLine("PANAMA");
+                Console.WriteLine("COLOMBIA");
+                Console.WriteLine("ECUADOR");
+                Console.WriteLine("VENEZUELA");
+                Console.WriteLine("PERU");
+                Console.WriteLine("BOLIVIA");
+                Console.WriteLine("BRASIL");
+                Console.WriteLine("PARAGUAY");
+                Console.WriteLine("URUGUAY");
+                Console.WriteLine("ARGENTINA");
+                Console.WriteLine("CHILE");
+                Console.WriteLine("GUYANA");
+                Console.WriteLine("SURINAM");
+                Console.WriteLine("JAMAICA");
+                Console.WriteLine("CUBA");
+                Console.WriteLine("BAHAMAS");
+                Console.WriteLine("HAITI");
+                Console.WriteLine("REPUBLICA DOMINICANA");
+                Console.WriteLine("SAN CRISTOBAL Y NIEVES");
+                Console.WriteLine("ANTIGUA Y BARBUDA");
+                Console.WriteLine("DOMINICA");
+                Console.WriteLine("SANTA LUCIA");
+                Console.WriteLine("SAN VICENTE Y GRANADINAS");
+                Console.WriteLine("BARBADOS");
+                Console.WriteLine("GRANADA");
+                Console.WriteLine("TRINIDAD Y TOBAGO");
+                pais = Console.ReadLine().ToUpper();
                 break;
 
             case "EUROPA":
