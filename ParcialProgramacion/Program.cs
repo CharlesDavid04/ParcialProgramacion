@@ -3,7 +3,7 @@
     public static void Main(string[] args)
     {
         //Declaramos variables que influyen en el costo del vuelo
-        string nombre, continente, pais, clase;
+        string nombre, apellido, continente, pais, clase;
         double costo;
         int dias, codigo;
         Random rnd = new Random();
@@ -14,8 +14,12 @@
         Console.WriteLine(" ");
         nombre = Console.ReadLine();
         Console.WriteLine(" ");
+        Console.WriteLine("Ingrese su o sus apellidos para continuar");
+        Console.WriteLine(" ");
+        apellido = Console.ReadLine();
+        Console.WriteLine(" ");
 
-        Console.WriteLine("Bienvenido " + nombre + " Seleccione el continente de su destino");
+        Console.WriteLine("Bienvenido " + nombre + " " + apellido + " Seleccione el continente de su destino");
         Console.WriteLine(" ");
         Console.WriteLine("AMERICA");
         Console.WriteLine("ASIA");
@@ -29,7 +33,7 @@
         {
             case "AMERICA":
                 Console.WriteLine(" ");
-                Console.WriteLine("DESTINOS DISPONIBLES: ");
+                Console.WriteLine("DESTINOS DISPONIBLES PARA AMÉRICA: ");
                 Console.WriteLine(" ");
                 Console.WriteLine("ESTADOS UNIDOS");
                 Console.WriteLine("CANADA");
@@ -71,13 +75,17 @@
                 switch (pais)
                 {
                     case "ESTADOS UNIDOS":
-                        Console.WriteLine("Cuantos dias desea viajar");
-                        dias = Convert.ToInt32(Console.ReadLine());
-                        Console.WriteLine("Seleccione su clase");
-                        Console.WriteLine("turista");
-                        Console.WriteLine("primera clase");
-                        Console.WriteLine("negocios");
+                        Console.WriteLine(" ");
+                        Console.WriteLine("¿Cuantos dias desea viajar? Ingrese la cantidad:");
+                        dias = int.Parse(Console.ReadLine());
+                        Console.WriteLine(" ");
+                        Console.WriteLine("Ingrese la clase en la cual le gustaría viajar:");
+                        Console.WriteLine("Turista");
+                        Console.WriteLine("Primera clase");
+                        Console.WriteLine("Negocios");
+                        Console.WriteLine(" ");
                         clase = Console.ReadLine();
+                        Console.WriteLine(" ");
 
                         if (clase == "turista")
                         {
@@ -106,13 +114,17 @@
 
                         break;
                     case "CANADA":
-                        Console.WriteLine("Cuantos dias desea viajar");
-                        dias = Convert.ToInt32(Console.ReadLine());
-                        Console.WriteLine("Seleccione su clase");
-                        Console.WriteLine("turista");
-                        Console.WriteLine("primera clase");
-                        Console.WriteLine("negocios");
+                        Console.WriteLine(" ");
+                        Console.WriteLine("¿Cuantos dias desea viajar? Ingrese la cantidad:");
+                        dias = int.Parse(Console.ReadLine());
+                        Console.WriteLine(" ");
+                        Console.WriteLine("Ingrese la clase en la cual le gustaría viajar:");
+                        Console.WriteLine("Turista");
+                        Console.WriteLine("Primera clase");
+                        Console.WriteLine("Negocios");
+                        Console.WriteLine(" ");
                         clase = Console.ReadLine();
+                        Console.WriteLine(" ");
 
                         if (clase == "turista")
                         {
@@ -142,13 +154,17 @@
 
                         break;
                     case "MEXICO":
-                        Console.WriteLine("Cuantos dias desea viajar");
-                        dias = Convert.ToInt32(Console.ReadLine());
-                        Console.WriteLine("Seleccione su clase");
-                        Console.WriteLine("turista");
-                        Console.WriteLine("primera clase");
-                        Console.WriteLine("negocios");
+                        Console.WriteLine(" ");
+                        Console.WriteLine("¿Cuantos dias desea viajar? Ingrese la cantidad:");
+                        dias = int.Parse(Console.ReadLine());
+                        Console.WriteLine(" ");
+                        Console.WriteLine("Ingrese la clase en la cual le gustaría viajar:");
+                        Console.WriteLine("Turista");
+                        Console.WriteLine("Primera clase");
+                        Console.WriteLine("Negocios");
+                        Console.WriteLine(" ");
                         clase = Console.ReadLine();
+                        Console.WriteLine(" ");
 
                         if (clase == "turista")
                         {
@@ -177,14 +193,19 @@
                         Console.ReadKey();
 
                         break;
+
                     case "GUATEMALA":
-                        Console.WriteLine("Cuantos dias desea viajar");
-                        dias = Convert.ToInt32(Console.ReadLine());
-                        Console.WriteLine("Seleccione su clase");
-                        Console.WriteLine("turista");
-                        Console.WriteLine("primera clase");
-                        Console.WriteLine("negocios");
+                        Console.WriteLine(" ");
+                        Console.WriteLine("¿Cuantos dias desea viajar? Ingrese la cantidad:");
+                        dias = int.Parse(Console.ReadLine());
+                        Console.WriteLine(" ");
+                        Console.WriteLine("Ingrese la clase en la cual le gustaría viajar:");
+                        Console.WriteLine("Turista");
+                        Console.WriteLine("Primera clase");
+                        Console.WriteLine("Negocios");
+                        Console.WriteLine(" ");
                         clase = Console.ReadLine();
+                        Console.WriteLine(" ");
 
                         if (clase == "turista")
                         {
@@ -214,13 +235,17 @@
                         Console.ReadKey();
                         break;
                     case "BELICE":
-                        Console.WriteLine("Cuantos dias desea viajar");
-                        dias = Convert.ToInt32(Console.ReadLine());
-                        Console.WriteLine("Seleccione su clase");
-                        Console.WriteLine("turista");
-                        Console.WriteLine("primera clase");
-                        Console.WriteLine("negocios");
+                        Console.WriteLine(" ");
+                        Console.WriteLine("¿Cuantos dias desea viajar? Ingrese la cantidad:");
+                        dias = int.Parse(Console.ReadLine());
+                        Console.WriteLine(" ");
+                        Console.WriteLine("Ingrese la clase en la cual le gustaría viajar:");
+                        Console.WriteLine("Turista");
+                        Console.WriteLine("Primera clase");
+                        Console.WriteLine("Negocios");
+                        Console.WriteLine(" ");
                         clase = Console.ReadLine();
+                        Console.WriteLine(" ");
 
                         if (clase == "turista")
                         {
@@ -248,13 +273,17 @@
                         Console.ReadKey();
                         break;
                     case "HONDURAS":
-                        Console.WriteLine("Cuantos dias desea viajar");
-                        dias = Convert.ToInt32(Console.ReadLine());
-                        Console.WriteLine("Seleccione su clase");
-                        Console.WriteLine("turista");
-                        Console.WriteLine("primera clase");
-                        Console.WriteLine("negocios");
+                        Console.WriteLine(" ");
+                        Console.WriteLine("¿Cuantos dias desea viajar? Ingrese la cantidad:");
+                        dias = int.Parse(Console.ReadLine());
+                        Console.WriteLine(" ");
+                        Console.WriteLine("Ingrese la clase en la cual le gustaría viajar:");
+                        Console.WriteLine("Turista");
+                        Console.WriteLine("Primera clase");
+                        Console.WriteLine("Negocios");
+                        Console.WriteLine(" ");
                         clase = Console.ReadLine();
+                        Console.WriteLine(" ");
 
                         if (clase == "turista")
                         {
@@ -282,13 +311,17 @@
                         Console.ReadKey();
                         break;
                     case "NICARAGUA":
-                        Console.WriteLine("Cuantos dias desea viajar");
-                        dias = Convert.ToInt32(Console.ReadLine());
-                        Console.WriteLine("Seleccione su clase");
-                        Console.WriteLine("turista");
-                        Console.WriteLine("primera clase");
-                        Console.WriteLine("negocios");
+                        Console.WriteLine(" ");
+                        Console.WriteLine("¿Cuantos dias desea viajar? Ingrese la cantidad:");
+                        dias = int.Parse(Console.ReadLine());
+                        Console.WriteLine(" ");
+                        Console.WriteLine("Ingrese la clase en la cual le gustaría viajar:");
+                        Console.WriteLine("Turista");
+                        Console.WriteLine("Primera clase");
+                        Console.WriteLine("Negocios");
+                        Console.WriteLine(" ");
                         clase = Console.ReadLine();
+                        Console.WriteLine(" ");
 
                         if (clase == "turista")
                         {
@@ -316,13 +349,17 @@
                         Console.ReadKey();
                         break;
                     case "COSTA RICA":
-                        Console.WriteLine("Cuantos dias desea viajar");
-                        dias = Convert.ToInt32(Console.ReadLine());
-                        Console.WriteLine("Seleccione su clase");
-                        Console.WriteLine("turista");
-                        Console.WriteLine("primera clase");
-                        Console.WriteLine("negocios");
+                        Console.WriteLine(" ");
+                        Console.WriteLine("¿Cuantos dias desea viajar? Ingrese la cantidad:");
+                        dias = int.Parse(Console.ReadLine());
+                        Console.WriteLine(" ");
+                        Console.WriteLine("Ingrese la clase en la cual le gustaría viajar:");
+                        Console.WriteLine("Turista");
+                        Console.WriteLine("Primera clase");
+                        Console.WriteLine("Negocios");
+                        Console.WriteLine(" ");
                         clase = Console.ReadLine();
+                        Console.WriteLine(" ");
 
                         if (clase == "turista")
                         {
@@ -350,13 +387,17 @@
                         Console.ReadKey();
                         break;
                     case "PANAMA":
-                        Console.WriteLine("Cuantos dias desea viajar");
-                        dias = Convert.ToInt32(Console.ReadLine());
-                        Console.WriteLine("Seleccione su clase");
-                        Console.WriteLine("turista");
-                        Console.WriteLine("primera clase");
-                        Console.WriteLine("negocios");
+                        Console.WriteLine(" ");
+                        Console.WriteLine("¿Cuantos dias desea viajar? Ingrese la cantidad:");
+                        dias = int.Parse(Console.ReadLine());
+                        Console.WriteLine(" ");
+                        Console.WriteLine("Ingrese la clase en la cual le gustaría viajar:");
+                        Console.WriteLine("Turista");
+                        Console.WriteLine("Primera clase");
+                        Console.WriteLine("Negocios");
+                        Console.WriteLine(" ");
                         clase = Console.ReadLine();
+                        Console.WriteLine(" ");
 
                         if (clase == "turista")
                         {
@@ -384,13 +425,17 @@
                         Console.ReadKey();
                         break;
                     case "COLOMBIA":
-                        Console.WriteLine("Cuantos dias desea viajar");
-                        dias = Convert.ToInt32(Console.ReadLine());
-                        Console.WriteLine("Seleccione su clase");
-                        Console.WriteLine("turista");
-                        Console.WriteLine("primera clase");
-                        Console.WriteLine("negocios");
+                        Console.WriteLine(" ");
+                        Console.WriteLine("¿Cuantos dias desea viajar? Ingrese la cantidad:");
+                        dias = int.Parse(Console.ReadLine());
+                        Console.WriteLine(" ");
+                        Console.WriteLine("Ingrese la clase en la cual le gustaría viajar:");
+                        Console.WriteLine("Turista");
+                        Console.WriteLine("Primera clase");
+                        Console.WriteLine("Negocios");
+                        Console.WriteLine(" ");
                         clase = Console.ReadLine();
+                        Console.WriteLine(" ");
 
                         if (clase == "turista")
                         {
@@ -418,13 +463,17 @@
                         Console.ReadKey();
                         break;
                     case "ECUADOR":
-                        Console.WriteLine("Cuantos dias desea viajar");
-                        dias = Convert.ToInt32(Console.ReadLine());
-                        Console.WriteLine("Seleccione su clase");
-                        Console.WriteLine("turista");
-                        Console.WriteLine("primera clase");
-                        Console.WriteLine("negocios");
+                        Console.WriteLine(" ");
+                        Console.WriteLine("¿Cuantos dias desea viajar? Ingrese la cantidad:");
+                        dias = int.Parse(Console.ReadLine());
+                        Console.WriteLine(" ");
+                        Console.WriteLine("Ingrese la clase en la cual le gustaría viajar:");
+                        Console.WriteLine("Turista");
+                        Console.WriteLine("Primera clase");
+                        Console.WriteLine("Negocios");
+                        Console.WriteLine(" ");
                         clase = Console.ReadLine();
+                        Console.WriteLine(" ");
 
                         if (clase == "turista")
                         {
@@ -453,13 +502,17 @@
                         break;
 
                     case "VENEZUELA":
-                        Console.WriteLine("Cuantos dias desea viajar");
-                        dias = Convert.ToInt32(Console.ReadLine());
-                        Console.WriteLine("Seleccione su clase");
-                        Console.WriteLine("turista");
-                        Console.WriteLine("primera clase");
-                        Console.WriteLine("negocios");
+                        Console.WriteLine(" ");
+                        Console.WriteLine("¿Cuantos dias desea viajar? Ingrese la cantidad:");
+                        dias = int.Parse(Console.ReadLine());
+                        Console.WriteLine(" ");
+                        Console.WriteLine("Ingrese la clase en la cual le gustaría viajar:");
+                        Console.WriteLine("Turista");
+                        Console.WriteLine("Primera clase");
+                        Console.WriteLine("Negocios");
+                        Console.WriteLine(" ");
                         clase = Console.ReadLine();
+                        Console.WriteLine(" ");
 
                         if (clase == "turista")
                         {
@@ -489,13 +542,17 @@
 
 
                     case "PERU":
-                        Console.WriteLine("Cuantos dias desea viajar");
-                        dias = Convert.ToInt32(Console.ReadLine());
-                        Console.WriteLine("Seleccione su clase");
-                        Console.WriteLine("turista");
-                        Console.WriteLine("primera clase");
-                        Console.WriteLine("negocios");
+                        Console.WriteLine(" ");
+                        Console.WriteLine("¿Cuantos dias desea viajar? Ingrese la cantidad:");
+                        dias = int.Parse(Console.ReadLine());
+                        Console.WriteLine(" ");
+                        Console.WriteLine("Ingrese la clase en la cual le gustaría viajar:");
+                        Console.WriteLine("Turista");
+                        Console.WriteLine("Primera clase");
+                        Console.WriteLine("Negocios");
+                        Console.WriteLine(" ");
                         clase = Console.ReadLine();
+                        Console.WriteLine(" ");
 
                         if (clase == "turista")
                         {
@@ -524,13 +581,17 @@
                         break;
 
                     case "BOLIVIA":
-                        Console.WriteLine("Cuantos dias desea viajar");
-                        dias = Convert.ToInt32(Console.ReadLine());
-                        Console.WriteLine("Seleccione su clase");
-                        Console.WriteLine("turista");
-                        Console.WriteLine("primera clase");
-                        Console.WriteLine("negocios");
+                        Console.WriteLine(" ");
+                        Console.WriteLine("¿Cuantos dias desea viajar? Ingrese la cantidad:");
+                        dias = int.Parse(Console.ReadLine());
+                        Console.WriteLine(" ");
+                        Console.WriteLine("Ingrese la clase en la cual le gustaría viajar:");
+                        Console.WriteLine("Turista");
+                        Console.WriteLine("Primera clase");
+                        Console.WriteLine("Negocios");
+                        Console.WriteLine(" ");
                         clase = Console.ReadLine();
+                        Console.WriteLine(" ");
 
                         if (clase == "turista")
                         {
@@ -559,13 +620,17 @@
                         break;
 
                     case "BRASIL":
-                        Console.WriteLine("Cuantos dias desea viajar");
-                        dias = Convert.ToInt32(Console.ReadLine());
-                        Console.WriteLine("Seleccione su clase");
-                        Console.WriteLine("turista");
-                        Console.WriteLine("primera clase");
-                        Console.WriteLine("negocios");
+                        Console.WriteLine(" ");
+                        Console.WriteLine("¿Cuantos dias desea viajar? Ingrese la cantidad:");
+                        dias = int.Parse(Console.ReadLine());
+                        Console.WriteLine(" ");
+                        Console.WriteLine("Ingrese la clase en la cual le gustaría viajar:");
+                        Console.WriteLine("Turista");
+                        Console.WriteLine("Primera clase");
+                        Console.WriteLine("Negocios");
+                        Console.WriteLine(" ");
                         clase = Console.ReadLine();
+                        Console.WriteLine(" ");
 
                         if (clase == "turista")
                         {
@@ -594,13 +659,17 @@
                         break;
 
                     case "PARAGUAY":
-                        Console.WriteLine("Cuantos dias desea viajar");
-                        dias = Convert.ToInt32(Console.ReadLine());
-                        Console.WriteLine("Seleccione su clase");
-                        Console.WriteLine("turista");
-                        Console.WriteLine("primera clase");
-                        Console.WriteLine("negocios");
+                        Console.WriteLine(" ");
+                        Console.WriteLine("¿Cuantos dias desea viajar? Ingrese la cantidad:");
+                        dias = int.Parse(Console.ReadLine());
+                        Console.WriteLine(" ");
+                        Console.WriteLine("Ingrese la clase en la cual le gustaría viajar:");
+                        Console.WriteLine("Turista");
+                        Console.WriteLine("Primera clase");
+                        Console.WriteLine("Negocios");
+                        Console.WriteLine(" ");
                         clase = Console.ReadLine();
+                        Console.WriteLine(" ");
 
                         if (clase == "turista")
                         {
@@ -628,13 +697,17 @@
                         Console.ReadKey();
                         break;
                     case "ARGENTINA":
-                        Console.WriteLine("Cuantos dias desea viajar");
-                        dias = Convert.ToInt32(Console.ReadLine());
-                        Console.WriteLine("Seleccione su clase");
-                        Console.WriteLine("turista");
-                        Console.WriteLine("primera clase");
-                        Console.WriteLine("negocios");
+                        Console.WriteLine(" ");
+                        Console.WriteLine("¿Cuantos dias desea viajar? Ingrese la cantidad:");
+                        dias = int.Parse(Console.ReadLine());
+                        Console.WriteLine(" ");
+                        Console.WriteLine("Ingrese la clase en la cual le gustaría viajar:");
+                        Console.WriteLine("Turista");
+                        Console.WriteLine("Primera clase");
+                        Console.WriteLine("Negocios");
+                        Console.WriteLine(" ");
                         clase = Console.ReadLine();
+                        Console.WriteLine(" ");
 
                         if (clase == "turista")
                         {
@@ -662,13 +735,17 @@
                         Console.ReadKey();
                         break;
                     case "CHILE":
-                        Console.WriteLine("Cuantos dias desea viajar");
-                        dias = Convert.ToInt32(Console.ReadLine());
-                        Console.WriteLine("Seleccione su clase");
-                        Console.WriteLine("turista");
-                        Console.WriteLine("primera clase");
-                        Console.WriteLine("negocios");
+                        Console.WriteLine(" ");
+                        Console.WriteLine("¿Cuantos dias desea viajar? Ingrese la cantidad:");
+                        dias = int.Parse(Console.ReadLine());
+                        Console.WriteLine(" ");
+                        Console.WriteLine("Ingrese la clase en la cual le gustaría viajar:");
+                        Console.WriteLine("Turista");
+                        Console.WriteLine("Primera clase");
+                        Console.WriteLine("Negocios");
+                        Console.WriteLine(" ");
                         clase = Console.ReadLine();
+                        Console.WriteLine(" ");
 
                         if (clase == "turista")
                         {
@@ -696,13 +773,17 @@
                         Console.ReadKey();
                         break;
                     case "GUYANA":
-                        Console.WriteLine("Cuantos dias desea viajar");
-                        dias = Convert.ToInt32(Console.ReadLine());
-                        Console.WriteLine("Seleccione su clase");
-                        Console.WriteLine("turista");
-                        Console.WriteLine("primera clase");
-                        Console.WriteLine("negocios");
+                        Console.WriteLine(" ");
+                        Console.WriteLine("¿Cuantos dias desea viajar? Ingrese la cantidad:");
+                        dias = int.Parse(Console.ReadLine());
+                        Console.WriteLine(" ");
+                        Console.WriteLine("Ingrese la clase en la cual le gustaría viajar:");
+                        Console.WriteLine("Turista");
+                        Console.WriteLine("Primera clase");
+                        Console.WriteLine("Negocios");
+                        Console.WriteLine(" ");
                         clase = Console.ReadLine();
+                        Console.WriteLine(" ");
 
                         if (clase == "turista")
                         {
@@ -730,13 +811,17 @@
                         Console.ReadKey();
                         break;
                     case "SURINAM":
-                        Console.WriteLine("Cuantos dias desea viajar");
-                        dias = Convert.ToInt32(Console.ReadLine());
-                        Console.WriteLine("Seleccione su clase");
-                        Console.WriteLine("turista");
-                        Console.WriteLine("primera clase");
-                        Console.WriteLine("negocios");
+                        Console.WriteLine(" ");
+                        Console.WriteLine("¿Cuantos dias desea viajar? Ingrese la cantidad:");
+                        dias = int.Parse(Console.ReadLine());
+                        Console.WriteLine(" ");
+                        Console.WriteLine("Ingrese la clase en la cual le gustaría viajar:");
+                        Console.WriteLine("Turista");
+                        Console.WriteLine("Primera clase");
+                        Console.WriteLine("Negocios");
+                        Console.WriteLine(" ");
                         clase = Console.ReadLine();
+                        Console.WriteLine(" ");
 
                         if (clase == "turista")
                         {
@@ -765,13 +850,17 @@
                         break;
 
                     case "JAMAICA":
-                        Console.WriteLine("Cuantos dias desea viajar");
-                        dias = Convert.ToInt32(Console.ReadLine());
-                        Console.WriteLine("Seleccione su clase");
-                        Console.WriteLine("turista");
-                        Console.WriteLine("primera clase");
-                        Console.WriteLine("negocios");
+                        Console.WriteLine(" ");
+                        Console.WriteLine("¿Cuantos dias desea viajar? Ingrese la cantidad:");
+                        dias = int.Parse(Console.ReadLine());
+                        Console.WriteLine(" ");
+                        Console.WriteLine("Ingrese la clase en la cual le gustaría viajar:");
+                        Console.WriteLine("Turista");
+                        Console.WriteLine("Primera clase");
+                        Console.WriteLine("Negocios");
+                        Console.WriteLine(" ");
                         clase = Console.ReadLine();
+                        Console.WriteLine(" ");
 
                         if (clase == "turista")
                         {
@@ -799,13 +888,17 @@
                         Console.ReadKey();
                         break;
                     case "CUBA":
-                        Console.WriteLine("Cuantos dias desea viajar");
-                        dias = Convert.ToInt32(Console.ReadLine());
-                        Console.WriteLine("Seleccione su clase");
-                        Console.WriteLine("turista");
-                        Console.WriteLine("primera clase");
-                        Console.WriteLine("negocios");
+                        Console.WriteLine(" ");
+                        Console.WriteLine("¿Cuantos dias desea viajar? Ingrese la cantidad:");
+                        dias = int.Parse(Console.ReadLine());
+                        Console.WriteLine(" ");
+                        Console.WriteLine("Ingrese la clase en la cual le gustaría viajar:");
+                        Console.WriteLine("Turista");
+                        Console.WriteLine("Primera clase");
+                        Console.WriteLine("Negocios");
+                        Console.WriteLine(" ");
                         clase = Console.ReadLine();
+                        Console.WriteLine(" ");
 
                         if (clase == "turista")
                         {
@@ -833,13 +926,17 @@
                         Console.ReadKey();
                         break;
                     case "BAHAMAS":
-                        Console.WriteLine("Cuantos dias desea viajar");
-                        dias = Convert.ToInt32(Console.ReadLine());
-                        Console.WriteLine("Seleccione su clase");
-                        Console.WriteLine("turista");
-                        Console.WriteLine("primera clase");
-                        Console.WriteLine("negocios");
+                        Console.WriteLine(" ");
+                        Console.WriteLine("¿Cuantos dias desea viajar? Ingrese la cantidad:");
+                        dias = int.Parse(Console.ReadLine());
+                        Console.WriteLine(" ");
+                        Console.WriteLine("Ingrese la clase en la cual le gustaría viajar:");
+                        Console.WriteLine("Turista");
+                        Console.WriteLine("Primera clase");
+                        Console.WriteLine("Negocios");
+                        Console.WriteLine(" ");
                         clase = Console.ReadLine();
+                        Console.WriteLine(" ");
 
                         if (clase == "turista")
                         {
@@ -867,13 +964,17 @@
                         Console.ReadKey();
                         break;
                     case "HAITI":
-                        Console.WriteLine("Cuantos dias desea viajar");
-                        dias = Convert.ToInt32(Console.ReadLine());
-                        Console.WriteLine("Seleccione su clase");
-                        Console.WriteLine("turista");
-                        Console.WriteLine("primera clase");
-                        Console.WriteLine("negocios");
+                        Console.WriteLine(" ");
+                        Console.WriteLine("¿Cuantos dias desea viajar? Ingrese la cantidad:");
+                        dias = int.Parse(Console.ReadLine());
+                        Console.WriteLine(" ");
+                        Console.WriteLine("Ingrese la clase en la cual le gustaría viajar:");
+                        Console.WriteLine("Turista");
+                        Console.WriteLine("Primera clase");
+                        Console.WriteLine("Negocios");
+                        Console.WriteLine(" ");
                         clase = Console.ReadLine();
+                        Console.WriteLine(" ");
 
                         if (clase == "turista")
                         {
@@ -901,13 +1002,17 @@
                         Console.ReadKey();
                         break;
                     case "REPUBLICA DOMINICANA":
-                        Console.WriteLine("Cuantos dias desea viajar");
-                        dias = Convert.ToInt32(Console.ReadLine());
-                        Console.WriteLine("Seleccione su clase");
-                        Console.WriteLine("turista");
-                        Console.WriteLine("primera clase");
-                        Console.WriteLine("negocios");
+                        Console.WriteLine(" ");
+                        Console.WriteLine("¿Cuantos dias desea viajar? Ingrese la cantidad:");
+                        dias = int.Parse(Console.ReadLine());
+                        Console.WriteLine(" ");
+                        Console.WriteLine("Ingrese la clase en la cual le gustaría viajar:");
+                        Console.WriteLine("Turista");
+                        Console.WriteLine("Primera clase");
+                        Console.WriteLine("Negocios");
+                        Console.WriteLine(" ");
                         clase = Console.ReadLine();
+                        Console.WriteLine(" ");
 
                         if (clase == "turista")
                         {
@@ -935,13 +1040,17 @@
                         Console.ReadKey();
                         break;
                     case "SAN CRISTOBAL Y NIEVES":
-                        Console.WriteLine("Cuantos dias desea viajar");
-                        dias = Convert.ToInt32(Console.ReadLine());
-                        Console.WriteLine("Seleccione su clase");
-                        Console.WriteLine("turista");
-                        Console.WriteLine("primera clase");
-                        Console.WriteLine("negocios");
+                        Console.WriteLine(" ");
+                        Console.WriteLine("¿Cuantos dias desea viajar? Ingrese la cantidad:");
+                        dias = int.Parse(Console.ReadLine());
+                        Console.WriteLine(" ");
+                        Console.WriteLine("Ingrese la clase en la cual le gustaría viajar:");
+                        Console.WriteLine("Turista");
+                        Console.WriteLine("Primera clase");
+                        Console.WriteLine("Negocios");
+                        Console.WriteLine(" ");
                         clase = Console.ReadLine();
+                        Console.WriteLine(" ");
 
                         if (clase == "turista")
                         {
@@ -969,13 +1078,17 @@
                         Console.ReadKey();
                         break;
                     case "ANTIGUA Y BARBUDA":
-                        Console.WriteLine("Cuantos dias desea viajar");
-                        dias = Convert.ToInt32(Console.ReadLine());
-                        Console.WriteLine("Seleccione su clase");
-                        Console.WriteLine("turista");
-                        Console.WriteLine("primera clase");
-                        Console.WriteLine("negocios");
+                        Console.WriteLine(" ");
+                        Console.WriteLine("¿Cuantos dias desea viajar? Ingrese la cantidad:");
+                        dias = int.Parse(Console.ReadLine());
+                        Console.WriteLine(" ");
+                        Console.WriteLine("Ingrese la clase en la cual le gustaría viajar:");
+                        Console.WriteLine("Turista");
+                        Console.WriteLine("Primera clase");
+                        Console.WriteLine("Negocios");
+                        Console.WriteLine(" ");
                         clase = Console.ReadLine();
+                        Console.WriteLine(" ");
 
                         if (clase == "turista")
                         {
@@ -1003,13 +1116,17 @@
                         Console.ReadKey();
                         break;
                     case "DOMINICA":
-                        Console.WriteLine("Cuantos dias desea viajar");
-                        dias = Convert.ToInt32(Console.ReadLine());
-                        Console.WriteLine("Seleccione su clase");
-                        Console.WriteLine("turista");
-                        Console.WriteLine("primera clase");
-                        Console.WriteLine("negocios");
+                        Console.WriteLine(" ");
+                        Console.WriteLine("¿Cuantos dias desea viajar? Ingrese la cantidad:");
+                        dias = int.Parse(Console.ReadLine());
+                        Console.WriteLine(" ");
+                        Console.WriteLine("Ingrese la clase en la cual le gustaría viajar:");
+                        Console.WriteLine("Turista");
+                        Console.WriteLine("Primera clase");
+                        Console.WriteLine("Negocios");
+                        Console.WriteLine(" ");
                         clase = Console.ReadLine();
+                        Console.WriteLine(" ");
 
                         if (clase == "turista")
                         {
@@ -1037,13 +1154,17 @@
                         Console.ReadKey();
                         break;
                     case "SAN VICENTE Y GRANADINAS":
-                        Console.WriteLine("Cuantos dias desea viajar");
-                        dias = Convert.ToInt32(Console.ReadLine());
-                        Console.WriteLine("Seleccione su clase");
-                        Console.WriteLine("turista");
-                        Console.WriteLine("primera clase");
-                        Console.WriteLine("negocios");
+                        Console.WriteLine(" ");
+                        Console.WriteLine("¿Cuantos dias desea viajar? Ingrese la cantidad:");
+                        dias = int.Parse(Console.ReadLine());
+                        Console.WriteLine(" ");
+                        Console.WriteLine("Ingrese la clase en la cual le gustaría viajar:");
+                        Console.WriteLine("Turista");
+                        Console.WriteLine("Primera clase");
+                        Console.WriteLine("Negocios");
+                        Console.WriteLine(" ");
                         clase = Console.ReadLine();
+                        Console.WriteLine(" ");
 
                         if (clase == "turista")
                         {
@@ -1071,13 +1192,17 @@
                         Console.ReadKey();
                         break;
                     case "BARBADOS":
-                        Console.WriteLine("Cuantos dias desea viajar");
-                        dias = Convert.ToInt32(Console.ReadLine());
-                        Console.WriteLine("Seleccione su clase");
-                        Console.WriteLine("turista");
-                        Console.WriteLine("primera clase");
-                        Console.WriteLine("negocios");
+                        Console.WriteLine(" ");
+                        Console.WriteLine("¿Cuantos dias desea viajar? Ingrese la cantidad:");
+                        dias = int.Parse(Console.ReadLine());
+                        Console.WriteLine(" ");
+                        Console.WriteLine("Ingrese la clase en la cual le gustaría viajar:");
+                        Console.WriteLine("Turista");
+                        Console.WriteLine("Primera clase");
+                        Console.WriteLine("Negocios");
+                        Console.WriteLine(" ");
                         clase = Console.ReadLine();
+                        Console.WriteLine(" ");
 
                         if (clase == "turista")
                         {
@@ -1105,13 +1230,17 @@
                         Console.ReadKey();
                         break;
                     case "GRANADA":
-                        Console.WriteLine("Cuantos dias desea viajar");
-                        dias = Convert.ToInt32(Console.ReadLine());
-                        Console.WriteLine("Seleccione su clase");
-                        Console.WriteLine("turista");
-                        Console.WriteLine("primera clase");
-                        Console.WriteLine("negocios");
+                        Console.WriteLine(" ");
+                        Console.WriteLine("¿Cuantos dias desea viajar? Ingrese la cantidad:");
+                        dias = int.Parse(Console.ReadLine());
+                        Console.WriteLine(" ");
+                        Console.WriteLine("Ingrese la clase en la cual le gustaría viajar:");
+                        Console.WriteLine("Turista");
+                        Console.WriteLine("Primera clase");
+                        Console.WriteLine("Negocios");
+                        Console.WriteLine(" ");
                         clase = Console.ReadLine();
+                        Console.WriteLine(" ");
 
                         if (clase == "turista")
                         {
@@ -1139,13 +1268,17 @@
                         Console.ReadKey();
                         break;
                     case "TRINIDAD Y TOBAGO":
-                        Console.WriteLine("Cuantos dias desea viajar");
-                        dias = Convert.ToInt32(Console.ReadLine());
-                        Console.WriteLine("Seleccione su clase");
-                        Console.WriteLine("turista");
-                        Console.WriteLine("primera clase");
-                        Console.WriteLine("negocios");
+                        Console.WriteLine(" ");
+                        Console.WriteLine("¿Cuantos dias desea viajar? Ingrese la cantidad:");
+                        dias = int.Parse(Console.ReadLine());
+                        Console.WriteLine(" ");
+                        Console.WriteLine("Ingrese la clase en la cual le gustaría viajar:");
+                        Console.WriteLine("Turista");
+                        Console.WriteLine("Primera clase");
+                        Console.WriteLine("Negocios");
+                        Console.WriteLine(" ");
                         clase = Console.ReadLine();
+                        Console.WriteLine(" ");
 
                         if (clase == "turista")
                         {
@@ -1184,47 +1317,47 @@
             case "EUROPA":
 
                 Console.WriteLine(" ");
-                Console.WriteLine("DESTINOS DISPONIBLES:");
+                Console.WriteLine("DESTINOS DISPONIBLES PARA EUROPA:");
                 Console.WriteLine(" ");
-                Console.WriteLine(" RUSIA");
-                Console.WriteLine(" ALEMANIA");
-                Console.WriteLine("REINO UNIDO ");
-                Console.WriteLine(" FRANCIA");
-                Console.WriteLine(" ITALIA ");
-                Console.WriteLine(" ESPAÑA");
-                Console.WriteLine(" UCRANIA");
-                Console.WriteLine(" POLONIA");
-                Console.WriteLine(" RUMANIA ");
-                Console.WriteLine(" PAISES BAJOS");
-                Console.WriteLine(" BELGICA");
-                Console.WriteLine(" REPUBLCA CHECA ");
-                Console.WriteLine(" SUECIA");
-                Console.WriteLine(" GRECIA");
-                Console.WriteLine(" PORTUGAL ");
-                Console.WriteLine(" HUNGRIA ");
-                Console.WriteLine(" BELORRUSIA");
-                Console.WriteLine("  AUSTRIA ");
-                Console.WriteLine(" SUIZA");
-                Console.WriteLine(" SERBIA");
-                Console.WriteLine(" BULGARIA");
-                Console.WriteLine(" DINAMARCA");
-                Console.WriteLine(" FINLANDIA ");
-                Console.WriteLine(" NORUEGA");
-                Console.WriteLine(" ESLOVAQUIA");
-                Console.WriteLine(" IRLANDIA");
-                Console.WriteLine(" CROACIA");
-                Console.WriteLine(" BOSNIA Y HERZEGOVINA ");
-                Console.WriteLine(" ALBANIA");
-                Console.WriteLine(" LITUANIA");
-                Console.WriteLine(" MACEDONIA");
-                Console.WriteLine(" ESLOVAQUIA");
-                Console.WriteLine(" LETONIA ");
-                Console.WriteLine(" MONTENEGRO");
-                Console.WriteLine(" LUXEMBURGO ");
-                Console.WriteLine(" ISLANDIA ");
-                Console.WriteLine(" ANDORRA");
-                Console.WriteLine("  LIECHTENSTEIN");
-                Console.WriteLine(" MONACO");
+                Console.WriteLine("RUSIA");
+                Console.WriteLine("ALEMANIA");
+                Console.WriteLine("REINO UNIDO");
+                Console.WriteLine("FRANCIA");
+                Console.WriteLine("ITALIA ");
+                Console.WriteLine("ESPAÑA");
+                Console.WriteLine("UCRANIA");
+                Console.WriteLine("POLONIA");
+                Console.WriteLine("RUMANIA");
+                Console.WriteLine("PAISES BAJOS");
+                Console.WriteLine("BELGICA");
+                Console.WriteLine("REPUBLCA CHECA");
+                Console.WriteLine("SUECIA");
+                Console.WriteLine("GRECIA");
+                Console.WriteLine("PORTUGAL");
+                Console.WriteLine("HUNGRIA");
+                Console.WriteLine("BELORRUSIA");
+                Console.WriteLine("AUSTRIA ");
+                Console.WriteLine("SUIZA");
+                Console.WriteLine("SERBIA");
+                Console.WriteLine("BULGARIA");
+                Console.WriteLine("DINAMARCA");
+                Console.WriteLine("FINLANDIA ");
+                Console.WriteLine("NORUEGA");
+                Console.WriteLine("ESLOVAQUIA");
+                Console.WriteLine("IRLANDIA");
+                Console.WriteLine("CROACIA");
+                Console.WriteLine("BOSNIA Y HERZEGOVINA ");
+                Console.WriteLine("ALBANIA");
+                Console.WriteLine("LITUANIA");
+                Console.WriteLine("MACEDONIA");
+                Console.WriteLine("ESLOVAQUIA");
+                Console.WriteLine("LETONIA ");
+                Console.WriteLine("MONTENEGRO");
+                Console.WriteLine("LUXEMBURGO ");
+                Console.WriteLine("ISLANDIA ");
+                Console.WriteLine("ANDORRA");
+                Console.WriteLine("LIECHTENSTEIN");
+                Console.WriteLine("MONACO");
                 Console.WriteLine(" ");
 
                 pais = Console.ReadLine();
@@ -1232,13 +1365,17 @@
                 switch (pais.ToUpper())
                 {
                     case "RUSIA":
-                        Console.WriteLine("cuantos dias desea viajar");
+                        Console.WriteLine(" ");
+                        Console.WriteLine("¿Cuantos dias desea viajar? Ingrese la cantidad:");
                         dias = int.Parse(Console.ReadLine());
-                        Console.WriteLine("escoja la de clase de vuelo ");
-                        Console.WriteLine("primeraclase");
-                        Console.WriteLine("turista");
-                        Console.WriteLine("negocios");
+                        Console.WriteLine(" ");
+                        Console.WriteLine("Ingrese la clase en la cual le gustaría viajar:");
+                        Console.WriteLine("Turista");
+                        Console.WriteLine("Primera clase");
+                        Console.WriteLine("Negocios");
+                        Console.WriteLine(" ");
                         clase = Console.ReadLine();
+                        Console.WriteLine(" ");
 
                         if (clase == "primera clase")
                         {
@@ -1266,13 +1403,17 @@
                         break;
 
                     case "ALEMANIA":
-                        Console.WriteLine("cuantos dias desea viajar");
+                        Console.WriteLine(" ");
+                        Console.WriteLine("¿Cuantos dias desea viajar? Ingrese la cantidad:");
                         dias = int.Parse(Console.ReadLine());
-                        Console.WriteLine("escoja la de clase de vuelo ");
-                        Console.WriteLine("primeraclase");
-                        Console.WriteLine("turista");
-                        Console.WriteLine("negocios");
+                        Console.WriteLine(" ");
+                        Console.WriteLine("Ingrese la clase en la cual le gustaría viajar:");
+                        Console.WriteLine("Turista");
+                        Console.WriteLine("Primera clase");
+                        Console.WriteLine("Negocios");
+                        Console.WriteLine(" ");
                         clase = Console.ReadLine();
+                        Console.WriteLine(" ");
 
                         if (clase == "primeraclase")
                         {
@@ -1302,13 +1443,17 @@
                         break;
 
                     case "REINO UNIDO":
-                        Console.WriteLine("cuantos dias desea viajar");
+                        Console.WriteLine(" ");
+                        Console.WriteLine("¿Cuantos dias desea viajar? Ingrese la cantidad:");
                         dias = int.Parse(Console.ReadLine());
-                        Console.WriteLine("escoja la de clase de vuelo ");
-                        Console.WriteLine("primeraclase");
-                        Console.WriteLine("turista");
-                        Console.WriteLine("negocios");
+                        Console.WriteLine(" ");
+                        Console.WriteLine("Ingrese la clase en la cual le gustaría viajar:");
+                        Console.WriteLine("Turista");
+                        Console.WriteLine("Primera clase");
+                        Console.WriteLine("Negocios");
+                        Console.WriteLine(" ");
                         clase = Console.ReadLine();
+                        Console.WriteLine(" ");
 
                         if (clase == "primeraclase")
                         {
@@ -1338,13 +1483,17 @@
                         break;
 
                     case "FRANCIA":
-                        Console.WriteLine("cuantos dias desea viajar");
+                        Console.WriteLine(" ");
+                        Console.WriteLine("¿Cuantos dias desea viajar? Ingrese la cantidad:");
                         dias = int.Parse(Console.ReadLine());
-                        Console.WriteLine("escoja la de clase de vuelo ");
-                        Console.WriteLine("primeraclase");
-                        Console.WriteLine("turista");
-                        Console.WriteLine("negocios");
+                        Console.WriteLine(" ");
+                        Console.WriteLine("Ingrese la clase en la cual le gustaría viajar:");
+                        Console.WriteLine("Turista");
+                        Console.WriteLine("Primera clase");
+                        Console.WriteLine("Negocios");
+                        Console.WriteLine(" ");
                         clase = Console.ReadLine();
+                        Console.WriteLine(" ");
 
                         if (clase == "primeraclase")
                         {
@@ -1374,13 +1523,17 @@
                         break;
 
                     case "ITALIA":
-                        Console.WriteLine("cuantos dias desea viajar");
+                        Console.WriteLine(" ");
+                        Console.WriteLine("¿Cuantos dias desea viajar? Ingrese la cantidad:");
                         dias = int.Parse(Console.ReadLine());
-                        Console.WriteLine("escoja la de clase de vuelo ");
-                        Console.WriteLine("primeraclase");
-                        Console.WriteLine("turista");
-                        Console.WriteLine("negocios");
+                        Console.WriteLine(" ");
+                        Console.WriteLine("Ingrese la clase en la cual le gustaría viajar:");
+                        Console.WriteLine("Turista");
+                        Console.WriteLine("Primera clase");
+                        Console.WriteLine("Negocios");
+                        Console.WriteLine(" ");
                         clase = Console.ReadLine();
+                        Console.WriteLine(" ");
 
                         if (clase == "primeraclase")
                         {
@@ -1410,13 +1563,17 @@
                         break;
 
                     case "ESPAÑA":
-                        Console.WriteLine("cuantos dias desea viajar");
+                        Console.WriteLine(" ");
+                        Console.WriteLine("¿Cuantos dias desea viajar? Ingrese la cantidad:");
                         dias = int.Parse(Console.ReadLine());
-                        Console.WriteLine("escoja la de clase de vuelo ");
-                        Console.WriteLine("primeraclase");
-                        Console.WriteLine("turista");
-                        Console.WriteLine("negocios");
+                        Console.WriteLine(" ");
+                        Console.WriteLine("Ingrese la clase en la cual le gustaría viajar:");
+                        Console.WriteLine("Turista");
+                        Console.WriteLine("Primera clase");
+                        Console.WriteLine("Negocios");
+                        Console.WriteLine(" ");
                         clase = Console.ReadLine();
+                        Console.WriteLine(" ");
 
                         if (clase == "primeraclase")
                         {
@@ -1446,13 +1603,17 @@
                         break;
 
                     case "UCRANIA":
-                        Console.WriteLine("cuantos dias desea viajar");
+                        Console.WriteLine(" ");
+                        Console.WriteLine("¿Cuantos dias desea viajar? Ingrese la cantidad:");
                         dias = int.Parse(Console.ReadLine());
-                        Console.WriteLine("escoja la de clase de vuelo ");
-                        Console.WriteLine("primeraclase");
-                        Console.WriteLine("turista");
-                        Console.WriteLine("negocios");
+                        Console.WriteLine(" ");
+                        Console.WriteLine("Ingrese la clase en la cual le gustaría viajar:");
+                        Console.WriteLine("Turista");
+                        Console.WriteLine("Primera clase");
+                        Console.WriteLine("Negocios");
+                        Console.WriteLine(" ");
                         clase = Console.ReadLine();
+                        Console.WriteLine(" ");
 
                         if (clase == "primeraclase")
                         {
@@ -1482,13 +1643,17 @@
                         break;
 
                     case "POLONIA":
-                        Console.WriteLine("cuantos dias desea viajar");
+                        Console.WriteLine(" ");
+                        Console.WriteLine("¿Cuantos dias desea viajar? Ingrese la cantidad:");
                         dias = int.Parse(Console.ReadLine());
-                        Console.WriteLine("escoja la de clase de vuelo ");
-                        Console.WriteLine("primeraclase");
-                        Console.WriteLine("turista");
-                        Console.WriteLine("negocios");
+                        Console.WriteLine(" ");
+                        Console.WriteLine("Ingrese la clase en la cual le gustaría viajar:");
+                        Console.WriteLine("Turista");
+                        Console.WriteLine("Primera clase");
+                        Console.WriteLine("Negocios");
+                        Console.WriteLine(" ");
                         clase = Console.ReadLine();
+                        Console.WriteLine(" ");
 
                         if (clase == "primeraclase")
                         {
@@ -1518,13 +1683,17 @@
                         break;
 
                     case "RUMANIA":
-                        Console.WriteLine("cuantos dias desea viajar");
+                        Console.WriteLine(" ");
+                        Console.WriteLine("¿Cuantos dias desea viajar? Ingrese la cantidad:");
                         dias = int.Parse(Console.ReadLine());
-                        Console.WriteLine("escoja la de clase de vuelo ");
-                        Console.WriteLine("primeraclase");
-                        Console.WriteLine("turista");
-                        Console.WriteLine("negocios");
+                        Console.WriteLine(" ");
+                        Console.WriteLine("Ingrese la clase en la cual le gustaría viajar:");
+                        Console.WriteLine("Turista");
+                        Console.WriteLine("Primera clase");
+                        Console.WriteLine("Negocios");
+                        Console.WriteLine(" ");
                         clase = Console.ReadLine();
+                        Console.WriteLine(" ");
 
                         if (clase == "primeraclase")
                         {
@@ -1554,13 +1723,17 @@
                         break;
 
                     case "PAISES BAJOS":
-                        Console.WriteLine("cuantos dias desea viajar");
+                        Console.WriteLine(" ");
+                        Console.WriteLine("¿Cuantos dias desea viajar? Ingrese la cantidad:");
                         dias = int.Parse(Console.ReadLine());
-                        Console.WriteLine("escoja la de clase de vuelo ");
-                        Console.WriteLine("primeraclase");
-                        Console.WriteLine("turista");
-                        Console.WriteLine("negocios");
+                        Console.WriteLine(" ");
+                        Console.WriteLine("Ingrese la clase en la cual le gustaría viajar:");
+                        Console.WriteLine("Turista");
+                        Console.WriteLine("Primera clase");
+                        Console.WriteLine("Negocios");
+                        Console.WriteLine(" ");
                         clase = Console.ReadLine();
+                        Console.WriteLine(" ");
 
                         if (clase == "primeraclase")
                         {
@@ -1590,13 +1763,17 @@
                         break;
 
                     case "BELGICA":
-                        Console.WriteLine("cuantos dias desea viajar");
+                        Console.WriteLine(" ");
+                        Console.WriteLine("¿Cuantos dias desea viajar? Ingrese la cantidad:");
                         dias = int.Parse(Console.ReadLine());
-                        Console.WriteLine("escoja la de clase de vuelo ");
-                        Console.WriteLine("primeraclase");
-                        Console.WriteLine("turista");
-                        Console.WriteLine("negocios");
+                        Console.WriteLine(" ");
+                        Console.WriteLine("Ingrese la clase en la cual le gustaría viajar:");
+                        Console.WriteLine("Turista");
+                        Console.WriteLine("Primera clase");
+                        Console.WriteLine("Negocios");
+                        Console.WriteLine(" ");
                         clase = Console.ReadLine();
+                        Console.WriteLine(" ");
 
                         if (clase == "primeraclase")
                         {
@@ -1626,13 +1803,17 @@
                         break;
 
                     case "REPUBLICA CHECA":
-                        Console.WriteLine("cuantos dias desea viajar");
+                        Console.WriteLine(" ");
+                        Console.WriteLine("¿Cuantos dias desea viajar? Ingrese la cantidad:");
                         dias = int.Parse(Console.ReadLine());
-                        Console.WriteLine("escoja la de clase de vuelo ");
-                        Console.WriteLine("primeraclase");
-                        Console.WriteLine("turista");
-                        Console.WriteLine("negocios");
+                        Console.WriteLine(" ");
+                        Console.WriteLine("Ingrese la clase en la cual le gustaría viajar:");
+                        Console.WriteLine("Turista");
+                        Console.WriteLine("Primera clase");
+                        Console.WriteLine("Negocios");
+                        Console.WriteLine(" ");
                         clase = Console.ReadLine();
+                        Console.WriteLine(" ");
 
                         if (clase == "primeraclase")
                         {
@@ -1662,13 +1843,17 @@
                         break;
 
                     case "SUECIA":
-                        Console.WriteLine("cuantos dias desea viajar");
+                        Console.WriteLine(" ");
+                        Console.WriteLine("¿Cuantos dias desea viajar? Ingrese la cantidad:");
                         dias = int.Parse(Console.ReadLine());
-                        Console.WriteLine("escoja la de clase de vuelo ");
-                        Console.WriteLine("primeraclase");
-                        Console.WriteLine("turista");
-                        Console.WriteLine("negocios");
+                        Console.WriteLine(" ");
+                        Console.WriteLine("Ingrese la clase en la cual le gustaría viajar:");
+                        Console.WriteLine("Turista");
+                        Console.WriteLine("Primera clase");
+                        Console.WriteLine("Negocios");
+                        Console.WriteLine(" ");
                         clase = Console.ReadLine();
+                        Console.WriteLine(" ");
 
                         if (clase == "primeraclase")
                         {
@@ -1698,13 +1883,17 @@
                         break;
 
                     case "GRECIA":
-                        Console.WriteLine("cuantos dias desea viajar");
+                        Console.WriteLine(" ");
+                        Console.WriteLine("¿Cuantos dias desea viajar? Ingrese la cantidad:");
                         dias = int.Parse(Console.ReadLine());
-                        Console.WriteLine("escoja la de clase de vuelo ");
-                        Console.WriteLine("primeraclase");
-                        Console.WriteLine("turista");
-                        Console.WriteLine("negocios");
+                        Console.WriteLine(" ");
+                        Console.WriteLine("Ingrese la clase en la cual le gustaría viajar:");
+                        Console.WriteLine("Turista");
+                        Console.WriteLine("Primera clase");
+                        Console.WriteLine("Negocios");
+                        Console.WriteLine(" ");
                         clase = Console.ReadLine();
+                        Console.WriteLine(" ");
 
                         if (clase == "primeraclase")
                         {
@@ -1734,13 +1923,17 @@
                         break;
 
                     case "PORTUGAL":
-                        Console.WriteLine("cuantos dias desea viajar");
+                        Console.WriteLine(" ");
+                        Console.WriteLine("¿Cuantos dias desea viajar? Ingrese la cantidad:");
                         dias = int.Parse(Console.ReadLine());
-                        Console.WriteLine("escoja la de clase de vuelo ");
-                        Console.WriteLine("primeraclase");
-                        Console.WriteLine("turista");
-                        Console.WriteLine("negocios");
+                        Console.WriteLine(" ");
+                        Console.WriteLine("Ingrese la clase en la cual le gustaría viajar:");
+                        Console.WriteLine("Turista");
+                        Console.WriteLine("Primera clase");
+                        Console.WriteLine("Negocios");
+                        Console.WriteLine(" ");
                         clase = Console.ReadLine();
+                        Console.WriteLine(" ");
 
                         if (clase == "primeraclase")
                         {
@@ -1770,13 +1963,17 @@
                         break;
 
                     case "HUNGRIA":
-                        Console.WriteLine("cuantos dias desea viajar");
+                        Console.WriteLine(" ");
+                        Console.WriteLine("¿Cuantos dias desea viajar? Ingrese la cantidad:");
                         dias = int.Parse(Console.ReadLine());
-                        Console.WriteLine("escoja la de clase de vuelo ");
-                        Console.WriteLine("primeraclase");
-                        Console.WriteLine("turista");
-                        Console.WriteLine("negocios");
+                        Console.WriteLine(" ");
+                        Console.WriteLine("Ingrese la clase en la cual le gustaría viajar:");
+                        Console.WriteLine("Turista");
+                        Console.WriteLine("Primera clase");
+                        Console.WriteLine("Negocios");
+                        Console.WriteLine(" ");
                         clase = Console.ReadLine();
+                        Console.WriteLine(" ");
 
                         if (clase == "primeraclase")
                         {
@@ -1806,13 +2003,17 @@
                         break;
 
                     case "BIELORRUSIA":
-                        Console.WriteLine("cuantos dias desea viajar");
+                        Console.WriteLine(" ");
+                        Console.WriteLine("¿Cuantos dias desea viajar? Ingrese la cantidad:");
                         dias = int.Parse(Console.ReadLine());
-                        Console.WriteLine("escoja la de clase de vuelo ");
-                        Console.WriteLine("primeraclase");
-                        Console.WriteLine("turista");
-                        Console.WriteLine("negocios");
+                        Console.WriteLine(" ");
+                        Console.WriteLine("Ingrese la clase en la cual le gustaría viajar:");
+                        Console.WriteLine("Turista");
+                        Console.WriteLine("Primera clase");
+                        Console.WriteLine("Negocios");
+                        Console.WriteLine(" ");
                         clase = Console.ReadLine();
+                        Console.WriteLine(" ");
 
                         if (clase == "primeraclase")
                         {
@@ -1842,13 +2043,17 @@
                         break;
 
                     case "AUSTRIA":
-                        Console.WriteLine("cuantos dias desea viajar");
+                        Console.WriteLine(" ");
+                        Console.WriteLine("¿Cuantos dias desea viajar? Ingrese la cantidad:");
                         dias = int.Parse(Console.ReadLine());
-                        Console.WriteLine("escoja la de clase de vuelo ");
-                        Console.WriteLine("primeraclase");
-                        Console.WriteLine("turista");
-                        Console.WriteLine("negocios");
+                        Console.WriteLine(" ");
+                        Console.WriteLine("Ingrese la clase en la cual le gustaría viajar:");
+                        Console.WriteLine("Turista");
+                        Console.WriteLine("Primera clase");
+                        Console.WriteLine("Negocios");
+                        Console.WriteLine(" ");
                         clase = Console.ReadLine();
+                        Console.WriteLine(" ");
 
                         if (clase == "primeraclase")
                         {
@@ -1878,13 +2083,17 @@
                         break;
 
                     case "SUIZA":
-                        Console.WriteLine("cuantos dias desea viajar");
+                        Console.WriteLine(" ");
+                        Console.WriteLine("¿Cuantos dias desea viajar? Ingrese la cantidad:");
                         dias = int.Parse(Console.ReadLine());
-                        Console.WriteLine("escoja la de clase de vuelo ");
-                        Console.WriteLine("primeraclase");
-                        Console.WriteLine("turista");
-                        Console.WriteLine("negocios");
+                        Console.WriteLine(" ");
+                        Console.WriteLine("Ingrese la clase en la cual le gustaría viajar:");
+                        Console.WriteLine("Turista");
+                        Console.WriteLine("Primera clase");
+                        Console.WriteLine("Negocios");
+                        Console.WriteLine(" ");
                         clase = Console.ReadLine();
+                        Console.WriteLine(" ");
 
                         if (clase == "primeraclase")
                         {
@@ -1914,13 +2123,17 @@
                         break;
 
                     case "SERBIA":
-                        Console.WriteLine("cuantos dias desea viajar");
+                        Console.WriteLine(" ");
+                        Console.WriteLine("¿Cuantos dias desea viajar? Ingrese la cantidad:");
                         dias = int.Parse(Console.ReadLine());
-                        Console.WriteLine("escoja la de clase de vuelo ");
-                        Console.WriteLine("primeraclase");
-                        Console.WriteLine("turista");
-                        Console.WriteLine("negocios");
+                        Console.WriteLine(" ");
+                        Console.WriteLine("Ingrese la clase en la cual le gustaría viajar:");
+                        Console.WriteLine("Turista");
+                        Console.WriteLine("Primera clase");
+                        Console.WriteLine("Negocios");
+                        Console.WriteLine(" ");
                         clase = Console.ReadLine();
+                        Console.WriteLine(" ");
 
                         if (clase == "primeraclase")
                         {
@@ -1950,13 +2163,17 @@
                         break;
 
                     case "BULGARIA":
-                        Console.WriteLine("cuantos dias desea viajar");
+                        Console.WriteLine(" ");
+                        Console.WriteLine("¿Cuantos dias desea viajar? Ingrese la cantidad:");
                         dias = int.Parse(Console.ReadLine());
-                        Console.WriteLine("escoja la de clase de vuelo ");
-                        Console.WriteLine("primeraclase");
-                        Console.WriteLine("turista");
-                        Console.WriteLine("negocios");
+                        Console.WriteLine(" ");
+                        Console.WriteLine("Ingrese la clase en la cual le gustaría viajar:");
+                        Console.WriteLine("Turista");
+                        Console.WriteLine("Primera clase");
+                        Console.WriteLine("Negocios");
+                        Console.WriteLine(" ");
                         clase = Console.ReadLine();
+                        Console.WriteLine(" ");
 
                         if (clase == "primeraclase")
                         {
@@ -1986,13 +2203,17 @@
                         break;
 
                     case "DINAMARCA":
-                        Console.WriteLine("cuantos dias desea viajar");
+                        Console.WriteLine(" ");
+                        Console.WriteLine("¿Cuantos dias desea viajar? Ingrese la cantidad:");
                         dias = int.Parse(Console.ReadLine());
-                        Console.WriteLine("escoja la de clase de vuelo ");
-                        Console.WriteLine("primeraclase");
-                        Console.WriteLine("turista");
-                        Console.WriteLine("negocios");
+                        Console.WriteLine(" ");
+                        Console.WriteLine("Ingrese la clase en la cual le gustaría viajar:");
+                        Console.WriteLine("Turista");
+                        Console.WriteLine("Primera clase");
+                        Console.WriteLine("Negocios");
+                        Console.WriteLine(" ");
                         clase = Console.ReadLine();
+                        Console.WriteLine(" ");
 
                         if (clase == "primeraclase")
                         {
@@ -2022,13 +2243,17 @@
                         break;
 
                     case "FINLANDIA":
-                        Console.WriteLine("cuantos dias desea viajar");
+                        Console.WriteLine(" ");
+                        Console.WriteLine("¿Cuantos dias desea viajar? Ingrese la cantidad:");
                         dias = int.Parse(Console.ReadLine());
-                        Console.WriteLine("escoja la de clase de vuelo ");
-                        Console.WriteLine("primeraclase");
-                        Console.WriteLine("turista");
-                        Console.WriteLine("negocios");
+                        Console.WriteLine(" ");
+                        Console.WriteLine("Ingrese la clase en la cual le gustaría viajar:");
+                        Console.WriteLine("Turista");
+                        Console.WriteLine("Primera clase");
+                        Console.WriteLine("Negocios");
+                        Console.WriteLine(" ");
                         clase = Console.ReadLine();
+                        Console.WriteLine(" ");
 
                         if (clase == "primeraclase")
                         {
@@ -2058,13 +2283,17 @@
                         break;
 
                     case "NORUEGA":
-                        Console.WriteLine("cuantos dias desea viajar");
+                        Console.WriteLine(" ");
+                        Console.WriteLine("¿Cuantos dias desea viajar? Ingrese la cantidad:");
                         dias = int.Parse(Console.ReadLine());
-                        Console.WriteLine("escoja la de clase de vuelo ");
-                        Console.WriteLine("primeraclase");
-                        Console.WriteLine("turista");
-                        Console.WriteLine("negocios");
+                        Console.WriteLine(" ");
+                        Console.WriteLine("Ingrese la clase en la cual le gustaría viajar:");
+                        Console.WriteLine("Turista");
+                        Console.WriteLine("Primera clase");
+                        Console.WriteLine("Negocios");
+                        Console.WriteLine(" ");
                         clase = Console.ReadLine();
+                        Console.WriteLine(" ");
 
                         if (clase == "primeraclase")
                         {
@@ -2094,13 +2323,17 @@
                         break;
 
                     case "ESLOVAQUIA":
-                        Console.WriteLine("cuantos dias desea viajar");
+                        Console.WriteLine(" ");
+                        Console.WriteLine("¿Cuantos dias desea viajar? Ingrese la cantidad:");
                         dias = int.Parse(Console.ReadLine());
-                        Console.WriteLine("escoja la de clase de vuelo ");
-                        Console.WriteLine("primeraclase");
-                        Console.WriteLine("turista");
-                        Console.WriteLine("negocios");
+                        Console.WriteLine(" ");
+                        Console.WriteLine("Ingrese la clase en la cual le gustaría viajar:");
+                        Console.WriteLine("Turista");
+                        Console.WriteLine("Primera clase");
+                        Console.WriteLine("Negocios");
+                        Console.WriteLine(" ");
                         clase = Console.ReadLine();
+                        Console.WriteLine(" ");
 
                         if (clase == "primeraclase")
                         {
@@ -2129,14 +2362,18 @@
 
                         break;
 
-                    case "IRLANDIA":
-                        Console.WriteLine("cuantos dias desea viajar");
+                    case "IRLANDA":
+                        Console.WriteLine(" ");
+                        Console.WriteLine("¿Cuantos dias desea viajar? Ingrese la cantidad:");
                         dias = int.Parse(Console.ReadLine());
-                        Console.WriteLine("escoja la de clase de vuelo ");
-                        Console.WriteLine("primeraclase");
-                        Console.WriteLine("turista");
-                        Console.WriteLine("negocios");
+                        Console.WriteLine(" ");
+                        Console.WriteLine("Ingrese la clase en la cual le gustaría viajar:");
+                        Console.WriteLine("Turista");
+                        Console.WriteLine("Primera clase");
+                        Console.WriteLine("Negocios");
+                        Console.WriteLine(" ");
                         clase = Console.ReadLine();
+                        Console.WriteLine(" ");
 
                         if (clase == "primeraclase")
                         {
@@ -2166,13 +2403,17 @@
                         break;
 
                     case "CROACIA":
-                        Console.WriteLine("cuantos dias desea viajar");
+                        Console.WriteLine(" ");
+                        Console.WriteLine("¿Cuantos dias desea viajar? Ingrese la cantidad:");
                         dias = int.Parse(Console.ReadLine());
-                        Console.WriteLine("escoja la de clase de vuelo ");
-                        Console.WriteLine("primeraclase");
-                        Console.WriteLine("turista");
-                        Console.WriteLine("negocios");
+                        Console.WriteLine(" ");
+                        Console.WriteLine("Ingrese la clase en la cual le gustaría viajar:");
+                        Console.WriteLine("Turista");
+                        Console.WriteLine("Primera clase");
+                        Console.WriteLine("Negocios");
+                        Console.WriteLine(" ");
                         clase = Console.ReadLine();
+                        Console.WriteLine(" ");
 
                         if (clase == "primeraclase")
                         {
@@ -2202,13 +2443,17 @@
                         break;
 
                     case "BOSNIA Y HERZEGOVINA":
-                        Console.WriteLine("cuantos dias desea viajar");
+                        Console.WriteLine(" ");
+                        Console.WriteLine("¿Cuantos dias desea viajar? Ingrese la cantidad:");
                         dias = int.Parse(Console.ReadLine());
-                        Console.WriteLine("escoja la de clase de vuelo ");
-                        Console.WriteLine("primeraclase");
-                        Console.WriteLine("turista");
-                        Console.WriteLine("negocios");
+                        Console.WriteLine(" ");
+                        Console.WriteLine("Ingrese la clase en la cual le gustaría viajar:");
+                        Console.WriteLine("Turista");
+                        Console.WriteLine("Primera clase");
+                        Console.WriteLine("Negocios");
+                        Console.WriteLine(" ");
                         clase = Console.ReadLine();
+                        Console.WriteLine(" ");
 
                         if (clase == "primeraclase")
                         {
@@ -2238,13 +2483,17 @@
                         break;
 
                     case "ALBANIA":
-                        Console.WriteLine("cuantos dias desea viajar");
+                        Console.WriteLine(" ");
+                        Console.WriteLine("¿Cuantos dias desea viajar? Ingrese la cantidad:");
                         dias = int.Parse(Console.ReadLine());
-                        Console.WriteLine("escoja la de clase de vuelo ");
-                        Console.WriteLine("primeraclase");
-                        Console.WriteLine("turista");
-                        Console.WriteLine("negocios");
+                        Console.WriteLine(" ");
+                        Console.WriteLine("Ingrese la clase en la cual le gustaría viajar:");
+                        Console.WriteLine("Turista");
+                        Console.WriteLine("Primera clase");
+                        Console.WriteLine("Negocios");
+                        Console.WriteLine(" ");
                         clase = Console.ReadLine();
+                        Console.WriteLine(" ");
 
                         if (clase == "primeraclase")
                         {
@@ -2274,13 +2523,17 @@
                         break;
 
                     case "LITUANIA":
-                        Console.WriteLine("cuantos dias desea viajar");
+                        Console.WriteLine(" ");
+                        Console.WriteLine("¿Cuantos dias desea viajar? Ingrese la cantidad:");
                         dias = int.Parse(Console.ReadLine());
-                        Console.WriteLine("escoja la de clase de vuelo ");
-                        Console.WriteLine("primeraclase");
-                        Console.WriteLine("turista");
-                        Console.WriteLine("negocios");
+                        Console.WriteLine(" ");
+                        Console.WriteLine("Ingrese la clase en la cual le gustaría viajar:");
+                        Console.WriteLine("Turista");
+                        Console.WriteLine("Primera clase");
+                        Console.WriteLine("Negocios");
+                        Console.WriteLine(" ");
                         clase = Console.ReadLine();
+                        Console.WriteLine(" ");
 
                         if (clase == "primeraclase")
                         {
@@ -2310,13 +2563,17 @@
                         break;
 
                     case "MACEDONIA":
-                        Console.WriteLine("cuantos dias desea viajar");
+                        Console.WriteLine(" ");
+                        Console.WriteLine("¿Cuantos dias desea viajar? Ingrese la cantidad:");
                         dias = int.Parse(Console.ReadLine());
-                        Console.WriteLine("escoja la de clase de vuelo ");
-                        Console.WriteLine("primeraclase");
-                        Console.WriteLine("turista");
-                        Console.WriteLine("negocios");
+                        Console.WriteLine(" ");
+                        Console.WriteLine("Ingrese la clase en la cual le gustaría viajar:");
+                        Console.WriteLine("Turista");
+                        Console.WriteLine("Primera clase");
+                        Console.WriteLine("Negocios");
+                        Console.WriteLine(" ");
                         clase = Console.ReadLine();
+                        Console.WriteLine(" ");
 
                         if (clase == "primeraclase")
                         {
@@ -2346,13 +2603,17 @@
                         break;
 
                     case "ESLOVENIA":
-                        Console.WriteLine("cuantos dias desea viajar");
+                        Console.WriteLine(" ");
+                        Console.WriteLine("¿Cuantos dias desea viajar? Ingrese la cantidad:");
                         dias = int.Parse(Console.ReadLine());
-                        Console.WriteLine("escoja la de clase de vuelo ");
-                        Console.WriteLine("primeraclase");
-                        Console.WriteLine("turista");
-                        Console.WriteLine("negocios");
+                        Console.WriteLine(" ");
+                        Console.WriteLine("Ingrese la clase en la cual le gustaría viajar:");
+                        Console.WriteLine("Turista");
+                        Console.WriteLine("Primera clase");
+                        Console.WriteLine("Negocios");
+                        Console.WriteLine(" ");
                         clase = Console.ReadLine();
+                        Console.WriteLine(" ");
 
                         if (clase == "primeraclase")
                         {
@@ -2382,13 +2643,17 @@
                         break;
 
                     case "LETONIA":
-                        Console.WriteLine("cuantos dias desea viajar");
+                        Console.WriteLine(" ");
+                        Console.WriteLine("¿Cuantos dias desea viajar? Ingrese la cantidad:");
                         dias = int.Parse(Console.ReadLine());
-                        Console.WriteLine("escoja la de clase de vuelo ");
-                        Console.WriteLine("primeraclase");
-                        Console.WriteLine("turista");
-                        Console.WriteLine("negocios");
+                        Console.WriteLine(" ");
+                        Console.WriteLine("Ingrese la clase en la cual le gustaría viajar:");
+                        Console.WriteLine("Turista");
+                        Console.WriteLine("Primera clase");
+                        Console.WriteLine("Negocios");
+                        Console.WriteLine(" ");
                         clase = Console.ReadLine();
+                        Console.WriteLine(" ");
 
                         if (clase == "primeraclase")
                         {
@@ -2418,13 +2683,17 @@
                         break;
 
                     case "MONTENEGRO":
-                        Console.WriteLine("cuantos dias desea viajar");
+                        Console.WriteLine(" ");
+                        Console.WriteLine("¿Cuantos dias desea viajar? Ingrese la cantidad:");
                         dias = int.Parse(Console.ReadLine());
-                        Console.WriteLine("escoja la de clase de vuelo ");
-                        Console.WriteLine("primeraclase");
-                        Console.WriteLine("turista");
-                        Console.WriteLine("negocios");
+                        Console.WriteLine(" ");
+                        Console.WriteLine("Ingrese la clase en la cual le gustaría viajar:");
+                        Console.WriteLine("Turista");
+                        Console.WriteLine("Primera clase");
+                        Console.WriteLine("Negocios");
+                        Console.WriteLine(" ");
                         clase = Console.ReadLine();
+                        Console.WriteLine(" ");
 
                         if (clase == "primeraclase")
                         {
@@ -2454,13 +2723,17 @@
                         break;
 
                     case "LUXEMBURGO":
-                        Console.WriteLine("cuantos dias desea viajar");
+                        Console.WriteLine(" ");
+                        Console.WriteLine("¿Cuantos dias desea viajar? Ingrese la cantidad:");
                         dias = int.Parse(Console.ReadLine());
-                        Console.WriteLine("escoja la de clase de vuelo ");
-                        Console.WriteLine("primeraclase");
-                        Console.WriteLine("turista");
-                        Console.WriteLine("negocios");
+                        Console.WriteLine(" ");
+                        Console.WriteLine("Ingrese la clase en la cual le gustaría viajar:");
+                        Console.WriteLine("Turista");
+                        Console.WriteLine("Primera clase");
+                        Console.WriteLine("Negocios");
+                        Console.WriteLine(" ");
                         clase = Console.ReadLine();
+                        Console.WriteLine(" ");
 
                         if (clase == "primeraclase")
                         {
@@ -2490,13 +2763,17 @@
                         break;
 
                     case "ISLANDIA":
-                        Console.WriteLine("cuantos dias desea viajar");
+                        Console.WriteLine(" ");
+                        Console.WriteLine("¿Cuantos dias desea viajar? Ingrese la cantidad:");
                         dias = int.Parse(Console.ReadLine());
-                        Console.WriteLine("escoja la de clase de vuelo ");
-                        Console.WriteLine("primeraclase");
-                        Console.WriteLine("turista");
-                        Console.WriteLine("negocios");
+                        Console.WriteLine(" ");
+                        Console.WriteLine("Ingrese la clase en la cual le gustaría viajar:");
+                        Console.WriteLine("Turista");
+                        Console.WriteLine("Primera clase");
+                        Console.WriteLine("Negocios");
+                        Console.WriteLine(" ");
                         clase = Console.ReadLine();
+                        Console.WriteLine(" ");
 
                         if (clase == "primeraclase")
                         {
@@ -2526,13 +2803,17 @@
                         break;
 
                     case "ANDORRA":
-                        Console.WriteLine("cuantos dias desea viajar");
+                        Console.WriteLine(" ");
+                        Console.WriteLine("¿Cuantos dias desea viajar? Ingrese la cantidad:");
                         dias = int.Parse(Console.ReadLine());
-                        Console.WriteLine("escoja la de clase de vuelo ");
-                        Console.WriteLine("primeraclase");
-                        Console.WriteLine("turista");
-                        Console.WriteLine("negocios");
+                        Console.WriteLine(" ");
+                        Console.WriteLine("Ingrese la clase en la cual le gustaría viajar:");
+                        Console.WriteLine("Turista");
+                        Console.WriteLine("Primera clase");
+                        Console.WriteLine("Negocios");
+                        Console.WriteLine(" ");
                         clase = Console.ReadLine();
+                        Console.WriteLine(" ");
 
                         if (clase == "primeraclase")
                         {
@@ -2562,13 +2843,17 @@
                         break;
 
                     case "LIECHTENSTEIN":
-                        Console.WriteLine("cuantos dias desea viajar");
+                        Console.WriteLine(" ");
+                        Console.WriteLine("¿Cuantos dias desea viajar? Ingrese la cantidad:");
                         dias = int.Parse(Console.ReadLine());
-                        Console.WriteLine("escoja la de clase de vuelo ");
-                        Console.WriteLine("primeraclase");
-                        Console.WriteLine("turista");
-                        Console.WriteLine("negocios");
+                        Console.WriteLine(" ");
+                        Console.WriteLine("Ingrese la clase en la cual le gustaría viajar:");
+                        Console.WriteLine("Turista");
+                        Console.WriteLine("Primera clase");
+                        Console.WriteLine("Negocios");
+                        Console.WriteLine(" ");
                         clase = Console.ReadLine();
+                        Console.WriteLine(" ");
 
                         if (clase == "primeraclase")
                         {
@@ -2598,13 +2883,17 @@
                         break;
 
                     case "MONACO":
-                        Console.WriteLine("cuantos dias desea viajar");
+                        Console.WriteLine(" ");
+                        Console.WriteLine("¿Cuantos dias desea viajar? Ingrese la cantidad:");
                         dias = int.Parse(Console.ReadLine());
-                        Console.WriteLine("escoja la de clase de vuelo ");
-                        Console.WriteLine("primeraclase");
-                        Console.WriteLine("turista");
-                        Console.WriteLine("negocios");
+                        Console.WriteLine(" ");
+                        Console.WriteLine("Ingrese la clase en la cual le gustaría viajar:");
+                        Console.WriteLine("Turista");
+                        Console.WriteLine("Primera clase");
+                        Console.WriteLine("Negocios");
+                        Console.WriteLine(" ");
                         clase = Console.ReadLine();
+                        Console.WriteLine(" ");
 
                         if (clase == "primeraclase")
                         {
@@ -2694,17 +2983,18 @@
                 switch (pais.ToUpper())
                 {
                     case "AFGANISTAN":
-
-                        Console.WriteLine("¿Cuantos dias planea viajar?"); //dias de duracion del viaje
+                        Console.WriteLine(" ");
+                        Console.WriteLine("¿Cuantos dias desea viajar? Ingrese la cantidad:");
                         dias = int.Parse(Console.ReadLine());
-
-                        Console.WriteLine("Escoja la clase de su vuelo:"); //clase del viaje
+                        Console.WriteLine(" ");
+                        Console.WriteLine("Ingrese la clase en la cual le gustaría viajar:");
                         Console.WriteLine("Turista");
                         Console.WriteLine("Primera clase");
                         Console.WriteLine("Negocios");
+                        Console.WriteLine(" ");
                         clase = Console.ReadLine();
+                        Console.WriteLine(" ");
 
-                        //el IF esta para que el precio varie dependiendo de la clase
 
                         if (clase == "turista")
                         {
@@ -2733,15 +3023,17 @@
                         break;
 
                     case "ARABIA SAUDITA":
-
-                        Console.WriteLine("¿Cuantos dias planea viajar?");
+                        Console.WriteLine(" ");
+                        Console.WriteLine("¿Cuantos dias desea viajar? Ingrese la cantidad:");
                         dias = int.Parse(Console.ReadLine());
-
-                        Console.WriteLine("Escoja la clase de su vuelo:");
+                        Console.WriteLine(" ");
+                        Console.WriteLine("Ingrese la clase en la cual le gustaría viajar:");
                         Console.WriteLine("Turista");
                         Console.WriteLine("Primera clase");
                         Console.WriteLine("Negocios");
+                        Console.WriteLine(" ");
                         clase = Console.ReadLine();
+                        Console.WriteLine(" ");
 
                         if (clase == "turista")
                         {
@@ -2770,15 +3062,18 @@
                         break;
 
                     case "ARMENIA":
-
-                        Console.WriteLine("¿Cuantos dias planea viajar?");
+                        Console.WriteLine(" ");
+                        Console.WriteLine("¿Cuantos dias desea viajar? Ingrese la cantidad:");
                         dias = int.Parse(Console.ReadLine());
-
-                        Console.WriteLine("Escoja la clase de su vuelo:");
+                        Console.WriteLine(" ");
+                        Console.WriteLine("Ingrese la clase en la cual le gustaría viajar:");
                         Console.WriteLine("Turista");
                         Console.WriteLine("Primera clase");
                         Console.WriteLine("Negocios");
+                        Console.WriteLine(" ");
                         clase = Console.ReadLine();
+                        Console.WriteLine(" ");
+
 
                         if (clase == "turista")
                         {
@@ -2808,14 +3103,17 @@
 
                     case "AZERBAIYAN":
 
-                        Console.WriteLine("¿Cuantos dias planea viajar?");
+                        Console.WriteLine(" ");
+                        Console.WriteLine("¿Cuantos dias desea viajar? Ingrese la cantidad:");
                         dias = int.Parse(Console.ReadLine());
-
-                        Console.WriteLine("Escoja la clase de su vuelo:");
+                        Console.WriteLine(" ");
+                        Console.WriteLine("Ingrese la clase en la cual le gustaría viajar:");
                         Console.WriteLine("Turista");
                         Console.WriteLine("Primera clase");
                         Console.WriteLine("Negocios");
+                        Console.WriteLine(" ");
                         clase = Console.ReadLine();
+                        Console.WriteLine(" ");
 
                         if (clase == "turista")
                         {
@@ -2845,14 +3143,17 @@
 
                     case "BANGLADESH":
 
-                        Console.WriteLine("¿Cuantos dias planea viajar?");
+                        Console.WriteLine(" ");
+                        Console.WriteLine("¿Cuantos dias desea viajar? Ingrese la cantidad:");
                         dias = int.Parse(Console.ReadLine());
-
-                        Console.WriteLine("Escoja la clase de su vuelo:");
+                        Console.WriteLine(" ");
+                        Console.WriteLine("Ingrese la clase en la cual le gustaría viajar:");
                         Console.WriteLine("Turista");
                         Console.WriteLine("Primera clase");
                         Console.WriteLine("Negocios");
+                        Console.WriteLine(" ");
                         clase = Console.ReadLine();
+                        Console.WriteLine(" ");
 
                         if (clase == "turista")
                         {
@@ -2871,25 +3172,26 @@
                             costo = dias * 108;
                             Console.WriteLine("El costo de su ticket es de " + costo + " dolares");
                         }
-
-                        break;
-
                         codigo = rnd.Next(100000, 999999);
                         Console.WriteLine("Estimado cliente " + nombre + " Usted ha comprado un vuelo desde El Salvador con destino a " + pais);
                         Console.WriteLine("Con una duracion de " + dias + " dias");
                         Console.WriteLine("El numero de su vuelo es: " + codigo + " ¡le deseamos un excelente viaje");
                         Console.ReadKey();
 
+                        break;                     
+
                     case "BAREIN":
-
-                        Console.WriteLine("¿Cuantos dias planea viajar?");
+                        Console.WriteLine(" ");
+                        Console.WriteLine("¿Cuantos dias desea viajar? Ingrese la cantidad:");
                         dias = int.Parse(Console.ReadLine());
-
-                        Console.WriteLine("Escoja la clase de su vuelo:");
+                        Console.WriteLine(" ");
+                        Console.WriteLine("Ingrese la clase en la cual le gustaría viajar:");
                         Console.WriteLine("Turista");
                         Console.WriteLine("Primera clase");
                         Console.WriteLine("Negocios");
+                        Console.WriteLine(" ");
                         clase = Console.ReadLine();
+                        Console.WriteLine(" ");
 
                         if (clase == "turista")
                         {
@@ -2918,15 +3220,17 @@
                         break;
 
                     case "BIRMANIA":
-
-                        Console.WriteLine("¿Cuantos dias planea viajar?");
+                        Console.WriteLine(" ");
+                        Console.WriteLine("¿Cuantos dias desea viajar? Ingrese la cantidad:");
                         dias = int.Parse(Console.ReadLine());
-
-                        Console.WriteLine("Escoja la clase de su vuelo:");
+                        Console.WriteLine(" ");
+                        Console.WriteLine("Ingrese la clase en la cual le gustaría viajar:");
                         Console.WriteLine("Turista");
                         Console.WriteLine("Primera clase");
                         Console.WriteLine("Negocios");
+                        Console.WriteLine(" ");
                         clase = Console.ReadLine();
+                        Console.WriteLine(" ");
 
                         if (clase == "turista")
                         {
@@ -2955,15 +3259,17 @@
                         break;
 
                     case "BRUNEI":
-
-                        Console.WriteLine("¿Cuantos dias planea viajar?");
+                        Console.WriteLine(" ");
+                        Console.WriteLine("¿Cuantos dias desea viajar? Ingrese la cantidad:");
                         dias = int.Parse(Console.ReadLine());
-
-                        Console.WriteLine("Escoja la clase de su vuelo:");
+                        Console.WriteLine(" ");
+                        Console.WriteLine("Ingrese la clase en la cual le gustaría viajar:");
                         Console.WriteLine("Turista");
                         Console.WriteLine("Primera clase");
                         Console.WriteLine("Negocios");
+                        Console.WriteLine(" ");
                         clase = Console.ReadLine();
+                        Console.WriteLine(" ");
 
                         if (clase == "turista")
                         {
@@ -2992,15 +3298,17 @@
                         break;
 
                     case "BUTAN":
-
-                        Console.WriteLine("¿Cuantos dias planea viajar?");
+                        Console.WriteLine(" ");
+                        Console.WriteLine("¿Cuantos dias desea viajar? Ingrese la cantidad:");
                         dias = int.Parse(Console.ReadLine());
-
-                        Console.WriteLine("Escoja la clase de su vuelo:");
+                        Console.WriteLine(" ");
+                        Console.WriteLine("Ingrese la clase en la cual le gustaría viajar:");
                         Console.WriteLine("Turista");
                         Console.WriteLine("Primera clase");
                         Console.WriteLine("Negocios");
+                        Console.WriteLine(" ");
                         clase = Console.ReadLine();
+                        Console.WriteLine(" ");
 
                         if (clase == "turista")
                         {
@@ -3029,15 +3337,17 @@
                         break;
 
                     case "CAMBOYA":
-
-                        Console.WriteLine("¿Cuantos dias planea viajar?");
+                        Console.WriteLine(" ");
+                        Console.WriteLine("¿Cuantos dias desea viajar? Ingrese la cantidad:");
                         dias = int.Parse(Console.ReadLine());
-
-                        Console.WriteLine("Escoja la clase de su vuelo:");
+                        Console.WriteLine(" ");
+                        Console.WriteLine("Ingrese la clase en la cual le gustaría viajar:");
                         Console.WriteLine("Turista");
                         Console.WriteLine("Primera clase");
                         Console.WriteLine("Negocios");
+                        Console.WriteLine(" ");
                         clase = Console.ReadLine();
+                        Console.WriteLine(" ");
 
                         if (clase == "turista")
                         {
@@ -3066,15 +3376,17 @@
                         break;
 
                     case "CATAR":
-
-                        Console.WriteLine("¿Cuantos dias planea viajar?");
+                        Console.WriteLine(" ");
+                        Console.WriteLine("¿Cuantos dias desea viajar? Ingrese la cantidad:");
                         dias = int.Parse(Console.ReadLine());
-
-                        Console.WriteLine("Escoja la clase de su vuelo:");
+                        Console.WriteLine(" ");
+                        Console.WriteLine("Ingrese la clase en la cual le gustaría viajar:");
                         Console.WriteLine("Turista");
                         Console.WriteLine("Primera clase");
                         Console.WriteLine("Negocios");
+                        Console.WriteLine(" ");
                         clase = Console.ReadLine();
+                        Console.WriteLine(" ");
 
                         if (clase == "turista")
                         {
@@ -3103,15 +3415,17 @@
                         break;
 
                     case "CHINA":
-
-                        Console.WriteLine("¿Cuantos dias planea viajar?");
+                        Console.WriteLine(" ");
+                        Console.WriteLine("¿Cuantos dias desea viajar? Ingrese la cantidad:");
                         dias = int.Parse(Console.ReadLine());
-
-                        Console.WriteLine("Escoja la clase de su vuelo:");
+                        Console.WriteLine(" ");
+                        Console.WriteLine("Ingrese la clase en la cual le gustaría viajar:");
                         Console.WriteLine("Turista");
                         Console.WriteLine("Primera clase");
                         Console.WriteLine("Negocios");
+                        Console.WriteLine(" ");
                         clase = Console.ReadLine();
+                        Console.WriteLine(" ");
 
                         if (clase == "turista")
                         {
@@ -3140,15 +3454,17 @@
                         break;
 
                     case "CHIPRE":
-
-                        Console.WriteLine("¿Cuantos dias planea viajar?");
+                        Console.WriteLine(" ");
+                        Console.WriteLine("¿Cuantos dias desea viajar? Ingrese la cantidad:");
                         dias = int.Parse(Console.ReadLine());
-
-                        Console.WriteLine("Escoja la clase de su vuelo:");
+                        Console.WriteLine(" ");
+                        Console.WriteLine("Ingrese la clase en la cual le gustaría viajar:");
                         Console.WriteLine("Turista");
                         Console.WriteLine("Primera clase");
                         Console.WriteLine("Negocios");
+                        Console.WriteLine(" ");
                         clase = Console.ReadLine();
+                        Console.WriteLine(" ");
 
                         if (clase == "turista")
                         {
@@ -3183,15 +3499,17 @@
                         break;
 
                     case "COREA DEL SUR":
-
-                        Console.WriteLine("¿Cuantos dias planea viajar?");
+                        Console.WriteLine(" ");
+                        Console.WriteLine("¿Cuantos dias desea viajar? Ingrese la cantidad:");
                         dias = int.Parse(Console.ReadLine());
-
-                        Console.WriteLine("Escoja la clase de su vuelo:");
+                        Console.WriteLine(" ");
+                        Console.WriteLine("Ingrese la clase en la cual le gustaría viajar:");
                         Console.WriteLine("Turista");
                         Console.WriteLine("Primera clase");
                         Console.WriteLine("Negocios");
+                        Console.WriteLine(" ");
                         clase = Console.ReadLine();
+                        Console.WriteLine(" ");
 
                         if (clase == "turista")
                         {
@@ -3221,15 +3539,17 @@
 
 
                     case "EMIRATOS ARABES UNIDOS":
-
-                        Console.WriteLine("¿Cuantos dias planea viajar?");
+                        Console.WriteLine(" ");
+                        Console.WriteLine("¿Cuantos dias desea viajar? Ingrese la cantidad:");
                         dias = int.Parse(Console.ReadLine());
-
-                        Console.WriteLine("Escoja la clase de su vuelo:");
+                        Console.WriteLine(" ");
+                        Console.WriteLine("Ingrese la clase en la cual le gustaría viajar:");
                         Console.WriteLine("Turista");
                         Console.WriteLine("Primera clase");
                         Console.WriteLine("Negocios");
+                        Console.WriteLine(" ");
                         clase = Console.ReadLine();
+                        Console.WriteLine(" ");
 
                         if (clase == "turista")
                         {
@@ -3258,15 +3578,17 @@
                         break;
 
                     case "FILIPINAS":
-
-                        Console.WriteLine("¿Cuantos dias planea viajar?");
+                        Console.WriteLine(" ");
+                        Console.WriteLine("¿Cuantos dias desea viajar? Ingrese la cantidad:");
                         dias = int.Parse(Console.ReadLine());
-
-                        Console.WriteLine("Escoja la clase de su vuelo:");
+                        Console.WriteLine(" ");
+                        Console.WriteLine("Ingrese la clase en la cual le gustaría viajar:");
                         Console.WriteLine("Turista");
                         Console.WriteLine("Primera clase");
                         Console.WriteLine("Negocios");
+                        Console.WriteLine(" ");
                         clase = Console.ReadLine();
+                        Console.WriteLine(" ");
 
                         if (clase == "turista")
                         {
@@ -3295,15 +3617,17 @@
                         break;
 
                     case "INDIA":
-
-                        Console.WriteLine("¿Cuantos dias planea viajar?");
+                        Console.WriteLine(" ");
+                        Console.WriteLine("¿Cuantos dias desea viajar? Ingrese la cantidad:");
                         dias = int.Parse(Console.ReadLine());
-
-                        Console.WriteLine("Escoja la clase de su vuelo:");
+                        Console.WriteLine(" ");
+                        Console.WriteLine("Ingrese la clase en la cual le gustaría viajar:");
                         Console.WriteLine("Turista");
                         Console.WriteLine("Primera clase");
                         Console.WriteLine("Negocios");
+                        Console.WriteLine(" ");
                         clase = Console.ReadLine();
+                        Console.WriteLine(" ");
 
                         if (clase == "turista")
                         {
@@ -3332,15 +3656,17 @@
                         break;
 
                     case "INDONESIA":
-
-                        Console.WriteLine("¿Cuantos dias planea viajar?");
+                        Console.WriteLine(" ");
+                        Console.WriteLine("¿Cuantos dias desea viajar? Ingrese la cantidad:");
                         dias = int.Parse(Console.ReadLine());
-
-                        Console.WriteLine("Escoja la clase de su vuelo:");
+                        Console.WriteLine(" ");
+                        Console.WriteLine("Ingrese la clase en la cual le gustaría viajar:");
                         Console.WriteLine("Turista");
                         Console.WriteLine("Primera clase");
                         Console.WriteLine("Negocios");
+                        Console.WriteLine(" ");
                         clase = Console.ReadLine();
+                        Console.WriteLine(" ");
 
                         if (clase == "turista")
                         {
@@ -3369,15 +3695,17 @@
                         break;
 
                     case "IRAK":
-
-                        Console.WriteLine("¿Cuantos dias planea viajar?");
+                        Console.WriteLine(" ");
+                        Console.WriteLine("¿Cuantos dias desea viajar? Ingrese la cantidad:");
                         dias = int.Parse(Console.ReadLine());
-
-                        Console.WriteLine("Escoja la clase de su vuelo:");
+                        Console.WriteLine(" ");
+                        Console.WriteLine("Ingrese la clase en la cual le gustaría viajar:");
                         Console.WriteLine("Turista");
                         Console.WriteLine("Primera clase");
                         Console.WriteLine("Negocios");
+                        Console.WriteLine(" ");
                         clase = Console.ReadLine();
+                        Console.WriteLine(" ");
 
                         if (clase == "turista")
                         {
@@ -3406,15 +3734,17 @@
                         break;
 
                     case "IRAN":
-
-                        Console.WriteLine("¿Cuantos dias planea viajar?");
+                        Console.WriteLine(" ");
+                        Console.WriteLine("¿Cuantos dias desea viajar? Ingrese la cantidad:");
                         dias = int.Parse(Console.ReadLine());
-
-                        Console.WriteLine("Escoja la clase de su vuelo:");
+                        Console.WriteLine(" ");
+                        Console.WriteLine("Ingrese la clase en la cual le gustaría viajar:");
                         Console.WriteLine("Turista");
                         Console.WriteLine("Primera clase");
                         Console.WriteLine("Negocios");
+                        Console.WriteLine(" ");
                         clase = Console.ReadLine();
+                        Console.WriteLine(" ");
 
                         if (clase == "turista")
                         {
@@ -3443,15 +3773,17 @@
                         break;
 
                     case "ISRAEL":
-
-                        Console.WriteLine("¿Cuantos dias planea viajar?");
+                        Console.WriteLine(" ");
+                        Console.WriteLine("¿Cuantos dias desea viajar? Ingrese la cantidad:");
                         dias = int.Parse(Console.ReadLine());
-
-                        Console.WriteLine("Escoja la clase de su vuelo:");
+                        Console.WriteLine(" ");
+                        Console.WriteLine("Ingrese la clase en la cual le gustaría viajar:");
                         Console.WriteLine("Turista");
                         Console.WriteLine("Primera clase");
                         Console.WriteLine("Negocios");
+                        Console.WriteLine(" ");
                         clase = Console.ReadLine();
+                        Console.WriteLine(" ");
 
                         if (clase == "turista")
                         {
@@ -3480,15 +3812,17 @@
                         break;
 
                     case "JAPON":
-
-                        Console.WriteLine("¿Cuantos dias planea viajar?");
+                        Console.WriteLine(" ");
+                        Console.WriteLine("¿Cuantos dias desea viajar? Ingrese la cantidad:");
                         dias = int.Parse(Console.ReadLine());
-
-                        Console.WriteLine("Escoja la clase de su vuelo:");
+                        Console.WriteLine(" ");
+                        Console.WriteLine("Ingrese la clase en la cual le gustaría viajar:");
                         Console.WriteLine("Turista");
                         Console.WriteLine("Primera clase");
                         Console.WriteLine("Negocios");
+                        Console.WriteLine(" ");
                         clase = Console.ReadLine();
+                        Console.WriteLine(" ");
 
                         if (clase == "turista")
                         {
@@ -3517,15 +3851,17 @@
                         break;
 
                     case "JORDANIA":
-
-                        Console.WriteLine("¿Cuantos dias planea viajar?");
+                        Console.WriteLine(" ");
+                        Console.WriteLine("¿Cuantos dias desea viajar? Ingrese la cantidad:");
                         dias = int.Parse(Console.ReadLine());
-
-                        Console.WriteLine("Escoja la clase de su vuelo:");
+                        Console.WriteLine(" ");
+                        Console.WriteLine("Ingrese la clase en la cual le gustaría viajar:");
                         Console.WriteLine("Turista");
                         Console.WriteLine("Primera clase");
                         Console.WriteLine("Negocios");
+                        Console.WriteLine(" ");
                         clase = Console.ReadLine();
+                        Console.WriteLine(" ");
 
                         if (clase == "turista")
                         {
@@ -3554,15 +3890,17 @@
                         break;
 
                     case "KAZAJISTAN":
-
-                        Console.WriteLine("¿Cuantos dias planea viajar?");
+                        Console.WriteLine(" ");
+                        Console.WriteLine("¿Cuantos dias desea viajar? Ingrese la cantidad:");
                         dias = int.Parse(Console.ReadLine());
-
-                        Console.WriteLine("Escoja la clase de su vuelo:");
+                        Console.WriteLine(" ");
+                        Console.WriteLine("Ingrese la clase en la cual le gustaría viajar:");
                         Console.WriteLine("Turista");
                         Console.WriteLine("Primera clase");
                         Console.WriteLine("Negocios");
+                        Console.WriteLine(" ");
                         clase = Console.ReadLine();
+                        Console.WriteLine(" ");
 
                         if (clase == "turista")
                         {
@@ -3591,15 +3929,17 @@
                         break;
 
                     case "KIRGUISTAN":
-
-                        Console.WriteLine("¿Cuantos dias planea viajar?");
+                        Console.WriteLine(" ");
+                        Console.WriteLine("¿Cuantos dias desea viajar? Ingrese la cantidad:");
                         dias = int.Parse(Console.ReadLine());
-
-                        Console.WriteLine("Escoja la clase de su vuelo:");
+                        Console.WriteLine(" ");
+                        Console.WriteLine("Ingrese la clase en la cual le gustaría viajar:");
                         Console.WriteLine("Turista");
                         Console.WriteLine("Primera clase");
                         Console.WriteLine("Negocios");
+                        Console.WriteLine(" ");
                         clase = Console.ReadLine();
+                        Console.WriteLine(" ");
 
                         if (clase == "turista")
                         {
@@ -3629,14 +3969,17 @@
 
                     case "KUWAIT":
 
-                        Console.WriteLine("¿Cuantos dias planea viajar?");
+                        Console.WriteLine(" ");
+                        Console.WriteLine("¿Cuantos dias desea viajar? Ingrese la cantidad:");
                         dias = int.Parse(Console.ReadLine());
-
-                        Console.WriteLine("Escoja la clase de su vuelo:");
+                        Console.WriteLine(" ");
+                        Console.WriteLine("Ingrese la clase en la cual le gustaría viajar:");
                         Console.WriteLine("Turista");
                         Console.WriteLine("Primera clase");
                         Console.WriteLine("Negocios");
+                        Console.WriteLine(" ");
                         clase = Console.ReadLine();
+                        Console.WriteLine(" ");
 
                         if (clase == "turista")
                         {
@@ -3666,14 +4009,17 @@
 
                     case "LAOS":
 
-                        Console.WriteLine("¿Cuantos dias planea viajar?");
+                        Console.WriteLine(" ");
+                        Console.WriteLine("¿Cuantos dias desea viajar? Ingrese la cantidad:");
                         dias = int.Parse(Console.ReadLine());
-
-                        Console.WriteLine("Escoja la clase de su vuelo:");
+                        Console.WriteLine(" ");
+                        Console.WriteLine("Ingrese la clase en la cual le gustaría viajar:");
                         Console.WriteLine("Turista");
                         Console.WriteLine("Primera clase");
                         Console.WriteLine("Negocios");
+                        Console.WriteLine(" ");
                         clase = Console.ReadLine();
+                        Console.WriteLine(" ");
 
                         if (clase == "turista")
                         {
@@ -3703,14 +4049,17 @@
 
                     case "LIBANO":
 
-                        Console.WriteLine("¿Cuantos dias planea viajar?");
+                        Console.WriteLine(" ");
+                        Console.WriteLine("¿Cuantos dias desea viajar? Ingrese la cantidad:");
                         dias = int.Parse(Console.ReadLine());
-
-                        Console.WriteLine("Escoja la clase de su vuelo:");
+                        Console.WriteLine(" ");
+                        Console.WriteLine("Ingrese la clase en la cual le gustaría viajar:");
                         Console.WriteLine("Turista");
                         Console.WriteLine("Primera clase");
                         Console.WriteLine("Negocios");
+                        Console.WriteLine(" ");
                         clase = Console.ReadLine();
+                        Console.WriteLine(" ");
 
                         if (clase == "turista")
                         {
@@ -3740,14 +4089,17 @@
 
                     case "MALASIA":
 
-                        Console.WriteLine("¿Cuantos dias planea viajar?");
+                        Console.WriteLine(" ");
+                        Console.WriteLine("¿Cuantos dias desea viajar? Ingrese la cantidad:");
                         dias = int.Parse(Console.ReadLine());
-
-                        Console.WriteLine("Escoja la clase de su vuelo:");
+                        Console.WriteLine(" ");
+                        Console.WriteLine("Ingrese la clase en la cual le gustaría viajar:");
                         Console.WriteLine("Turista");
                         Console.WriteLine("Primera clase");
                         Console.WriteLine("Negocios");
+                        Console.WriteLine(" ");
                         clase = Console.ReadLine();
+                        Console.WriteLine(" ");
 
                         if (clase == "turista")
                         {
@@ -3777,14 +4129,17 @@
 
                     case "MALDIVAS":
 
-                        Console.WriteLine("¿Cuantos dias planea viajar?");
+                        Console.WriteLine(" ");
+                        Console.WriteLine("¿Cuantos dias desea viajar? Ingrese la cantidad:");
                         dias = int.Parse(Console.ReadLine());
-
-                        Console.WriteLine("Escoja la clase de su vuelo:");
+                        Console.WriteLine(" ");
+                        Console.WriteLine("Ingrese la clase en la cual le gustaría viajar:");
                         Console.WriteLine("Turista");
                         Console.WriteLine("Primera clase");
                         Console.WriteLine("Negocios");
+                        Console.WriteLine(" ");
                         clase = Console.ReadLine();
+                        Console.WriteLine(" ");
 
                         if (clase == "turista")
                         {
@@ -3814,14 +4169,17 @@
 
                     case "MONGOLIA":
 
-                        Console.WriteLine("¿Cuantos dias planea viajar?");
+                        Console.WriteLine(" ");
+                        Console.WriteLine("¿Cuantos dias desea viajar? Ingrese la cantidad:");
                         dias = int.Parse(Console.ReadLine());
-
-                        Console.WriteLine("Escoja la clase de su vuelo:");
+                        Console.WriteLine(" ");
+                        Console.WriteLine("Ingrese la clase en la cual le gustaría viajar:");
                         Console.WriteLine("Turista");
                         Console.WriteLine("Primera clase");
                         Console.WriteLine("Negocios");
+                        Console.WriteLine(" ");
                         clase = Console.ReadLine();
+                        Console.WriteLine(" ");
 
                         if (clase == "turista")
                         {
@@ -3850,15 +4208,17 @@
                         break;
 
                     case "NEPAL":
-
-                        Console.WriteLine("¿Cuantos dias planea viajar?");
+                        Console.WriteLine(" ");
+                        Console.WriteLine("¿Cuantos dias desea viajar? Ingrese la cantidad:");
                         dias = int.Parse(Console.ReadLine());
-
-                        Console.WriteLine("Escoja la clase de su vuelo:");
+                        Console.WriteLine(" ");
+                        Console.WriteLine("Ingrese la clase en la cual le gustaría viajar:");
                         Console.WriteLine("Turista");
                         Console.WriteLine("Primera clase");
                         Console.WriteLine("Negocios");
+                        Console.WriteLine(" ");
                         clase = Console.ReadLine();
+                        Console.WriteLine(" ");
 
                         if (clase == "turista")
                         {
@@ -3888,14 +4248,17 @@
 
                     case "OMAN":
 
-                        Console.WriteLine("¿Cuantos dias planea viajar?");
+                        Console.WriteLine(" ");
+                        Console.WriteLine("¿Cuantos dias desea viajar? Ingrese la cantidad:");
                         dias = int.Parse(Console.ReadLine());
-
-                        Console.WriteLine("Escoja la clase de su vuelo:");
+                        Console.WriteLine(" ");
+                        Console.WriteLine("Ingrese la clase en la cual le gustaría viajar:");
                         Console.WriteLine("Turista");
                         Console.WriteLine("Primera clase");
                         Console.WriteLine("Negocios");
+                        Console.WriteLine(" ");
                         clase = Console.ReadLine();
+                        Console.WriteLine(" ");
 
                         if (clase == "turista")
                         {
@@ -3925,14 +4288,17 @@
 
                     case "PAKISTAN":
 
-                        Console.WriteLine("¿Cuantos dias planea viajar?");
+                        Console.WriteLine(" ");
+                        Console.WriteLine("¿Cuantos dias desea viajar? Ingrese la cantidad:");
                         dias = int.Parse(Console.ReadLine());
-
-                        Console.WriteLine("Escoja la clase de su vuelo:");
+                        Console.WriteLine(" ");
+                        Console.WriteLine("Ingrese la clase en la cual le gustaría viajar:");
                         Console.WriteLine("Turista");
                         Console.WriteLine("Primera clase");
                         Console.WriteLine("Negocios");
+                        Console.WriteLine(" ");
                         clase = Console.ReadLine();
+                        Console.WriteLine(" ");
 
                         if (clase == "turista")
                         {
@@ -3962,14 +4328,17 @@
 
                     case "SINGAPUR":
 
-                        Console.WriteLine("¿Cuantos dias planea viajar?");
+                        Console.WriteLine(" ");
+                        Console.WriteLine("¿Cuantos dias desea viajar? Ingrese la cantidad:");
                         dias = int.Parse(Console.ReadLine());
-
-                        Console.WriteLine("Escoja la clase de su vuelo:");
+                        Console.WriteLine(" ");
+                        Console.WriteLine("Ingrese la clase en la cual le gustaría viajar:");
                         Console.WriteLine("Turista");
                         Console.WriteLine("Primera clase");
                         Console.WriteLine("Negocios");
+                        Console.WriteLine(" ");
                         clase = Console.ReadLine();
+                        Console.WriteLine(" ");
 
                         if (clase == "turista")
                         {
@@ -3999,14 +4368,17 @@
 
                     case "SIRIA":
 
-                        Console.WriteLine("¿Cuantos dias planea viajar?");
+                        Console.WriteLine(" ");
+                        Console.WriteLine("¿Cuantos dias desea viajar? Ingrese la cantidad:");
                         dias = int.Parse(Console.ReadLine());
-
-                        Console.WriteLine("Escoja la clase de su vuelo:");
+                        Console.WriteLine(" ");
+                        Console.WriteLine("Ingrese la clase en la cual le gustaría viajar:");
                         Console.WriteLine("Turista");
                         Console.WriteLine("Primera clase");
                         Console.WriteLine("Negocios");
+                        Console.WriteLine(" ");
                         clase = Console.ReadLine();
+                        Console.WriteLine(" ");
 
                         if (clase == "turista")
                         {
@@ -4036,14 +4408,17 @@
 
                     case "SRI LANKA":
 
-                        Console.WriteLine("¿Cuantos dias planea viajar?");
+                        Console.WriteLine(" ");
+                        Console.WriteLine("¿Cuantos dias desea viajar? Ingrese la cantidad:");
                         dias = int.Parse(Console.ReadLine());
-
-                        Console.WriteLine("Escoja la clase de su vuelo:");
+                        Console.WriteLine(" ");
+                        Console.WriteLine("Ingrese la clase en la cual le gustaría viajar:");
                         Console.WriteLine("Turista");
                         Console.WriteLine("Primera clase");
                         Console.WriteLine("Negocios");
+                        Console.WriteLine(" ");
                         clase = Console.ReadLine();
+                        Console.WriteLine(" ");
 
                         if (clase == "turista")
                         {
@@ -4072,14 +4447,17 @@
 
                     case "TAILANDIA":
 
-                        Console.WriteLine("¿Cuantos dias planea viajar?");
+                        Console.WriteLine(" ");
+                        Console.WriteLine("¿Cuantos dias desea viajar? Ingrese la cantidad:");
                         dias = int.Parse(Console.ReadLine());
-
-                        Console.WriteLine("Escoja la clase de su vuelo:");
+                        Console.WriteLine(" ");
+                        Console.WriteLine("Ingrese la clase en la cual le gustaría viajar:");
                         Console.WriteLine("Turista");
                         Console.WriteLine("Primera clase");
                         Console.WriteLine("Negocios");
+                        Console.WriteLine(" ");
                         clase = Console.ReadLine();
+                        Console.WriteLine(" ");
 
                         if (clase == "turista")
                         {
@@ -4109,14 +4487,17 @@
 
                     case "TAYIKISTAN":
 
-                        Console.WriteLine("¿Cuantos dias planea viajar?");
+                        Console.WriteLine(" ");
+                        Console.WriteLine("¿Cuantos dias desea viajar? Ingrese la cantidad:");
                         dias = int.Parse(Console.ReadLine());
-
-                        Console.WriteLine("Escoja la clase de su vuelo:");
+                        Console.WriteLine(" ");
+                        Console.WriteLine("Ingrese la clase en la cual le gustaría viajar:");
                         Console.WriteLine("Turista");
                         Console.WriteLine("Primera clase");
                         Console.WriteLine("Negocios");
+                        Console.WriteLine(" ");
                         clase = Console.ReadLine();
+                        Console.WriteLine(" ");
 
                         if (clase == "turista")
                         {
@@ -4146,14 +4527,17 @@
 
                     case "TIMOR ORIENTAL":
 
-                        Console.WriteLine("¿Cuantos dias planea viajar?");
+                        Console.WriteLine(" ");
+                        Console.WriteLine("¿Cuantos dias desea viajar? Ingrese la cantidad:");
                         dias = int.Parse(Console.ReadLine());
-
-                        Console.WriteLine("Escoja la clase de su vuelo:");
+                        Console.WriteLine(" ");
+                        Console.WriteLine("Ingrese la clase en la cual le gustaría viajar:");
                         Console.WriteLine("Turista");
                         Console.WriteLine("Primera clase");
                         Console.WriteLine("Negocios");
+                        Console.WriteLine(" ");
                         clase = Console.ReadLine();
+                        Console.WriteLine(" ");
 
                         if (clase == "turista")
                         {
@@ -4183,14 +4567,17 @@
 
                     case "TURKMENISTAN":
 
-                        Console.WriteLine("¿Cuantos dias planea viajar?");
+                        Console.WriteLine(" ");
+                        Console.WriteLine("¿Cuantos dias desea viajar? Ingrese la cantidad:");
                         dias = int.Parse(Console.ReadLine());
-
-                        Console.WriteLine("Escoja la clase de su vuelo:");
+                        Console.WriteLine(" ");
+                        Console.WriteLine("Ingrese la clase en la cual le gustaría viajar:");
                         Console.WriteLine("Turista");
                         Console.WriteLine("Primera clase");
                         Console.WriteLine("Negocios");
+                        Console.WriteLine(" ");
                         clase = Console.ReadLine();
+                        Console.WriteLine(" ");
 
                         if (clase == "turista")
                         {
@@ -4220,14 +4607,17 @@
 
                     case "TURQUIA":
 
-                        Console.WriteLine("¿Cuantos dias planea viajar?");
+                        Console.WriteLine(" ");
+                        Console.WriteLine("¿Cuantos dias desea viajar? Ingrese la cantidad:");
                         dias = int.Parse(Console.ReadLine());
-
-                        Console.WriteLine("Escoja la clase de su vuelo:");
+                        Console.WriteLine(" ");
+                        Console.WriteLine("Ingrese la clase en la cual le gustaría viajar:");
                         Console.WriteLine("Turista");
                         Console.WriteLine("Primera clase");
                         Console.WriteLine("Negocios");
+                        Console.WriteLine(" ");
                         clase = Console.ReadLine();
+                        Console.WriteLine(" ");
 
                         if (clase == "turista")
                         {
@@ -4256,15 +4646,17 @@
                         break;
 
                     case "UZBEKISTAN":
-
-                        Console.WriteLine("¿Cuantos dias planea viajar?");
+                        Console.WriteLine(" ");
+                        Console.WriteLine("¿Cuantos dias desea viajar? Ingrese la cantidad:");
                         dias = int.Parse(Console.ReadLine());
-
-                        Console.WriteLine("Escoja la clase de su vuelo:");
+                        Console.WriteLine(" ");
+                        Console.WriteLine("Ingrese la clase en la cual le gustaría viajar:");
                         Console.WriteLine("Turista");
                         Console.WriteLine("Primera clase");
                         Console.WriteLine("Negocios");
+                        Console.WriteLine(" ");
                         clase = Console.ReadLine();
+                        Console.WriteLine(" ");
 
                         if (clase == "turista")
                         {
@@ -4293,15 +4685,17 @@
                         break;
 
                     case "VIETNAM":
-
-                        Console.WriteLine("¿Cuantos dias planea viajar?");
+                        Console.WriteLine(" ");
+                        Console.WriteLine("¿Cuantos dias desea viajar? Ingrese la cantidad:");
                         dias = int.Parse(Console.ReadLine());
-
-                        Console.WriteLine("Escoja la clase de su vuelo:");
+                        Console.WriteLine(" ");
+                        Console.WriteLine("Ingrese la clase en la cual le gustaría viajar:");
                         Console.WriteLine("Turista");
                         Console.WriteLine("Primera clase");
                         Console.WriteLine("Negocios");
+                        Console.WriteLine(" ");
                         clase = Console.ReadLine();
+                        Console.WriteLine(" ");
 
                         if (clase == "turista")
                         {
@@ -4330,15 +4724,17 @@
                         break;
 
                     case "YEMEN":
-
-                        Console.WriteLine("¿Cuantos dias planea viajar?");
+                        Console.WriteLine(" ");
+                        Console.WriteLine("¿Cuantos dias desea viajar? Ingrese la cantidad:");
                         dias = int.Parse(Console.ReadLine());
-
-                        Console.WriteLine("Escoja la clase de su vuelo:");
+                        Console.WriteLine(" ");
+                        Console.WriteLine("Ingrese la clase en la cual le gustaría viajar:");
                         Console.WriteLine("Turista");
                         Console.WriteLine("Primera clase");
                         Console.WriteLine("Negocios");
+                        Console.WriteLine(" ");
                         clase = Console.ReadLine();
+                        Console.WriteLine(" ");
 
                         if (clase == "turista")
                         {
@@ -4407,15 +4803,17 @@
 
                     case "AUSTRALIA":
 
-                        Console.WriteLine("¿Cuantos dias planea viajar?");
+                        Console.WriteLine(" ");
+                        Console.WriteLine("¿Cuantos dias desea viajar? Ingrese la cantidad:");
                         dias = int.Parse(Console.ReadLine());
-
-                        Console.WriteLine("Escoja la clase de su vuelo:");
+                        Console.WriteLine(" ");
+                        Console.WriteLine("Ingrese la clase en la cual le gustaría viajar:");
                         Console.WriteLine("Turista");
                         Console.WriteLine("Primera clase");
                         Console.WriteLine("Negocios");
+                        Console.WriteLine(" ");
                         clase = Console.ReadLine();
-
+                        Console.WriteLine(" ");
 
 
                         if (clase == "turista")
@@ -4444,14 +4842,17 @@
 
                     case "ISLA NOLFORK":
 
-                        Console.WriteLine("¿Cuantos dias planea viajar?");
+                        Console.WriteLine(" ");
+                        Console.WriteLine("¿Cuantos dias desea viajar? Ingrese la cantidad:");
                         dias = int.Parse(Console.ReadLine());
-
-                        Console.WriteLine("Escoja la clase de su vuelo:");
+                        Console.WriteLine(" ");
+                        Console.WriteLine("Ingrese la clase en la cual le gustaría viajar:");
                         Console.WriteLine("Turista");
                         Console.WriteLine("Primera clase");
                         Console.WriteLine("Negocios");
+                        Console.WriteLine(" ");
                         clase = Console.ReadLine();
+                        Console.WriteLine(" ");
 
 
 
@@ -4481,14 +4882,17 @@
 
                     case "ISLAS COCOS":
 
-                        Console.WriteLine("¿Cuantos dias planea viajar?");
+                        Console.WriteLine(" ");
+                        Console.WriteLine("¿Cuantos dias desea viajar? Ingrese la cantidad:");
                         dias = int.Parse(Console.ReadLine());
-
-                        Console.WriteLine("Escoja la clase de su vuelo:");
+                        Console.WriteLine(" ");
+                        Console.WriteLine("Ingrese la clase en la cual le gustaría viajar:");
                         Console.WriteLine("Turista");
                         Console.WriteLine("Primera clase");
                         Console.WriteLine("Negocios");
+                        Console.WriteLine(" ");
                         clase = Console.ReadLine();
+                        Console.WriteLine(" ");
 
 
 
@@ -4518,14 +4922,17 @@
 
                     case "ISLA DE NAVIDAD":
 
-                        Console.WriteLine("¿Cuantos dias planea viajar?");
+                        Console.WriteLine(" ");
+                        Console.WriteLine("¿Cuantos dias desea viajar? Ingrese la cantidad:");
                         dias = int.Parse(Console.ReadLine());
-
-                        Console.WriteLine("Escoja la clase de su vuelo:");
+                        Console.WriteLine(" ");
+                        Console.WriteLine("Ingrese la clase en la cual le gustaría viajar:");
                         Console.WriteLine("Turista");
                         Console.WriteLine("Primera clase");
                         Console.WriteLine("Negocios");
+                        Console.WriteLine(" ");
                         clase = Console.ReadLine();
+                        Console.WriteLine(" ");
 
 
 
@@ -4555,15 +4962,17 @@
 
                     case "NUEVA ZELANDA":
 
-                        Console.WriteLine("¿Cuantos dias planea viajar?");
+                        Console.WriteLine(" ");
+                        Console.WriteLine("¿Cuantos dias desea viajar? Ingrese la cantidad:");
                         dias = int.Parse(Console.ReadLine());
-
-                        Console.WriteLine("Escoja la clase de su vuelo:");
+                        Console.WriteLine(" ");
+                        Console.WriteLine("Ingrese la clase en la cual le gustaría viajar:");
                         Console.WriteLine("Turista");
                         Console.WriteLine("Primera clase");
                         Console.WriteLine("Negocios");
+                        Console.WriteLine(" ");
                         clase = Console.ReadLine();
-
+                        Console.WriteLine(" ");
 
 
                         if (clase == "turista")
@@ -4592,15 +5001,17 @@
 
                     case "NIUE":
 
-                        Console.WriteLine("¿Cuantos dias planea viajar?");
+                        Console.WriteLine(" ");
+                        Console.WriteLine("¿Cuantos dias desea viajar? Ingrese la cantidad:");
                         dias = int.Parse(Console.ReadLine());
-
-                        Console.WriteLine("Escoja la clase de su vuelo:");
+                        Console.WriteLine(" ");
+                        Console.WriteLine("Ingrese la clase en la cual le gustaría viajar:");
                         Console.WriteLine("Turista");
                         Console.WriteLine("Primera clase");
                         Console.WriteLine("Negocios");
+                        Console.WriteLine(" ");
                         clase = Console.ReadLine();
-
+                        Console.WriteLine(" ");
 
 
                         if (clase == "turista")
@@ -4629,15 +5040,17 @@
 
                     case "ISLAS COOK":
 
-                        Console.WriteLine("¿Cuantos dias planea viajar?");
+                        Console.WriteLine(" ");
+                        Console.WriteLine("¿Cuantos dias desea viajar? Ingrese la cantidad:");
                         dias = int.Parse(Console.ReadLine());
-
-                        Console.WriteLine("Escoja la clase de su vuelo:");
+                        Console.WriteLine(" ");
+                        Console.WriteLine("Ingrese la clase en la cual le gustaría viajar:");
                         Console.WriteLine("Turista");
                         Console.WriteLine("Primera clase");
                         Console.WriteLine("Negocios");
+                        Console.WriteLine(" ");
                         clase = Console.ReadLine();
-
+                        Console.WriteLine(" ");
 
 
                         if (clase == "turista")
@@ -4666,15 +5079,17 @@
 
                     case "ISLAS MARIANAS DEL NORTE":
 
-                        Console.WriteLine("¿Cuantos dias planea viajar?");
+                        Console.WriteLine(" ");
+                        Console.WriteLine("¿Cuantos dias desea viajar? Ingrese la cantidad:");
                         dias = int.Parse(Console.ReadLine());
-
-                        Console.WriteLine("Escoja la clase de su vuelo:");
+                        Console.WriteLine(" ");
+                        Console.WriteLine("Ingrese la clase en la cual le gustaría viajar:");
                         Console.WriteLine("Turista");
                         Console.WriteLine("Primera clase");
                         Console.WriteLine("Negocios");
+                        Console.WriteLine(" ");
                         clase = Console.ReadLine();
-
+                        Console.WriteLine(" ");
 
 
                         if (clase == "turista")
@@ -4703,15 +5118,17 @@
 
                     case "MICRONESIA":
 
-                        Console.WriteLine("¿Cuantos dias planea viajar?");
+                        Console.WriteLine(" ");
+                        Console.WriteLine("¿Cuantos dias desea viajar? Ingrese la cantidad:");
                         dias = int.Parse(Console.ReadLine());
-
-                        Console.WriteLine("Escoja la clase de su vuelo:");
+                        Console.WriteLine(" ");
+                        Console.WriteLine("Ingrese la clase en la cual le gustaría viajar:");
                         Console.WriteLine("Turista");
                         Console.WriteLine("Primera clase");
                         Console.WriteLine("Negocios");
+                        Console.WriteLine(" ");
                         clase = Console.ReadLine();
-
+                        Console.WriteLine(" ");
 
 
                         if (clase == "turista")
@@ -4740,15 +5157,17 @@
 
                     case "NAURU":
 
-                        Console.WriteLine("¿Cuantos dias planea viajar?");
+                        Console.WriteLine(" ");
+                        Console.WriteLine("¿Cuantos dias desea viajar? Ingrese la cantidad:");
                         dias = int.Parse(Console.ReadLine());
-
-                        Console.WriteLine("Escoja la clase de su vuelo:");
+                        Console.WriteLine(" ");
+                        Console.WriteLine("Ingrese la clase en la cual le gustaría viajar:");
                         Console.WriteLine("Turista");
                         Console.WriteLine("Primera clase");
                         Console.WriteLine("Negocios");
+                        Console.WriteLine(" ");
                         clase = Console.ReadLine();
-
+                        Console.WriteLine(" ");
 
 
                         if (clase == "turista")
@@ -4776,16 +5195,17 @@
                         break;
 
                     case "FIYI":
-
-                        Console.WriteLine("¿Cuantos dias planea viajar?");
+                        Console.WriteLine(" ");
+                        Console.WriteLine("¿Cuantos dias desea viajar? Ingrese la cantidad:");
                         dias = int.Parse(Console.ReadLine());
-
-                        Console.WriteLine("Escoja la clase de su vuelo:");
+                        Console.WriteLine(" ");
+                        Console.WriteLine("Ingrese la clase en la cual le gustaría viajar:");
                         Console.WriteLine("Turista");
                         Console.WriteLine("Primera clase");
                         Console.WriteLine("Negocios");
+                        Console.WriteLine(" ");
                         clase = Console.ReadLine();
-
+                        Console.WriteLine(" ");
 
 
                         if (clase == "turista")
@@ -4813,17 +5233,17 @@
                         break;
 
                     case "GUAM":
-
-                        Console.WriteLine("¿Cuantos dias planea viajar?");
+                        Console.WriteLine(" ");
+                        Console.WriteLine("¿Cuantos dias desea viajar? Ingrese la cantidad:");
                         dias = int.Parse(Console.ReadLine());
-
-                        Console.WriteLine("Escoja la clase de su vuelo:");
+                        Console.WriteLine(" ");
+                        Console.WriteLine("Ingrese la clase en la cual le gustaría viajar:");
                         Console.WriteLine("Turista");
                         Console.WriteLine("Primera clase");
                         Console.WriteLine("Negocios");
+                        Console.WriteLine(" ");
                         clase = Console.ReadLine();
-
-
+                        Console.WriteLine(" ");
 
                         if (clase == "turista")
                         {
@@ -4851,15 +5271,17 @@
 
                     case "KIRIBATI":
 
-                        Console.WriteLine("¿Cuantos dias planea viajar?");
+                        Console.WriteLine(" ");
+                        Console.WriteLine("¿Cuantos dias desea viajar? Ingrese la cantidad:");
                         dias = int.Parse(Console.ReadLine());
-
-                        Console.WriteLine("Escoja la clase de su vuelo:");
+                        Console.WriteLine(" ");
+                        Console.WriteLine("Ingrese la clase en la cual le gustaría viajar:");
                         Console.WriteLine("Turista");
                         Console.WriteLine("Primera clase");
                         Console.WriteLine("Negocios");
+                        Console.WriteLine(" ");
                         clase = Console.ReadLine();
-
+                        Console.WriteLine(" ");
 
 
                         if (clase == "turista")
@@ -4888,15 +5310,17 @@
 
                     case "NUEVA CALEDONIA":
 
-                        Console.WriteLine("¿Cuantos dias planea viajar?");
+                        Console.WriteLine(" ");
+                        Console.WriteLine("¿Cuantos dias desea viajar? Ingrese la cantidad:");
                         dias = int.Parse(Console.ReadLine());
-
-                        Console.WriteLine("Escoja la clase de su vuelo:");
+                        Console.WriteLine(" ");
+                        Console.WriteLine("Ingrese la clase en la cual le gustaría viajar:");
                         Console.WriteLine("Turista");
                         Console.WriteLine("Primera clase");
                         Console.WriteLine("Negocios");
+                        Console.WriteLine(" ");
                         clase = Console.ReadLine();
-
+                        Console.WriteLine(" ");
 
 
                         if (clase == "turista")
@@ -4925,15 +5349,17 @@
 
                     case "PALAOS":
 
-                        Console.WriteLine("¿Cuantos dias planea viajar?");
+                        Console.WriteLine(" ");
+                        Console.WriteLine("¿Cuantos dias desea viajar? Ingrese la cantidad:");
                         dias = int.Parse(Console.ReadLine());
-
-                        Console.WriteLine("Escoja la clase de su vuelo:");
+                        Console.WriteLine(" ");
+                        Console.WriteLine("Ingrese la clase en la cual le gustaría viajar:");
                         Console.WriteLine("Turista");
                         Console.WriteLine("Primera clase");
                         Console.WriteLine("Negocios");
+                        Console.WriteLine(" ");
                         clase = Console.ReadLine();
-
+                        Console.WriteLine(" ");
 
 
                         if (clase == "turista")
@@ -4962,15 +5388,17 @@
 
                     case "POLINESIA FRANCESA":
 
-                        Console.WriteLine("¿Cuantos dias planea viajar?");
+                        Console.WriteLine(" ");
+                        Console.WriteLine("¿Cuantos dias desea viajar? Ingrese la cantidad:");
                         dias = int.Parse(Console.ReadLine());
-
-                        Console.WriteLine("Escoja la clase de su vuelo:");
+                        Console.WriteLine(" ");
+                        Console.WriteLine("Ingrese la clase en la cual le gustaría viajar:");
                         Console.WriteLine("Turista");
                         Console.WriteLine("Primera clase");
                         Console.WriteLine("Negocios");
+                        Console.WriteLine(" ");
                         clase = Console.ReadLine();
-
+                        Console.WriteLine(" ");
 
 
                         if (clase == "turista")
@@ -4999,15 +5427,17 @@
 
                     case "ISLAS COOK (NUEVA ZELANDA)":
 
-                        Console.WriteLine("¿Cuantos dias planea viajar?");
+                        Console.WriteLine(" ");
+                        Console.WriteLine("¿Cuantos dias desea viajar? Ingrese la cantidad:");
                         dias = int.Parse(Console.ReadLine());
-
-                        Console.WriteLine("Escoja la clase de su vuelo:");
+                        Console.WriteLine(" ");
+                        Console.WriteLine("Ingrese la clase en la cual le gustaría viajar:");
                         Console.WriteLine("Turista");
                         Console.WriteLine("Primera clase");
                         Console.WriteLine("Negocios");
+                        Console.WriteLine(" ");
                         clase = Console.ReadLine();
-
+                        Console.WriteLine(" ");
 
 
                         if (clase == "turista")
@@ -5036,15 +5466,17 @@
 
                     case "ISLAS MARSHALL":
 
-                        Console.WriteLine("¿Cuantos dias planea viajar?");
+                        Console.WriteLine(" ");
+                        Console.WriteLine("¿Cuantos dias desea viajar? Ingrese la cantidad:");
                         dias = int.Parse(Console.ReadLine());
-
-                        Console.WriteLine("Escoja la clase de su vuelo:");
+                        Console.WriteLine(" ");
+                        Console.WriteLine("Ingrese la clase en la cual le gustaría viajar:");
                         Console.WriteLine("Turista");
                         Console.WriteLine("Primera clase");
                         Console.WriteLine("Negocios");
+                        Console.WriteLine(" ");
                         clase = Console.ReadLine();
-
+                        Console.WriteLine(" ");
 
 
                         if (clase == "turista")
@@ -5072,16 +5504,17 @@
                         break;
 
                     case "ISLAS SALOMON":
-
-                        Console.WriteLine("¿Cuantos dias planea viajar?");
+                        Console.WriteLine(" ");
+                        Console.WriteLine("¿Cuantos dias desea viajar? Ingrese la cantidad:");
                         dias = int.Parse(Console.ReadLine());
-
-                        Console.WriteLine("Escoja la clase de su vuelo:");
+                        Console.WriteLine(" ");
+                        Console.WriteLine("Ingrese la clase en la cual le gustaría viajar:");
                         Console.WriteLine("Turista");
                         Console.WriteLine("Primera clase");
                         Console.WriteLine("Negocios");
+                        Console.WriteLine(" ");
                         clase = Console.ReadLine();
-
+                        Console.WriteLine(" ");
 
 
                         if (clase == "turista")
@@ -5110,15 +5543,17 @@
 
                     case "SAMOA":
 
-                        Console.WriteLine("¿Cuantos dias planea viajar?");
+                        Console.WriteLine(" ");
+                        Console.WriteLine("¿Cuantos dias desea viajar? Ingrese la cantidad:");
                         dias = int.Parse(Console.ReadLine());
-
-                        Console.WriteLine("Escoja la clase de su vuelo:");
+                        Console.WriteLine(" ");
+                        Console.WriteLine("Ingrese la clase en la cual le gustaría viajar:");
                         Console.WriteLine("Turista");
                         Console.WriteLine("Primera clase");
                         Console.WriteLine("Negocios");
+                        Console.WriteLine(" ");
                         clase = Console.ReadLine();
-
+                        Console.WriteLine(" ");
 
 
                         if (clase == "turista")
@@ -5147,15 +5582,17 @@
 
                     case "TONGA":
 
-                        Console.WriteLine("¿Cuantos dias planea viajar?");
+                        Console.WriteLine(" ");
+                        Console.WriteLine("¿Cuantos dias desea viajar? Ingrese la cantidad:");
                         dias = int.Parse(Console.ReadLine());
-
-                        Console.WriteLine("Escoja la clase de su vuelo:");
+                        Console.WriteLine(" ");
+                        Console.WriteLine("Ingrese la clase en la cual le gustaría viajar:");
                         Console.WriteLine("Turista");
                         Console.WriteLine("Primera clase");
                         Console.WriteLine("Negocios");
+                        Console.WriteLine(" ");
                         clase = Console.ReadLine();
-
+                        Console.WriteLine(" ");
 
 
                         if (clase == "turista")
@@ -5184,15 +5621,17 @@
 
                     case "TUVALU":
 
-                        Console.WriteLine("¿Cuantos dias planea viajar?");
+                        Console.WriteLine(" ");
+                        Console.WriteLine("¿Cuantos dias desea viajar? Ingrese la cantidad:");
                         dias = int.Parse(Console.ReadLine());
-
-                        Console.WriteLine("Escoja la clase de su vuelo:");
+                        Console.WriteLine(" ");
+                        Console.WriteLine("Ingrese la clase en la cual le gustaría viajar:");
                         Console.WriteLine("Turista");
                         Console.WriteLine("Primera clase");
                         Console.WriteLine("Negocios");
+                        Console.WriteLine(" ");
                         clase = Console.ReadLine();
-
+                        Console.WriteLine(" ");
 
 
                         if (clase == "turista")
@@ -5221,15 +5660,17 @@
 
                     case "VANATU":
 
-                        Console.WriteLine("¿Cuantos dias planea viajar?");
+                        Console.WriteLine(" ");
+                        Console.WriteLine("¿Cuantos dias desea viajar? Ingrese la cantidad:");
                         dias = int.Parse(Console.ReadLine());
-
-                        Console.WriteLine("Escoja la clase de su vuelo:");
+                        Console.WriteLine(" ");
+                        Console.WriteLine("Ingrese la clase en la cual le gustaría viajar:");
                         Console.WriteLine("Turista");
                         Console.WriteLine("Primera clase");
                         Console.WriteLine("Negocios");
+                        Console.WriteLine(" ");
                         clase = Console.ReadLine();
-
+                        Console.WriteLine(" ");
 
 
                         if (clase == "turista")
@@ -5257,16 +5698,17 @@
                         break;
 
                     case "WALLIS Y FUTUNA":
-
-                        Console.WriteLine("¿Cuantos dias planea viajar?");
+                        Console.WriteLine(" ");
+                        Console.WriteLine("¿Cuantos dias desea viajar? Ingrese la cantidad:");
                         dias = int.Parse(Console.ReadLine());
-
-                        Console.WriteLine("Escoja la clase de su vuelo:");
+                        Console.WriteLine(" ");
+                        Console.WriteLine("Ingrese la clase en la cual le gustaría viajar:");
                         Console.WriteLine("Turista");
                         Console.WriteLine("Primera clase");
                         Console.WriteLine("Negocios");
+                        Console.WriteLine(" ");
                         clase = Console.ReadLine();
-
+                        Console.WriteLine(" ");
 
 
                         if (clase == "turista")
@@ -5365,14 +5807,17 @@
 
                     case "ANGOLA":
 
-                        Console.WriteLine("¿Cuantos dias planea viajar?");
+                        Console.WriteLine(" ");
+                        Console.WriteLine("¿Cuantos dias desea viajar? Ingrese la cantidad:");
                         dias = int.Parse(Console.ReadLine());
-
-                        Console.WriteLine("Escoja la clase de su vuelo:");
+                        Console.WriteLine(" ");
+                        Console.WriteLine("Ingrese la clase en la cual le gustaría viajar:");
                         Console.WriteLine("Turista");
                         Console.WriteLine("Primera clase");
                         Console.WriteLine("Negocios");
+                        Console.WriteLine(" ");
                         clase = Console.ReadLine();
+                        Console.WriteLine(" ");
 
                         if (clase == "turista")
                         {
@@ -5402,14 +5847,17 @@
 
                     case "ARGELIA":
 
-                        Console.WriteLine("¿Cuantos dias planea viajar?");
+                        Console.WriteLine(" ");
+                        Console.WriteLine("¿Cuantos dias desea viajar? Ingrese la cantidad:");
                         dias = int.Parse(Console.ReadLine());
-
-                        Console.WriteLine("Escoja la clase de su vuelo:");
+                        Console.WriteLine(" ");
+                        Console.WriteLine("Ingrese la clase en la cual le gustaría viajar:");
                         Console.WriteLine("Turista");
                         Console.WriteLine("Primera clase");
                         Console.WriteLine("Negocios");
+                        Console.WriteLine(" ");
                         clase = Console.ReadLine();
+                        Console.WriteLine(" ");
 
                         if (clase == "turista")
                         {
@@ -5439,14 +5887,17 @@
 
                     case "BENIN":
 
-                        Console.WriteLine("¿Cuantos dias planea viajar?");
+                        Console.WriteLine(" ");
+                        Console.WriteLine("¿Cuantos dias desea viajar? Ingrese la cantidad:");
                         dias = int.Parse(Console.ReadLine());
-
-                        Console.WriteLine("Escoja la clase de su vuelo:");
+                        Console.WriteLine(" ");
+                        Console.WriteLine("Ingrese la clase en la cual le gustaría viajar:");
                         Console.WriteLine("Turista");
                         Console.WriteLine("Primera clase");
                         Console.WriteLine("Negocios");
+                        Console.WriteLine(" ");
                         clase = Console.ReadLine();
+                        Console.WriteLine(" ");
 
                         if (clase == "turista")
                         {
@@ -5476,14 +5927,17 @@
 
                     case "BOTSUANA":
 
-                        Console.WriteLine("¿Cuantos dias planea viajar?");
+                        Console.WriteLine(" ");
+                        Console.WriteLine("¿Cuantos dias desea viajar? Ingrese la cantidad:");
                         dias = int.Parse(Console.ReadLine());
-
-                        Console.WriteLine("Escoja la clase de su vuelo:");
+                        Console.WriteLine(" ");
+                        Console.WriteLine("Ingrese la clase en la cual le gustaría viajar:");
                         Console.WriteLine("Turista");
                         Console.WriteLine("Primera clase");
                         Console.WriteLine("Negocios");
+                        Console.WriteLine(" ");
                         clase = Console.ReadLine();
+                        Console.WriteLine(" ");
 
                         if (clase == "turista")
                         {
@@ -5513,14 +5967,17 @@
 
                     case "BURUNDI":
 
-                        Console.WriteLine("¿Cuantos dias planea viajar?");
+                        Console.WriteLine(" ");
+                        Console.WriteLine("¿Cuantos dias desea viajar? Ingrese la cantidad:");
                         dias = int.Parse(Console.ReadLine());
-
-                        Console.WriteLine("Escoja la clase de su vuelo:");
+                        Console.WriteLine(" ");
+                        Console.WriteLine("Ingrese la clase en la cual le gustaría viajar:");
                         Console.WriteLine("Turista");
                         Console.WriteLine("Primera clase");
                         Console.WriteLine("Negocios");
+                        Console.WriteLine(" ");
                         clase = Console.ReadLine();
+                        Console.WriteLine(" ");
 
                         if (clase == "turista")
                         {
@@ -5550,14 +6007,17 @@
 
                     case "CAMERUN":
 
-                        Console.WriteLine("¿Cuantos dias planea viajar?");
+                        Console.WriteLine(" ");
+                        Console.WriteLine("¿Cuantos dias desea viajar? Ingrese la cantidad:");
                         dias = int.Parse(Console.ReadLine());
-
-                        Console.WriteLine("Escoja la clase de su vuelo:");
+                        Console.WriteLine(" ");
+                        Console.WriteLine("Ingrese la clase en la cual le gustaría viajar:");
                         Console.WriteLine("Turista");
                         Console.WriteLine("Primera clase");
                         Console.WriteLine("Negocios");
+                        Console.WriteLine(" ");
                         clase = Console.ReadLine();
+                        Console.WriteLine(" ");
 
                         if (clase == "turista")
                         {
@@ -5587,14 +6047,17 @@
 
                     case "COMORAS":
 
-                        Console.WriteLine("¿Cuantos dias planea viajar?");
+                        Console.WriteLine(" ");
+                        Console.WriteLine("¿Cuantos dias desea viajar? Ingrese la cantidad:");
                         dias = int.Parse(Console.ReadLine());
-
-                        Console.WriteLine("Escoja la clase de su vuelo:");
+                        Console.WriteLine(" ");
+                        Console.WriteLine("Ingrese la clase en la cual le gustaría viajar:");
                         Console.WriteLine("Turista");
                         Console.WriteLine("Primera clase");
                         Console.WriteLine("Negocios");
+                        Console.WriteLine(" ");
                         clase = Console.ReadLine();
+                        Console.WriteLine(" ");
 
                         if (clase == "turista")
                         {
@@ -5624,14 +6087,17 @@
 
                     case "BURKINA FASO":
 
-                        Console.WriteLine("¿Cuantos dias planea viajar?");
+                        Console.WriteLine(" ");
+                        Console.WriteLine("¿Cuantos dias desea viajar? Ingrese la cantidad:");
                         dias = int.Parse(Console.ReadLine());
-
-                        Console.WriteLine("Escoja la clase de su vuelo:");
+                        Console.WriteLine(" ");
+                        Console.WriteLine("Ingrese la clase en la cual le gustaría viajar:");
                         Console.WriteLine("Turista");
                         Console.WriteLine("Primera clase");
                         Console.WriteLine("Negocios");
+                        Console.WriteLine(" ");
                         clase = Console.ReadLine();
+                        Console.WriteLine(" ");
 
                         if (clase == "turista")
                         {
@@ -5661,14 +6127,17 @@
 
                     case "CABO VERDE":
 
-                        Console.WriteLine("¿Cuantos dias planea viajar?");
+                        Console.WriteLine(" ");
+                        Console.WriteLine("¿Cuantos dias desea viajar? Ingrese la cantidad:");
                         dias = int.Parse(Console.ReadLine());
-
-                        Console.WriteLine("Escoja la clase de su vuelo:");
+                        Console.WriteLine(" ");
+                        Console.WriteLine("Ingrese la clase en la cual le gustaría viajar:");
                         Console.WriteLine("Turista");
                         Console.WriteLine("Primera clase");
                         Console.WriteLine("Negocios");
+                        Console.WriteLine(" ");
                         clase = Console.ReadLine();
+                        Console.WriteLine(" ");
 
                         if (clase == "turista")
                         {
@@ -5698,14 +6167,17 @@
 
                     case "REPUBLICA CENTROAFRICANA":
 
-                        Console.WriteLine("¿Cuantos dias planea viajar?");
+                        Console.WriteLine(" ");
+                        Console.WriteLine("¿Cuantos dias desea viajar? Ingrese la cantidad:");
                         dias = int.Parse(Console.ReadLine());
-
-                        Console.WriteLine("Escoja la clase de su vuelo:");
+                        Console.WriteLine(" ");
+                        Console.WriteLine("Ingrese la clase en la cual le gustaría viajar:");
                         Console.WriteLine("Turista");
                         Console.WriteLine("Primera clase");
                         Console.WriteLine("Negocios");
+                        Console.WriteLine(" ");
                         clase = Console.ReadLine();
+                        Console.WriteLine(" ");
 
                         if (clase == "turista")
                         {
@@ -5735,14 +6207,17 @@
 
                     case "CHAD":
 
-                        Console.WriteLine("¿Cuantos dias planea viajar?");
+                        Console.WriteLine(" ");
+                        Console.WriteLine("¿Cuantos dias desea viajar? Ingrese la cantidad:");
                         dias = int.Parse(Console.ReadLine());
-
-                        Console.WriteLine("Escoja la clase de su vuelo:");
+                        Console.WriteLine(" ");
+                        Console.WriteLine("Ingrese la clase en la cual le gustaría viajar:");
                         Console.WriteLine("Turista");
                         Console.WriteLine("Primera clase");
                         Console.WriteLine("Negocios");
+                        Console.WriteLine(" ");
                         clase = Console.ReadLine();
+                        Console.WriteLine(" ");
 
                         if (clase == "turista")
                         {
@@ -5772,15 +6247,17 @@
 
                     case "YIBUTI":
 
-                        Console.WriteLine("¿Cuantos dias planea viajar?");
+                        Console.WriteLine(" ");
+                        Console.WriteLine("¿Cuantos dias desea viajar? Ingrese la cantidad:");
                         dias = int.Parse(Console.ReadLine());
-
-                        Console.WriteLine("Escoja la clase de su vuelo:");
+                        Console.WriteLine(" ");
+                        Console.WriteLine("Ingrese la clase en la cual le gustaría viajar:");
                         Console.WriteLine("Turista");
                         Console.WriteLine("Primera clase");
                         Console.WriteLine("Negocios");
+                        Console.WriteLine(" ");
                         clase = Console.ReadLine();
-
+                        Console.WriteLine(" ");
 
                         if (clase == "turista")
                         {
@@ -5810,14 +6287,17 @@
 
                     case "EGIPTO":
 
-                        Console.WriteLine("¿Cuantos dias planea viajar?");
+                        Console.WriteLine(" ");
+                        Console.WriteLine("¿Cuantos dias desea viajar? Ingrese la cantidad:");
                         dias = int.Parse(Console.ReadLine());
-
-                        Console.WriteLine("Escoja la clase de su vuelo:");
+                        Console.WriteLine(" ");
+                        Console.WriteLine("Ingrese la clase en la cual le gustaría viajar:");
                         Console.WriteLine("Turista");
                         Console.WriteLine("Primera clase");
                         Console.WriteLine("Negocios");
+                        Console.WriteLine(" ");
                         clase = Console.ReadLine();
+                        Console.WriteLine(" ");
 
                         if (clase == "turista")
                         {
@@ -5847,14 +6327,17 @@
 
                     case "GUINEA ECUATORIAL":
 
-                        Console.WriteLine("¿Cuantos dias planea viajar?");
+                        Console.WriteLine(" ");
+                        Console.WriteLine("¿Cuantos dias desea viajar? Ingrese la cantidad:");
                         dias = int.Parse(Console.ReadLine());
-
-                        Console.WriteLine("Escoja la clase de su vuelo:");
+                        Console.WriteLine(" ");
+                        Console.WriteLine("Ingrese la clase en la cual le gustaría viajar:");
                         Console.WriteLine("Turista");
                         Console.WriteLine("Primera clase");
                         Console.WriteLine("Negocios");
+                        Console.WriteLine(" ");
                         clase = Console.ReadLine();
+                        Console.WriteLine(" ");
 
                         if (clase == "turista")
                         {
@@ -5884,14 +6367,17 @@
 
                     case "ERITREA":
 
-                        Console.WriteLine("¿Cuantos dias planea viajar?");
+                        Console.WriteLine(" ");
+                        Console.WriteLine("¿Cuantos dias desea viajar? Ingrese la cantidad:");
                         dias = int.Parse(Console.ReadLine());
-
-                        Console.WriteLine("Escoja la clase de su vuelo:");
+                        Console.WriteLine(" ");
+                        Console.WriteLine("Ingrese la clase en la cual le gustaría viajar:");
                         Console.WriteLine("Turista");
                         Console.WriteLine("Primera clase");
                         Console.WriteLine("Negocios");
+                        Console.WriteLine(" ");
                         clase = Console.ReadLine();
+                        Console.WriteLine(" ");
 
                         if (clase == "turista")
                         {
@@ -5921,14 +6407,17 @@
 
                     case "ESWATINI":
 
-                        Console.WriteLine("¿Cuantos dias planea viajar?");
+                        Console.WriteLine(" ");
+                        Console.WriteLine("¿Cuantos dias desea viajar? Ingrese la cantidad:");
                         dias = int.Parse(Console.ReadLine());
-
-                        Console.WriteLine("Escoja la clase de su vuelo:");
+                        Console.WriteLine(" ");
+                        Console.WriteLine("Ingrese la clase en la cual le gustaría viajar:");
                         Console.WriteLine("Turista");
                         Console.WriteLine("Primera clase");
                         Console.WriteLine("Negocios");
+                        Console.WriteLine(" ");
                         clase = Console.ReadLine();
+                        Console.WriteLine(" ");
 
                         if (clase == "turista")
                         {
@@ -5958,14 +6447,17 @@
 
                     case "ETIOPIA":
 
-                        Console.WriteLine("¿Cuantos dias planea viajar?");
+                        Console.WriteLine(" ");
+                        Console.WriteLine("¿Cuantos dias desea viajar? Ingrese la cantidad:");
                         dias = int.Parse(Console.ReadLine());
-
-                        Console.WriteLine("Escoja la clase de su vuelo:");
+                        Console.WriteLine(" ");
+                        Console.WriteLine("Ingrese la clase en la cual le gustaría viajar:");
                         Console.WriteLine("Turista");
                         Console.WriteLine("Primera clase");
                         Console.WriteLine("Negocios");
+                        Console.WriteLine(" ");
                         clase = Console.ReadLine();
+                        Console.WriteLine(" ");
 
                         if (clase == "turista")
                         {
@@ -5994,15 +6486,17 @@
                         break;
 
                     case "GABON":
-
-                        Console.WriteLine("¿Cuantos dias planea viajar?");
+                        Console.WriteLine(" ");
+                        Console.WriteLine("¿Cuantos dias desea viajar? Ingrese la cantidad:");
                         dias = int.Parse(Console.ReadLine());
-
-                        Console.WriteLine("Escoja la clase de su vuelo:");
+                        Console.WriteLine(" ");
+                        Console.WriteLine("Ingrese la clase en la cual le gustaría viajar:");
                         Console.WriteLine("Turista");
                         Console.WriteLine("Primera clase");
                         Console.WriteLine("Negocios");
+                        Console.WriteLine(" ");
                         clase = Console.ReadLine();
+                        Console.WriteLine(" ");
 
                         if (clase == "turista")
                         {
@@ -6032,14 +6526,17 @@
 
                     case "GAMBIA":
 
-                        Console.WriteLine("¿Cuantos dias planea viajar?");
+                        Console.WriteLine(" ");
+                        Console.WriteLine("¿Cuantos dias desea viajar? Ingrese la cantidad:");
                         dias = int.Parse(Console.ReadLine());
-
-                        Console.WriteLine("Escoja la clase de su vuelo:");
+                        Console.WriteLine(" ");
+                        Console.WriteLine("Ingrese la clase en la cual le gustaría viajar:");
                         Console.WriteLine("Turista");
                         Console.WriteLine("Primera clase");
                         Console.WriteLine("Negocios");
+                        Console.WriteLine(" ");
                         clase = Console.ReadLine();
+                        Console.WriteLine(" ");
 
                         if (clase == "turista")
                         {
@@ -6069,14 +6566,17 @@
 
                     case "GHANA":
 
-                        Console.WriteLine("¿Cuantos dias planea viajar?");
+                        Console.WriteLine(" ");
+                        Console.WriteLine("¿Cuantos dias desea viajar? Ingrese la cantidad:");
                         dias = int.Parse(Console.ReadLine());
-
-                        Console.WriteLine("Escoja la clase de su vuelo:");
+                        Console.WriteLine(" ");
+                        Console.WriteLine("Ingrese la clase en la cual le gustaría viajar:");
                         Console.WriteLine("Turista");
                         Console.WriteLine("Primera clase");
                         Console.WriteLine("Negocios");
+                        Console.WriteLine(" ");
                         clase = Console.ReadLine();
+                        Console.WriteLine(" ");
 
                         if (clase == "turista")
                         {
@@ -6106,14 +6606,17 @@
 
                     case "GUINEA":
 
-                        Console.WriteLine("¿Cuantos dias planea viajar?");
+                        Console.WriteLine(" ");
+                        Console.WriteLine("¿Cuantos dias desea viajar? Ingrese la cantidad:");
                         dias = int.Parse(Console.ReadLine());
-
-                        Console.WriteLine("Escoja la clase de su vuelo:");
+                        Console.WriteLine(" ");
+                        Console.WriteLine("Ingrese la clase en la cual le gustaría viajar:");
                         Console.WriteLine("Turista");
                         Console.WriteLine("Primera clase");
                         Console.WriteLine("Negocios");
+                        Console.WriteLine(" ");
                         clase = Console.ReadLine();
+                        Console.WriteLine(" ");
 
                         if (clase == "turista")
                         {
@@ -6143,14 +6646,17 @@
 
                     case "GUINEA BISSAU":
 
-                        Console.WriteLine("¿Cuantos dias planea viajar?");
+                        Console.WriteLine(" ");
+                        Console.WriteLine("¿Cuantos dias desea viajar? Ingrese la cantidad:");
                         dias = int.Parse(Console.ReadLine());
-
-                        Console.WriteLine("Escoja la clase de su vuelo:");
+                        Console.WriteLine(" ");
+                        Console.WriteLine("Ingrese la clase en la cual le gustaría viajar:");
                         Console.WriteLine("Turista");
                         Console.WriteLine("Primera clase");
                         Console.WriteLine("Negocios");
+                        Console.WriteLine(" ");
                         clase = Console.ReadLine();
+                        Console.WriteLine(" ");
 
                         if (clase == "turista")
                         {
@@ -6180,14 +6686,17 @@
 
                     case "COSTA DE MARFIL":
 
-                        Console.WriteLine("¿Cuantos dias planea viajar?");
+                        Console.WriteLine(" ");
+                        Console.WriteLine("¿Cuantos dias desea viajar? Ingrese la cantidad:");
                         dias = int.Parse(Console.ReadLine());
-
-                        Console.WriteLine("Escoja la clase de su vuelo:");
+                        Console.WriteLine(" ");
+                        Console.WriteLine("Ingrese la clase en la cual le gustaría viajar:");
                         Console.WriteLine("Turista");
                         Console.WriteLine("Primera clase");
                         Console.WriteLine("Negocios");
+                        Console.WriteLine(" ");
                         clase = Console.ReadLine();
+                        Console.WriteLine(" ");
 
                         if (clase == "turista")
                         {
@@ -6217,14 +6726,17 @@
 
                     case "KENIA":
 
-                        Console.WriteLine("¿Cuantos dias planea viajar?");
+                        Console.WriteLine(" ");
+                        Console.WriteLine("¿Cuantos dias desea viajar? Ingrese la cantidad:");
                         dias = int.Parse(Console.ReadLine());
-
-                        Console.WriteLine("Escoja la clase de su vuelo:");
+                        Console.WriteLine(" ");
+                        Console.WriteLine("Ingrese la clase en la cual le gustaría viajar:");
                         Console.WriteLine("Turista");
                         Console.WriteLine("Primera clase");
                         Console.WriteLine("Negocios");
+                        Console.WriteLine(" ");
                         clase = Console.ReadLine();
+                        Console.WriteLine(" ");
 
                         if (clase == "turista")
                         {
@@ -6254,14 +6766,17 @@
 
                     case "LESOTO":
 
-                        Console.WriteLine("¿Cuantos dias planea viajar?");
+                        Console.WriteLine(" ");
+                        Console.WriteLine("¿Cuantos dias desea viajar? Ingrese la cantidad:");
                         dias = int.Parse(Console.ReadLine());
-
-                        Console.WriteLine("Escoja la clase de su vuelo:");
+                        Console.WriteLine(" ");
+                        Console.WriteLine("Ingrese la clase en la cual le gustaría viajar:");
                         Console.WriteLine("Turista");
                         Console.WriteLine("Primera clase");
                         Console.WriteLine("Negocios");
+                        Console.WriteLine(" ");
                         clase = Console.ReadLine();
+                        Console.WriteLine(" ");
 
                         if (clase == "turista")
                         {
@@ -6291,14 +6806,17 @@
 
                     case "LIBERIA":
 
-                        Console.WriteLine("¿Cuantos dias planea viajar?");
+                        Console.WriteLine(" ");
+                        Console.WriteLine("¿Cuantos dias desea viajar? Ingrese la cantidad:");
                         dias = int.Parse(Console.ReadLine());
-
-                        Console.WriteLine("Escoja la clase de su vuelo:");
+                        Console.WriteLine(" ");
+                        Console.WriteLine("Ingrese la clase en la cual le gustaría viajar:");
                         Console.WriteLine("Turista");
                         Console.WriteLine("Primera clase");
                         Console.WriteLine("Negocios");
+                        Console.WriteLine(" ");
                         clase = Console.ReadLine();
+                        Console.WriteLine(" ");
 
                         if (clase == "turista")
                         {
@@ -6328,14 +6846,17 @@
 
                     case "LIBIA":
 
-                        Console.WriteLine("¿Cuantos dias planea viajar?");
+                        Console.WriteLine(" ");
+                        Console.WriteLine("¿Cuantos dias desea viajar? Ingrese la cantidad:");
                         dias = int.Parse(Console.ReadLine());
-
-                        Console.WriteLine("Escoja la clase de su vuelo:");
+                        Console.WriteLine(" ");
+                        Console.WriteLine("Ingrese la clase en la cual le gustaría viajar:");
                         Console.WriteLine("Turista");
                         Console.WriteLine("Primera clase");
                         Console.WriteLine("Negocios");
+                        Console.WriteLine(" ");
                         clase = Console.ReadLine();
+                        Console.WriteLine(" ");
 
                         if (clase == "turista")
                         {
@@ -6365,14 +6886,17 @@
 
                     case "MADAGASCAR":
 
-                        Console.WriteLine("¿Cuantos dias planea viajar?");
+                        Console.WriteLine(" ");
+                        Console.WriteLine("¿Cuantos dias desea viajar? Ingrese la cantidad:");
                         dias = int.Parse(Console.ReadLine());
-
-                        Console.WriteLine("Escoja la clase de su vuelo:");
+                        Console.WriteLine(" ");
+                        Console.WriteLine("Ingrese la clase en la cual le gustaría viajar:");
                         Console.WriteLine("Turista");
                         Console.WriteLine("Primera clase");
                         Console.WriteLine("Negocios");
+                        Console.WriteLine(" ");
                         clase = Console.ReadLine();
+                        Console.WriteLine(" ");
 
                         if (clase == "turista")
                         {
@@ -6402,14 +6926,17 @@
 
                     case "MALAUI":
 
-                        Console.WriteLine("¿Cuantos dias planea viajar?");
+                        Console.WriteLine(" ");
+                        Console.WriteLine("¿Cuantos dias desea viajar? Ingrese la cantidad:");
                         dias = int.Parse(Console.ReadLine());
-
-                        Console.WriteLine("Escoja la clase de su vuelo:");
+                        Console.WriteLine(" ");
+                        Console.WriteLine("Ingrese la clase en la cual le gustaría viajar:");
                         Console.WriteLine("Turista");
                         Console.WriteLine("Primera clase");
                         Console.WriteLine("Negocios");
+                        Console.WriteLine(" ");
                         clase = Console.ReadLine();
+                        Console.WriteLine(" ");
 
                         if (clase == "turista")
                         {
@@ -6439,14 +6966,17 @@
 
                     case "MALI":
 
-                        Console.WriteLine("¿Cuantos dias planea viajar?");
+                        Console.WriteLine(" ");
+                        Console.WriteLine("¿Cuantos dias desea viajar? Ingrese la cantidad:");
                         dias = int.Parse(Console.ReadLine());
-
-                        Console.WriteLine("Escoja la clase de su vuelo:");
+                        Console.WriteLine(" ");
+                        Console.WriteLine("Ingrese la clase en la cual le gustaría viajar:");
                         Console.WriteLine("Turista");
                         Console.WriteLine("Primera clase");
                         Console.WriteLine("Negocios");
+                        Console.WriteLine(" ");
                         clase = Console.ReadLine();
+                        Console.WriteLine(" ");
 
                         if (clase == "turista")
                         {
@@ -6476,14 +7006,17 @@
 
                     case "MAURITANIA":
 
-                        Console.WriteLine("¿Cuantos dias planea viajar?");
+                        Console.WriteLine(" ");
+                        Console.WriteLine("¿Cuantos dias desea viajar? Ingrese la cantidad:");
                         dias = int.Parse(Console.ReadLine());
-
-                        Console.WriteLine("Escoja la clase de su vuelo:");
+                        Console.WriteLine(" ");
+                        Console.WriteLine("Ingrese la clase en la cual le gustaría viajar:");
                         Console.WriteLine("Turista");
                         Console.WriteLine("Primera clase");
                         Console.WriteLine("Negocios");
+                        Console.WriteLine(" ");
                         clase = Console.ReadLine();
+                        Console.WriteLine(" ");
 
                         if (clase == "turista")
                         {
@@ -6513,14 +7046,17 @@
 
                     case "MAURICIO":
 
-                        Console.WriteLine("¿Cuantos dias planea viajar?");
+                        Console.WriteLine(" ");
+                        Console.WriteLine("¿Cuantos dias desea viajar? Ingrese la cantidad:");
                         dias = int.Parse(Console.ReadLine());
-
-                        Console.WriteLine("Escoja la clase de su vuelo:");
+                        Console.WriteLine(" ");
+                        Console.WriteLine("Ingrese la clase en la cual le gustaría viajar:");
                         Console.WriteLine("Turista");
                         Console.WriteLine("Primera clase");
                         Console.WriteLine("Negocios");
+                        Console.WriteLine(" ");
                         clase = Console.ReadLine();
+                        Console.WriteLine(" ");
 
                         if (clase == "turista")
                         {
@@ -6550,14 +7086,17 @@
 
                     case "MARRUECOS":
 
-                        Console.WriteLine("¿Cuantos dias planea viajar?");
+                        Console.WriteLine(" ");
+                        Console.WriteLine("¿Cuantos dias desea viajar? Ingrese la cantidad:");
                         dias = int.Parse(Console.ReadLine());
-
-                        Console.WriteLine("Escoja la clase de su vuelo:");
+                        Console.WriteLine(" ");
+                        Console.WriteLine("Ingrese la clase en la cual le gustaría viajar:");
                         Console.WriteLine("Turista");
                         Console.WriteLine("Primera clase");
                         Console.WriteLine("Negocios");
+                        Console.WriteLine(" ");
                         clase = Console.ReadLine();
+                        Console.WriteLine(" ");
 
                         if (clase == "turista")
                         {
@@ -6587,14 +7126,17 @@
 
                     case "MOZAMBIQUE":
 
-                        Console.WriteLine("¿Cuantos dias planea viajar?");
+                        Console.WriteLine(" ");
+                        Console.WriteLine("¿Cuantos dias desea viajar? Ingrese la cantidad:");
                         dias = int.Parse(Console.ReadLine());
-
-                        Console.WriteLine("Escoja la clase de su vuelo:");
+                        Console.WriteLine(" ");
+                        Console.WriteLine("Ingrese la clase en la cual le gustaría viajar:");
                         Console.WriteLine("Turista");
                         Console.WriteLine("Primera clase");
                         Console.WriteLine("Negocios");
+                        Console.WriteLine(" ");
                         clase = Console.ReadLine();
+                        Console.WriteLine(" ");
 
                         if (clase == "turista")
                         {
@@ -6624,14 +7166,17 @@
 
                     case "NAMIBIA":
 
-                        Console.WriteLine("¿Cuantos dias planea viajar?");
+                        Console.WriteLine(" ");
+                        Console.WriteLine("¿Cuantos dias desea viajar? Ingrese la cantidad:");
                         dias = int.Parse(Console.ReadLine());
-
-                        Console.WriteLine("Escoja la clase de su vuelo:");
+                        Console.WriteLine(" ");
+                        Console.WriteLine("Ingrese la clase en la cual le gustaría viajar:");
                         Console.WriteLine("Turista");
                         Console.WriteLine("Primera clase");
                         Console.WriteLine("Negocios");
+                        Console.WriteLine(" ");
                         clase = Console.ReadLine();
+                        Console.WriteLine(" ");
 
                         if (clase == "turista")
                         {
@@ -6661,14 +7206,17 @@
 
                     case "NIGER":
 
-                        Console.WriteLine("¿Cuantos dias planea viajar?");
+                        Console.WriteLine(" ");
+                        Console.WriteLine("¿Cuantos dias desea viajar? Ingrese la cantidad:");
                         dias = int.Parse(Console.ReadLine());
-
-                        Console.WriteLine("Escoja la clase de su vuelo:");
+                        Console.WriteLine(" ");
+                        Console.WriteLine("Ingrese la clase en la cual le gustaría viajar:");
                         Console.WriteLine("Turista");
                         Console.WriteLine("Primera clase");
                         Console.WriteLine("Negocios");
+                        Console.WriteLine(" ");
                         clase = Console.ReadLine();
+                        Console.WriteLine(" ");
 
                         if (clase == "turista")
                         {
@@ -6698,14 +7246,17 @@
 
                     case "NIGERIA":
 
-                        Console.WriteLine("¿Cuantos dias planea viajar?");
+                        Console.WriteLine(" ");
+                        Console.WriteLine("¿Cuantos dias desea viajar? Ingrese la cantidad:");
                         dias = int.Parse(Console.ReadLine());
-
-                        Console.WriteLine("Escoja la clase de su vuelo:");
+                        Console.WriteLine(" ");
+                        Console.WriteLine("Ingrese la clase en la cual le gustaría viajar:");
                         Console.WriteLine("Turista");
                         Console.WriteLine("Primera clase");
                         Console.WriteLine("Negocios");
+                        Console.WriteLine(" ");
                         clase = Console.ReadLine();
+                        Console.WriteLine(" ");
 
                         if (clase == "turista")
                         {
@@ -6735,14 +7286,17 @@
 
                     case "REPUBLICA DEL CONGO":
 
-                        Console.WriteLine("¿Cuantos dias planea viajar?");
+                        Console.WriteLine(" ");
+                        Console.WriteLine("¿Cuantos dias desea viajar? Ingrese la cantidad:");
                         dias = int.Parse(Console.ReadLine());
-
-                        Console.WriteLine("Escoja la clase de su vuelo:");
+                        Console.WriteLine(" ");
+                        Console.WriteLine("Ingrese la clase en la cual le gustaría viajar:");
                         Console.WriteLine("Turista");
                         Console.WriteLine("Primera clase");
                         Console.WriteLine("Negocios");
+                        Console.WriteLine(" ");
                         clase = Console.ReadLine();
+                        Console.WriteLine(" ");
 
                         if (clase == "turista")
                         {
@@ -6772,14 +7326,17 @@
 
                     case "RUANDA":
 
-                        Console.WriteLine("¿Cuantos dias planea viajar?");
+                        Console.WriteLine(" ");
+                        Console.WriteLine("¿Cuantos dias desea viajar? Ingrese la cantidad:");
                         dias = int.Parse(Console.ReadLine());
-
-                        Console.WriteLine("Escoja la clase de su vuelo:");
+                        Console.WriteLine(" ");
+                        Console.WriteLine("Ingrese la clase en la cual le gustaría viajar:");
                         Console.WriteLine("Turista");
                         Console.WriteLine("Primera clase");
                         Console.WriteLine("Negocios");
+                        Console.WriteLine(" ");
                         clase = Console.ReadLine();
+                        Console.WriteLine(" ");
 
                         if (clase == "turista")
                         {
@@ -6809,14 +7366,17 @@
 
                     case "SANTO TOME Y PRINCIPE":
 
-                        Console.WriteLine("¿Cuantos dias planea viajar?");
+                        Console.WriteLine(" ");
+                        Console.WriteLine("¿Cuantos dias desea viajar? Ingrese la cantidad:");
                         dias = int.Parse(Console.ReadLine());
-
-                        Console.WriteLine("Escoja la clase de su vuelo:");
+                        Console.WriteLine(" ");
+                        Console.WriteLine("Ingrese la clase en la cual le gustaría viajar:");
                         Console.WriteLine("Turista");
                         Console.WriteLine("Primera clase");
                         Console.WriteLine("Negocios");
+                        Console.WriteLine(" ");
                         clase = Console.ReadLine();
+                        Console.WriteLine(" ");
 
                         if (clase == "turista")
                         {
@@ -6846,14 +7406,17 @@
 
                     case "SENEGAL":
 
-                        Console.WriteLine("¿Cuantos dias planea viajar?");
+                        Console.WriteLine(" ");
+                        Console.WriteLine("¿Cuantos dias desea viajar? Ingrese la cantidad:");
                         dias = int.Parse(Console.ReadLine());
-
-                        Console.WriteLine("Escoja la clase de su vuelo:");
+                        Console.WriteLine(" ");
+                        Console.WriteLine("Ingrese la clase en la cual le gustaría viajar:");
                         Console.WriteLine("Turista");
                         Console.WriteLine("Primera clase");
                         Console.WriteLine("Negocios");
+                        Console.WriteLine(" ");
                         clase = Console.ReadLine();
+                        Console.WriteLine(" ");
 
                         if (clase == "turista")
                         {
@@ -6883,14 +7446,17 @@
 
                     case "SEYCHELLES":
 
-                        Console.WriteLine("¿Cuantos dias planea viajar?");
+                        Console.WriteLine(" ");
+                        Console.WriteLine("¿Cuantos dias desea viajar? Ingrese la cantidad:");
                         dias = int.Parse(Console.ReadLine());
-
-                        Console.WriteLine("Escoja la clase de su vuelo:");
+                        Console.WriteLine(" ");
+                        Console.WriteLine("Ingrese la clase en la cual le gustaría viajar:");
                         Console.WriteLine("Turista");
                         Console.WriteLine("Primera clase");
                         Console.WriteLine("Negocios");
+                        Console.WriteLine(" ");
                         clase = Console.ReadLine();
+                        Console.WriteLine(" ");
 
                         if (clase == "turista")
                         {
@@ -6920,14 +7486,17 @@
 
                     case "SIERRA LEONA":
 
-                        Console.WriteLine("¿Cuantos dias planea viajar?");
+                        Console.WriteLine(" ");
+                        Console.WriteLine("¿Cuantos dias desea viajar? Ingrese la cantidad:");
                         dias = int.Parse(Console.ReadLine());
-
-                        Console.WriteLine("Escoja la clase de su vuelo:");
+                        Console.WriteLine(" ");
+                        Console.WriteLine("Ingrese la clase en la cual le gustaría viajar:");
                         Console.WriteLine("Turista");
                         Console.WriteLine("Primera clase");
                         Console.WriteLine("Negocios");
+                        Console.WriteLine(" ");
                         clase = Console.ReadLine();
+                        Console.WriteLine(" ");
 
                         if (clase == "turista")
                         {
@@ -6957,14 +7526,17 @@
 
                     case "SOMALIA":
 
-                        Console.WriteLine("¿Cuantos dias planea viajar?");
+                        Console.WriteLine(" ");
+                        Console.WriteLine("¿Cuantos dias desea viajar? Ingrese la cantidad:");
                         dias = int.Parse(Console.ReadLine());
-
-                        Console.WriteLine("Escoja la clase de su vuelo:");
+                        Console.WriteLine(" ");
+                        Console.WriteLine("Ingrese la clase en la cual le gustaría viajar:");
                         Console.WriteLine("Turista");
                         Console.WriteLine("Primera clase");
                         Console.WriteLine("Negocios");
+                        Console.WriteLine(" ");
                         clase = Console.ReadLine();
+                        Console.WriteLine(" ");
 
                         if (clase == "turista")
                         {
@@ -6994,14 +7566,17 @@
 
                     case "SUDAFRICA":
 
-                        Console.WriteLine("¿Cuantos dias planea viajar?");
+                        Console.WriteLine(" ");
+                        Console.WriteLine("¿Cuantos dias desea viajar? Ingrese la cantidad:");
                         dias = int.Parse(Console.ReadLine());
-
-                        Console.WriteLine("Escoja la clase de su vuelo:");
+                        Console.WriteLine(" ");
+                        Console.WriteLine("Ingrese la clase en la cual le gustaría viajar:");
                         Console.WriteLine("Turista");
                         Console.WriteLine("Primera clase");
                         Console.WriteLine("Negocios");
+                        Console.WriteLine(" ");
                         clase = Console.ReadLine();
+                        Console.WriteLine(" ");
 
                         if (clase == "turista")
                         {
@@ -7031,14 +7606,17 @@
 
                     case "SUDAN":
 
-                        Console.WriteLine("¿Cuantos dias planea viajar?");
+                        Console.WriteLine(" ");
+                        Console.WriteLine("¿Cuantos dias desea viajar? Ingrese la cantidad:");
                         dias = int.Parse(Console.ReadLine());
-
-                        Console.WriteLine("Escoja la clase de su vuelo:");
+                        Console.WriteLine(" ");
+                        Console.WriteLine("Ingrese la clase en la cual le gustaría viajar:");
                         Console.WriteLine("Turista");
                         Console.WriteLine("Primera clase");
                         Console.WriteLine("Negocios");
+                        Console.WriteLine(" ");
                         clase = Console.ReadLine();
+                        Console.WriteLine(" ");
 
                         if (clase == "turista")
                         {
@@ -7068,14 +7646,17 @@
 
                     case "SUDAN DEL SUR":
 
-                        Console.WriteLine("¿Cuantos dias planea viajar?");
+                        Console.WriteLine(" ");
+                        Console.WriteLine("¿Cuantos dias desea viajar? Ingrese la cantidad:");
                         dias = int.Parse(Console.ReadLine());
-
-                        Console.WriteLine("Escoja la clase de su vuelo:");
+                        Console.WriteLine(" ");
+                        Console.WriteLine("Ingrese la clase en la cual le gustaría viajar:");
                         Console.WriteLine("Turista");
                         Console.WriteLine("Primera clase");
                         Console.WriteLine("Negocios");
+                        Console.WriteLine(" ");
                         clase = Console.ReadLine();
+                        Console.WriteLine(" ");
 
                         if (clase == "turista")
                         {
@@ -7105,14 +7686,17 @@
 
                     case "TANZANIA":
 
-                        Console.WriteLine("¿Cuantos dias planea viajar?");
+                        Console.WriteLine(" ");
+                        Console.WriteLine("¿Cuantos dias desea viajar? Ingrese la cantidad:");
                         dias = int.Parse(Console.ReadLine());
-
-                        Console.WriteLine("Escoja la clase de su vuelo:");
+                        Console.WriteLine(" ");
+                        Console.WriteLine("Ingrese la clase en la cual le gustaría viajar:");
                         Console.WriteLine("Turista");
                         Console.WriteLine("Primera clase");
                         Console.WriteLine("Negocios");
+                        Console.WriteLine(" ");
                         clase = Console.ReadLine();
+                        Console.WriteLine(" ");
 
                         if (clase == "turista")
                         {
@@ -7142,14 +7726,17 @@
 
                     case "TOGO":
 
-                        Console.WriteLine("¿Cuantos dias planea viajar?");
+                        Console.WriteLine(" ");
+                        Console.WriteLine("¿Cuantos dias desea viajar? Ingrese la cantidad:");
                         dias = int.Parse(Console.ReadLine());
-
-                        Console.WriteLine("Escoja la clase de su vuelo:");
+                        Console.WriteLine(" ");
+                        Console.WriteLine("Ingrese la clase en la cual le gustaría viajar:");
                         Console.WriteLine("Turista");
                         Console.WriteLine("Primera clase");
                         Console.WriteLine("Negocios");
+                        Console.WriteLine(" ");
                         clase = Console.ReadLine();
+                        Console.WriteLine(" ");
 
                         if (clase == "turista")
                         {
@@ -7179,14 +7766,17 @@
 
                     case "TUNEZ":
 
-                        Console.WriteLine("¿Cuantos dias planea viajar?");
+                        Console.WriteLine(" ");
+                        Console.WriteLine("¿Cuantos dias desea viajar? Ingrese la cantidad:");
                         dias = int.Parse(Console.ReadLine());
-
-                        Console.WriteLine("Escoja la clase de su vuelo:");
+                        Console.WriteLine(" ");
+                        Console.WriteLine("Ingrese la clase en la cual le gustaría viajar:");
                         Console.WriteLine("Turista");
                         Console.WriteLine("Primera clase");
                         Console.WriteLine("Negocios");
+                        Console.WriteLine(" ");
                         clase = Console.ReadLine();
+                        Console.WriteLine(" ");
 
                         if (clase == "turista")
                         {
@@ -7216,14 +7806,17 @@
 
                     case "UGANDA":
 
-                        Console.WriteLine("¿Cuantos dias planea viajar?");
+                        Console.WriteLine(" ");
+                        Console.WriteLine("¿Cuantos dias desea viajar? Ingrese la cantidad:");
                         dias = int.Parse(Console.ReadLine());
-
-                        Console.WriteLine("Escoja la clase de su vuelo:");
+                        Console.WriteLine(" ");
+                        Console.WriteLine("Ingrese la clase en la cual le gustaría viajar:");
                         Console.WriteLine("Turista");
                         Console.WriteLine("Primera clase");
                         Console.WriteLine("Negocios");
+                        Console.WriteLine(" ");
                         clase = Console.ReadLine();
+                        Console.WriteLine(" ");
 
                         if (clase == "turista")
                         {
@@ -7253,14 +7846,17 @@
 
                     case "ZAMBIA":
 
-                        Console.WriteLine("¿Cuantos dias planea viajar?");
+                        Console.WriteLine(" ");
+                        Console.WriteLine("¿Cuantos dias desea viajar? Ingrese la cantidad:");
                         dias = int.Parse(Console.ReadLine());
-
-                        Console.WriteLine("Escoja la clase de su vuelo:");
+                        Console.WriteLine(" ");
+                        Console.WriteLine("Ingrese la clase en la cual le gustaría viajar:");
                         Console.WriteLine("Turista");
                         Console.WriteLine("Primera clase");
                         Console.WriteLine("Negocios");
+                        Console.WriteLine(" ");
                         clase = Console.ReadLine();
+                        Console.WriteLine(" ");
 
                         if (clase == "turista")
                         {
@@ -7290,14 +7886,17 @@
 
                     case "ZIMBABUE":
 
-                        Console.WriteLine("¿Cuantos dias planea viajar?");
+                        Console.WriteLine(" ");
+                        Console.WriteLine("¿Cuantos dias desea viajar? Ingrese la cantidad:");
                         dias = int.Parse(Console.ReadLine());
-
-                        Console.WriteLine("Escoja la clase de su vuelo:");
+                        Console.WriteLine(" ");
+                        Console.WriteLine("Ingrese la clase en la cual le gustaría viajar:");
                         Console.WriteLine("Turista");
                         Console.WriteLine("Primera clase");
                         Console.WriteLine("Negocios");
+                        Console.WriteLine(" ");
                         clase = Console.ReadLine();
+                        Console.WriteLine(" ");
 
                         if (clase == "turista")
                         {
