@@ -1302,7 +1302,7 @@
                         codigo = rnd.Next(100000, 999999);
                         Console.WriteLine("Estimado cliente " + nombre + " Usted ha comprado un vuelo desde El Salvador con destino a " + pais);
                         Console.WriteLine("Con una duracion de " + dias + " dias");
-                        Console.WriteLine("El numero de su vuelo es: " + codigo + " ¡le deseamos un excelente viaje! ");
+                        Console.WriteLine("El numero de su vuelo es: " + codigo + " ¡Le deseamos un excelente viaje! ");
                         Console.ReadKey();
                         break;
 
@@ -1313,7 +1313,7 @@
 
                 }
                 break;
-
+                
             case "EUROPA":
 
                 Console.WriteLine(" ");
@@ -1360,9 +1360,9 @@
                 Console.WriteLine("MONACO");
                 Console.WriteLine(" ");
 
-                pais = Console.ReadLine();
+                pais = Console.ReadLine().ToUpper();
 
-                switch (pais.ToUpper())
+                switch (pais)
                 {
                     case "RUSIA":
                         Console.WriteLine(" ");
@@ -1380,25 +1380,25 @@
                         if (clase == "primera clase")
                         {
                             costo = dias * 200;
-                            Console.WriteLine("el costo de su ticket es de " + costo + "dolares");
+                            Console.WriteLine("el costo de su ticket es de " + costo + " dolares");
                         }
 
                         if (clase == "turista")
                         {
                             costo = dias * 150;
-                            Console.WriteLine("el costo de su ticket es de " + costo + "dolares ");
+                            Console.WriteLine("el costo de su ticket es de " + costo + " dolares ");
 
                         }
 
                         if (clase == "negocios")
                         {
                             costo = dias * 300;
-                            Console.WriteLine("el costo de su ticket es de " + costo + "dolares");
+                            Console.WriteLine("el costo de su ticket es de " + costo + " dolares");
                         }
                         codigo = rnd.Next(100000, 999999);
                         Console.WriteLine("Estimado cliente " + nombre + " Usted ha comprado un vuelo desde El Salvador con destino a " + pais);
                         Console.WriteLine("Con una duracion de " + dias + " dias");
-                        Console.WriteLine("El numero de su vuelo es: " + codigo + " ¡le deseamos un excelente viaje");
+                        Console.WriteLine("El numero de su vuelo es: " + codigo + " ¡Le deseamos un excelente viaje! ");
                         Console.ReadKey();
                         break;
 
@@ -1418,26 +1418,26 @@
                         if (clase == "primeraclase")
                         {
                             costo = dias * 250;
-                            Console.WriteLine("el costo de su ticket es de " + costo + "dolares");
+                            Console.WriteLine("el costo de su ticket es de " + costo + " dolares");
                         }
 
                         if (clase == "turista")
                         {
                             costo = dias * 120;
-                            Console.WriteLine("el costo de su ticket es de " + costo + "dolares ");
+                            Console.WriteLine("el costo de su ticket es de " + costo + " dolares ");
 
                         }
 
                         if (clase == "negocios")
                         {
                             costo = dias * 200;
-                            Console.WriteLine("el costo de su ticket es de " + costo + "dolares");
+                            Console.WriteLine("el costo de su ticket es de " + costo + " dolares");
                         }
 
                         codigo = rnd.Next(100000, 999999);
                         Console.WriteLine("Estimado cliente " + nombre + " Usted ha comprado un vuelo desde El Salvador con destino a " + pais);
                         Console.WriteLine("Con una duracion de " + dias + " dias");
-                        Console.WriteLine("El numero de su vuelo es: " + codigo + " ¡le deseamos un excelente viaje");
+                        Console.WriteLine("El numero de su vuelo es: " + codigo + " ¡Le deseamos un excelente viaje!");
                         Console.ReadKey();
 
                         break;
@@ -1458,26 +1458,26 @@
                         if (clase == "primeraclase")
                         {
                             costo = dias * 250;
-                            Console.WriteLine("el costo de su ticket es de " + costo + "dolares");
+                            Console.WriteLine("el costo de su ticket es de " + costo + " dolares");
                         }
 
                         if (clase == "turista")
                         {
                             costo = dias * 200;
-                            Console.WriteLine("el costo de su ticket es de " + costo + "dolares ");
+                            Console.WriteLine("el costo de su ticket es de " + costo + " dolares ");
 
                         }
 
                         if (clase == "negocios")
                         {
                             costo = dias * 350;
-                            Console.WriteLine("el costo de su ticket es de " + costo + "dolares");
+                            Console.WriteLine("el costo de su ticket es de " + costo + " dolares");
                         }
 
                         codigo = rnd.Next(100000, 999999);
                         Console.WriteLine("Estimado cliente " + nombre + " Usted ha comprado un vuelo desde El Salvador con destino a " + pais);
                         Console.WriteLine("Con una duracion de " + dias + " dias");
-                        Console.WriteLine("El numero de su vuelo es: " + codigo + " ¡le deseamos un excelente viaje");
+                        Console.WriteLine("El numero de su vuelo es: " + codigo + " ¡Le deseamos un excelente viaje!");
                         Console.ReadKey();
 
                         break;
@@ -1498,26 +1498,26 @@
                         if (clase == "primeraclase")
                         {
                             costo = dias * 2500;
-                            Console.WriteLine("el costo de su ticket es de " + costo + "dolares");
+                            Console.WriteLine("el costo de su ticket es de " + costo + " dolares");
                         }
 
                         if (clase == "turista")
                         {
                             costo = dias * 2000;
-                            Console.WriteLine("el costo de su ticket es de " + costo + "dolares ");
+                            Console.WriteLine("el costo de su ticket es de " + costo + " dolares ");
 
                         }
 
                         if (clase == "negocios")
                         {
                             costo = dias * 1500;
-                            Console.WriteLine("el costo de su ticket es de " + costo + "dolares");
+                            Console.WriteLine("el costo de su ticket es de " + costo + " dolares");
                         }
 
                         codigo = rnd.Next(100000, 999999);
                         Console.WriteLine("Estimado cliente " + nombre + " Usted ha comprado un vuelo desde El Salvador con destino a " + pais);
                         Console.WriteLine("Con una duracion de " + dias + " dias");
-                        Console.WriteLine("El numero de su vuelo es: " + codigo + " ¡le deseamos un excelente viaje");
+                        Console.WriteLine("El numero de su vuelo es: " + codigo + " ¡Le deseamos un excelente viaje!");
                         Console.ReadKey();
 
                         break;
@@ -1538,26 +1538,26 @@
                         if (clase == "primeraclase")
                         {
                             costo = dias * 1250;
-                            Console.WriteLine("el costo de su ticket es de " + costo + "dolares");
+                            Console.WriteLine("el costo de su ticket es de " + costo + " dolares");
                         }
 
                         if (clase == "turista")
                         {
                             costo = dias * 1000;
-                            Console.WriteLine("el costo de su ticket es de " + costo + "dolares ");
+                            Console.WriteLine("el costo de su ticket es de " + costo + " dolares ");
 
                         }
 
                         if (clase == "negocios")
                         {
                             costo = dias * 900;
-                            Console.WriteLine("el costo de su ticket es de " + costo + "dolares");
+                            Console.WriteLine("el costo de su ticket es de " + costo + " dolares");
                         }
 
                         codigo = rnd.Next(100000, 999999);
                         Console.WriteLine("Estimado cliente " + nombre + " Usted ha comprado un vuelo desde El Salvador con destino a " + pais);
                         Console.WriteLine("Con una duracion de " + dias + " dias");
-                        Console.WriteLine("El numero de su vuelo es: " + codigo + " ¡le deseamos un excelente viaje");
+                        Console.WriteLine("El numero de su vuelo es: " + codigo + " ¡Le deseamos un excelente viaje!");
                         Console.ReadKey();
 
                         break;
@@ -1578,26 +1578,26 @@
                         if (clase == "primeraclase")
                         {
                             costo = dias * 2000;
-                            Console.WriteLine("el costo de su ticket es de " + costo + "dolares");
+                            Console.WriteLine("el costo de su ticket es de " + costo + " dolares");
                         }
 
                         if (clase == "turista")
                         {
                             costo = dias * 1500;
-                            Console.WriteLine("el costo de su ticket es de " + costo + "dolares ");
+                            Console.WriteLine("el costo de su ticket es de " + costo + " dolares ");
 
                         }
 
                         if (clase == "negocios")
                         {
                             costo = dias * 1000;
-                            Console.WriteLine("el costo de su ticket es de " + costo + "dolares");
+                            Console.WriteLine("el costo de su ticket es de " + costo + " dolares");
                         }
 
                         codigo = rnd.Next(100000, 999999);
                         Console.WriteLine("Estimado cliente " + nombre + " Usted ha comprado un vuelo desde El Salvador con destino a " + pais);
                         Console.WriteLine("Con una duracion de " + dias + " dias");
-                        Console.WriteLine("El numero de su vuelo es: " + codigo + " ¡le deseamos un excelente viaje");
+                        Console.WriteLine("El numero de su vuelo es: " + codigo + " ¡Le deseamos un excelente viaje!");
                         Console.ReadKey();
 
                         break;
@@ -1618,26 +1618,26 @@
                         if (clase == "primeraclase")
                         {
                             costo = dias * 900;
-                            Console.WriteLine("el costo de su ticket es de " + costo + "dolares");
+                            Console.WriteLine("el costo de su ticket es de " + costo + " dolares");
                         }
 
                         if (clase == "turista")
                         {
                             costo = dias * 400;
-                            Console.WriteLine("el costo de su ticket es de " + costo + "dolares ");
+                            Console.WriteLine("el costo de su ticket es de " + costo + " dolares ");
 
                         }
 
                         if (clase == "negocios")
                         {
                             costo = dias * 450;
-                            Console.WriteLine("el costo de su ticket es de " + costo + "dolares");
+                            Console.WriteLine("el costo de su ticket es de " + costo + " dolares");
                         }
 
                         codigo = rnd.Next(100000, 999999);
                         Console.WriteLine("Estimado cliente " + nombre + " Usted ha comprado un vuelo desde El Salvador con destino a " + pais);
                         Console.WriteLine("Con una duracion de " + dias + " dias");
-                        Console.WriteLine("El numero de su vuelo es: " + codigo + " ¡le deseamos un excelente viaje");
+                        Console.WriteLine("El numero de su vuelo es: " + codigo + " ¡Le deseamos un excelente viaje!");
                         Console.ReadKey();
 
                         break;
@@ -1658,26 +1658,26 @@
                         if (clase == "primeraclase")
                         {
                             costo = dias * 800;
-                            Console.WriteLine("el costo de su ticket es de " + costo + "dolares");
+                            Console.WriteLine("el costo de su ticket es de " + costo + " dolares");
                         }
 
                         if (clase == "turista")
                         {
                             costo = dias * 500;
-                            Console.WriteLine("el costo de su ticket es de " + costo + "dolares ");
+                            Console.WriteLine("el costo de su ticket es de " + costo + " dolares ");
 
                         }
 
                         if (clase == "negocios")
                         {
                             costo = dias * 500;
-                            Console.WriteLine("el costo de su ticket es de " + costo + "dolares");
+                            Console.WriteLine("el costo de su ticket es de " + costo + " dolares");
                         }
 
                         codigo = rnd.Next(100000, 999999);
                         Console.WriteLine("Estimado cliente " + nombre + " Usted ha comprado un vuelo desde El Salvador con destino a " + pais);
                         Console.WriteLine("Con una duracion de " + dias + " dias");
-                        Console.WriteLine("El numero de su vuelo es: " + codigo + " ¡le deseamos un excelente viaje");
+                        Console.WriteLine("El numero de su vuelo es: " + codigo + " ¡Le deseamos un excelente viaje!");
                         Console.ReadKey();
 
                         break;
@@ -1698,26 +1698,26 @@
                         if (clase == "primeraclase")
                         {
                             costo = dias * 1000;
-                            Console.WriteLine("el costo de su ticket es de " + costo + "dolares");
+                            Console.WriteLine("el costo de su ticket es de " + costo + " dolares");
                         }
 
                         if (clase == "turista")
                         {
                             costo = dias * 650;
-                            Console.WriteLine("el costo de su ticket es de " + costo + "dolares ");
+                            Console.WriteLine("el costo de su ticket es de " + costo + " dolares ");
 
                         }
 
                         if (clase == "negocios")
                         {
                             costo = dias * 700;
-                            Console.WriteLine("el costo de su ticket es de " + costo + "dolares");
+                            Console.WriteLine("el costo de su ticket es de " + costo + " dolares");
                         }
 
                         codigo = rnd.Next(100000, 999999);
                         Console.WriteLine("Estimado cliente " + nombre + " Usted ha comprado un vuelo desde El Salvador con destino a " + pais);
                         Console.WriteLine("Con una duracion de " + dias + " dias");
-                        Console.WriteLine("El numero de su vuelo es: " + codigo + " ¡le deseamos un excelente viaje");
+                        Console.WriteLine("El numero de su vuelo es: " + codigo + " ¡Le deseamos un excelente viaje!");
                         Console.ReadKey();
 
                         break;
@@ -1738,26 +1738,26 @@
                         if (clase == "primeraclase")
                         {
                             costo = dias * 1200;
-                            Console.WriteLine("el costo de su ticket es de " + costo + "dolares");
+                            Console.WriteLine("el costo de su ticket es de " + costo + " dolares");
                         }
 
                         if (clase == "turista")
                         {
                             costo = dias * 1000;
-                            Console.WriteLine("el costo de su ticket es de " + costo + "dolares ");
+                            Console.WriteLine("el costo de su ticket es de " + costo + " dolares ");
 
                         }
 
                         if (clase == "negocios")
                         {
                             costo = dias * 1100;
-                            Console.WriteLine("el costo de su ticket es de " + costo + "dolares");
+                            Console.WriteLine("el costo de su ticket es de " + costo + " dolares");
                         }
 
                         codigo = rnd.Next(100000, 999999);
                         Console.WriteLine("Estimado cliente " + nombre + " Usted ha comprado un vuelo desde El Salvador con destino a " + pais);
                         Console.WriteLine("Con una duracion de " + dias + " dias");
-                        Console.WriteLine("El numero de su vuelo es: " + codigo + " ¡le deseamos un excelente viaje");
+                        Console.WriteLine("El numero de su vuelo es: " + codigo + " ¡Le deseamos un excelente viaje!");
                         Console.ReadKey();
 
                         break;
@@ -1778,26 +1778,26 @@
                         if (clase == "primeraclase")
                         {
                             costo = dias * 2000;
-                            Console.WriteLine("el costo de su ticket es de " + costo + "dolares");
+                            Console.WriteLine("el costo de su ticket es de " + costo + " dolares");
                         }
 
                         if (clase == "turista")
                         {
                             costo = dias * 1600;
-                            Console.WriteLine("el costo de su ticket es de " + costo + "dolares ");
+                            Console.WriteLine("el costo de su ticket es de " + costo + " dolares ");
 
                         }
 
                         if (clase == "negocios")
                         {
                             costo = dias * 1400;
-                            Console.WriteLine("el costo de su ticket es de " + costo + "dolares");
+                            Console.WriteLine("el costo de su ticket es de " + costo + " dolares");
                         }
 
                         codigo = rnd.Next(100000, 999999);
                         Console.WriteLine("Estimado cliente " + nombre + " Usted ha comprado un vuelo desde El Salvador con destino a " + pais);
                         Console.WriteLine("Con una duracion de " + dias + " dias");
-                        Console.WriteLine("El numero de su vuelo es: " + codigo + " ¡le deseamos un excelente viaje");
+                        Console.WriteLine("El numero de su vuelo es: " + codigo + " ¡Le deseamos un excelente viaje!");
                         Console.ReadKey();
 
                         break;
@@ -1818,26 +1818,26 @@
                         if (clase == "primeraclase")
                         {
                             costo = dias * 2000;
-                            Console.WriteLine("el costo de su ticket es de " + costo + "dolares");
+                            Console.WriteLine("el costo de su ticket es de " + costo + " dolares");
                         }
 
                         if (clase == "turista")
                         {
                             costo = dias * 1800;
-                            Console.WriteLine("el costo de su ticket es de " + costo + "dolares ");
+                            Console.WriteLine("el costo de su ticket es de " + costo + " dolares ");
 
                         }
 
                         if (clase == "negocios")
                         {
                             costo = dias * 1700;
-                            Console.WriteLine("el costo de su ticket es de " + costo + "dolares");
+                            Console.WriteLine("el costo de su ticket es de " + costo + " dolares");
                         }
 
                         codigo = rnd.Next(100000, 999999);
                         Console.WriteLine("Estimado cliente " + nombre + " Usted ha comprado un vuelo desde El Salvador con destino a " + pais);
                         Console.WriteLine("Con una duracion de " + dias + " dias");
-                        Console.WriteLine("El numero de su vuelo es: " + codigo + " ¡le deseamos un excelente viaje");
+                        Console.WriteLine("El numero de su vuelo es: " + codigo + " ¡Le deseamos un excelente viaje!");
                         Console.ReadKey();
 
                         break;
@@ -1858,26 +1858,26 @@
                         if (clase == "primeraclase")
                         {
                             costo = dias * 1000;
-                            Console.WriteLine("el costo de su ticket es de " + costo + "dolares");
+                            Console.WriteLine("el costo de su ticket es de " + costo + " dolares");
                         }
 
                         if (clase == "turista")
                         {
                             costo = dias * 850;
-                            Console.WriteLine("el costo de su ticket es de " + costo + "dolares ");
+                            Console.WriteLine("el costo de su ticket es de " + costo + " dolares ");
 
                         }
 
                         if (clase == "negocios")
                         {
                             costo = dias * 900;
-                            Console.WriteLine("el costo de su ticket es de " + costo + "dolares");
+                            Console.WriteLine("el costo de su ticket es de " + costo + " dolares");
                         }
 
                         codigo = rnd.Next(100000, 999999);
                         Console.WriteLine("Estimado cliente " + nombre + " Usted ha comprado un vuelo desde El Salvador con destino a " + pais);
                         Console.WriteLine("Con una duracion de " + dias + " dias");
-                        Console.WriteLine("El numero de su vuelo es: " + codigo + " ¡le deseamos un excelente viaje");
+                        Console.WriteLine("El numero de su vuelo es: " + codigo + " ¡Le deseamos un excelente viaje!");
                         Console.ReadKey();
 
                         break;
@@ -1898,26 +1898,26 @@
                         if (clase == "primeraclase")
                         {
                             costo = dias * 1000;
-                            Console.WriteLine("el costo de su ticket es de " + costo + "dolares");
+                            Console.WriteLine("el costo de su ticket es de " + costo + " dolares");
                         }
 
                         if (clase == "turista")
                         {
                             costo = dias * 850;
-                            Console.WriteLine("el costo de su ticket es de " + costo + "dolares ");
+                            Console.WriteLine("el costo de su ticket es de " + costo + " dolares ");
 
                         }
 
                         if (clase == "negocios")
                         {
                             costo = dias * 900;
-                            Console.WriteLine("el costo de su ticket es de " + costo + "dolares");
+                            Console.WriteLine("el costo de su ticket es de " + costo + " dolares");
                         }
 
                         codigo = rnd.Next(100000, 999999);
                         Console.WriteLine("Estimado cliente " + nombre + " Usted ha comprado un vuelo desde El Salvador con destino a " + pais);
                         Console.WriteLine("Con una duracion de " + dias + " dias");
-                        Console.WriteLine("El numero de su vuelo es: " + codigo + " ¡le deseamos un excelente viaje");
+                        Console.WriteLine("El numero de su vuelo es: " + codigo + " ¡Le deseamos un excelente viaje!");
                         Console.ReadKey();
 
                         break;
@@ -1938,26 +1938,26 @@
                         if (clase == "primeraclase")
                         {
                             costo = dias * 2000;
-                            Console.WriteLine("el costo de su ticket es de " + costo + "dolares");
+                            Console.WriteLine("el costo de su ticket es de " + costo + " dolares");
                         }
 
                         if (clase == "turista")
                         {
                             costo = dias * 1500;
-                            Console.WriteLine("el costo de su ticket es de " + costo + "dolares ");
+                            Console.WriteLine("el costo de su ticket es de " + costo + " dolares ");
 
                         }
 
                         if (clase == "negocios")
                         {
                             costo = dias * 1200;
-                            Console.WriteLine("el costo de su ticket es de " + costo + "dolares");
+                            Console.WriteLine("el costo de su ticket es de " + costo + " dolares");
                         }
 
                         codigo = rnd.Next(100000, 999999);
                         Console.WriteLine("Estimado cliente " + nombre + " Usted ha comprado un vuelo desde El Salvador con destino a " + pais);
                         Console.WriteLine("Con una duracion de " + dias + " dias");
-                        Console.WriteLine("El numero de su vuelo es: " + codigo + " ¡le deseamos un excelente viaje");
+                        Console.WriteLine("El numero de su vuelo es: " + codigo + " ¡Le deseamos un excelente viaje!");
                         Console.ReadKey();
 
                         break;
@@ -1978,26 +1978,26 @@
                         if (clase == "primeraclase")
                         {
                             costo = dias * 1000;
-                            Console.WriteLine("el costo de su ticket es de " + costo + "dolares");
+                            Console.WriteLine("el costo de su ticket es de " + costo + " dolares");
                         }
 
                         if (clase == "turista")
                         {
                             costo = dias * 850;
-                            Console.WriteLine("el costo de su ticket es de " + costo + "dolares ");
+                            Console.WriteLine("el costo de su ticket es de " + costo + " dolares ");
 
                         }
 
                         if (clase == "negocios")
                         {
                             costo = dias * 900;
-                            Console.WriteLine("el costo de su ticket es de " + costo + "dolares");
+                            Console.WriteLine("el costo de su ticket es de " + costo + " dolares");
                         }
 
                         codigo = rnd.Next(100000, 999999);
                         Console.WriteLine("Estimado cliente " + nombre + " Usted ha comprado un vuelo desde El Salvador con destino a " + pais);
                         Console.WriteLine("Con una duracion de " + dias + " dias");
-                        Console.WriteLine("El numero de su vuelo es: " + codigo + " ¡le deseamos un excelente viaje");
+                        Console.WriteLine("El numero de su vuelo es: " + codigo + " ¡Le deseamos un excelente viaje!");
                         Console.ReadKey();
 
                         break;
@@ -2018,26 +2018,26 @@
                         if (clase == "primeraclase")
                         {
                             costo = dias * 1000;
-                            Console.WriteLine("el costo de su ticket es de " + costo + "dolares");
+                            Console.WriteLine("el costo de su ticket es de " + costo + " dolares");
                         }
 
                         if (clase == "turista")
                         {
                             costo = dias * 700;
-                            Console.WriteLine("el costo de su ticket es de " + costo + "dolares ");
+                            Console.WriteLine("el costo de su ticket es de " + costo + " dolares ");
 
                         }
 
                         if (clase == "negocios")
                         {
                             costo = dias * 750;
-                            Console.WriteLine("el costo de su ticket es de " + costo + "dolares");
+                            Console.WriteLine("el costo de su ticket es de " + costo + " dolares");
                         }
 
                         codigo = rnd.Next(100000, 999999);
                         Console.WriteLine("Estimado cliente " + nombre + " Usted ha comprado un vuelo desde El Salvador con destino a " + pais);
                         Console.WriteLine("Con una duracion de " + dias + " dias");
-                        Console.WriteLine("El numero de su vuelo es: " + codigo + " ¡le deseamos un excelente viaje");
+                        Console.WriteLine("El numero de su vuelo es: " + codigo + " ¡Le deseamos un excelente viaje!");
                         Console.ReadKey();
 
                         break;
@@ -2058,26 +2058,26 @@
                         if (clase == "primeraclase")
                         {
                             costo = dias * 1000;
-                            Console.WriteLine("el costo de su ticket es de " + costo + "dolares");
+                            Console.WriteLine("el costo de su ticket es de " + costo + " dolares");
                         }
 
                         if (clase == "turista")
                         {
                             costo = dias * 850;
-                            Console.WriteLine("el costo de su ticket es de " + costo + "dolares ");
+                            Console.WriteLine("el costo de su ticket es de " + costo + " dolares ");
 
                         }
 
                         if (clase == "negocios")
                         {
                             costo = dias * 900;
-                            Console.WriteLine("el costo de su ticket es de " + costo + "dolares");
+                            Console.WriteLine("el costo de su ticket es de " + costo + " dolares");
                         }
 
                         codigo = rnd.Next(100000, 999999);
                         Console.WriteLine("Estimado cliente " + nombre + " Usted ha comprado un vuelo desde El Salvador con destino a " + pais);
                         Console.WriteLine("Con una duracion de " + dias + " dias");
-                        Console.WriteLine("El numero de su vuelo es: " + codigo + " ¡le deseamos un excelente viaje");
+                        Console.WriteLine("El numero de su vuelo es: " + codigo + " ¡Le deseamos un excelente viaje!");
                         Console.ReadKey();
 
                         break;
@@ -2098,26 +2098,26 @@
                         if (clase == "primeraclase")
                         {
                             costo = dias * 2000;
-                            Console.WriteLine("el costo de su ticket es de " + costo + "dolares");
+                            Console.WriteLine("el costo de su ticket es de " + costo + " dolares");
                         }
 
                         if (clase == "turista")
                         {
                             costo = dias * 1500;
-                            Console.WriteLine("el costo de su ticket es de " + costo + "dolares ");
+                            Console.WriteLine("el costo de su ticket es de " + costo + " dolares ");
 
                         }
 
                         if (clase == "negocios")
                         {
                             costo = dias * 1000;
-                            Console.WriteLine("el costo de su ticket es de " + costo + "dolares");
+                            Console.WriteLine("el costo de su ticket es de " + costo + " dolares");
                         }
 
                         codigo = rnd.Next(100000, 999999);
                         Console.WriteLine("Estimado cliente " + nombre + " Usted ha comprado un vuelo desde El Salvador con destino a " + pais);
                         Console.WriteLine("Con una duracion de " + dias + " dias");
-                        Console.WriteLine("El numero de su vuelo es: " + codigo + " ¡le deseamos un excelente viaje");
+                        Console.WriteLine("El numero de su vuelo es: " + codigo + " ¡Le deseamos un excelente viaje!");
                         Console.ReadKey();
 
                         break;
@@ -2138,26 +2138,26 @@
                         if (clase == "primeraclase")
                         {
                             costo = dias * 1000;
-                            Console.WriteLine("el costo de su ticket es de " + costo + "dolares");
+                            Console.WriteLine("el costo de su ticket es de " + costo + " dolares");
                         }
 
                         if (clase == "turista")
                         {
                             costo = dias * 700;
-                            Console.WriteLine("el costo de su ticket es de " + costo + "dolares ");
+                            Console.WriteLine("el costo de su ticket es de " + costo + " dolares ");
 
                         }
 
                         if (clase == "negocios")
                         {
                             costo = dias * 850;
-                            Console.WriteLine("el costo de su ticket es de " + costo + "dolares");
+                            Console.WriteLine("el costo de su ticket es de " + costo + " dolares");
                         }
 
                         codigo = rnd.Next(100000, 999999);
                         Console.WriteLine("Estimado cliente " + nombre + " Usted ha comprado un vuelo desde El Salvador con destino a " + pais);
                         Console.WriteLine("Con una duracion de " + dias + " dias");
-                        Console.WriteLine("El numero de su vuelo es: " + codigo + " ¡le deseamos un excelente viaje");
+                        Console.WriteLine("El numero de su vuelo es: " + codigo + " ¡Le deseamos un excelente viaje!");
                         Console.ReadKey();
 
                         break;
@@ -2178,26 +2178,26 @@
                         if (clase == "primeraclase")
                         {
                             costo = dias * 900;
-                            Console.WriteLine("el costo de su ticket es de " + costo + "dolares");
+                            Console.WriteLine("el costo de su ticket es de " + costo + " dolares");
                         }
 
                         if (clase == "turista")
                         {
                             costo = dias * 850;
-                            Console.WriteLine("el costo de su ticket es de " + costo + "dolares ");
+                            Console.WriteLine("el costo de su ticket es de " + costo + " dolares ");
 
                         }
 
                         if (clase == "negocios")
                         {
                             costo = dias * 750;
-                            Console.WriteLine("el costo de su ticket es de " + costo + "dolares");
+                            Console.WriteLine("el costo de su ticket es de " + costo + " dolares");
                         }
 
                         codigo = rnd.Next(100000, 999999);
                         Console.WriteLine("Estimado cliente " + nombre + " Usted ha comprado un vuelo desde El Salvador con destino a " + pais);
                         Console.WriteLine("Con una duracion de " + dias + " dias");
-                        Console.WriteLine("El numero de su vuelo es: " + codigo + " ¡le deseamos un excelente viaje");
+                        Console.WriteLine("El numero de su vuelo es: " + codigo + " ¡Le deseamos un excelente viaje!");
                         Console.ReadKey();
 
                         break;
@@ -2218,26 +2218,26 @@
                         if (clase == "primeraclase")
                         {
                             costo = dias * 1200;
-                            Console.WriteLine("el costo de su ticket es de " + costo + "dolares");
+                            Console.WriteLine("el costo de su ticket es de " + costo + " dolares");
                         }
 
                         if (clase == "turista")
                         {
                             costo = dias * 900;
-                            Console.WriteLine("el costo de su ticket es de " + costo + "dolares ");
+                            Console.WriteLine("el costo de su ticket es de " + costo + " dolares ");
 
                         }
 
                         if (clase == "negocios")
                         {
                             costo = dias * 1000;
-                            Console.WriteLine("el costo de su ticket es de " + costo + "dolares");
+                            Console.WriteLine("el costo de su ticket es de " + costo + " dolares");
                         }
 
                         codigo = rnd.Next(100000, 999999);
                         Console.WriteLine("Estimado cliente " + nombre + " Usted ha comprado un vuelo desde El Salvador con destino a " + pais);
                         Console.WriteLine("Con una duracion de " + dias + " dias");
-                        Console.WriteLine("El numero de su vuelo es: " + codigo + " ¡le deseamos un excelente viaje");
+                        Console.WriteLine("El numero de su vuelo es: " + codigo + " ¡Le deseamos un excelente viaje!");
                         Console.ReadKey();
 
                         break;
@@ -2258,26 +2258,26 @@
                         if (clase == "primeraclase")
                         {
                             costo = dias * 900;
-                            Console.WriteLine("el costo de su ticket es de " + costo + "dolares");
+                            Console.WriteLine("el costo de su ticket es de " + costo + " dolares");
                         }
 
                         if (clase == "turista")
                         {
                             costo = dias * 850;
-                            Console.WriteLine("el costo de su ticket es de " + costo + "dolares ");
+                            Console.WriteLine("el costo de su ticket es de " + costo + " dolares ");
 
                         }
 
                         if (clase == "negocios")
                         {
                             costo = dias * 750;
-                            Console.WriteLine("el costo de su ticket es de " + costo + "dolares");
+                            Console.WriteLine("el costo de su ticket es de " + costo + " dolares");
                         }
 
                         codigo = rnd.Next(100000, 999999);
                         Console.WriteLine("Estimado cliente " + nombre + " Usted ha comprado un vuelo desde El Salvador con destino a " + pais);
                         Console.WriteLine("Con una duracion de " + dias + " dias");
-                        Console.WriteLine("El numero de su vuelo es: " + codigo + " ¡le deseamos un excelente viaje");
+                        Console.WriteLine("El numero de su vuelo es: " + codigo + " ¡Le deseamos un excelente viaje!");
                         Console.ReadKey();
 
                         break;
@@ -2298,26 +2298,26 @@
                         if (clase == "primeraclase")
                         {
                             costo = dias * 1000;
-                            Console.WriteLine("el costo de su ticket es de " + costo + "dolares");
+                            Console.WriteLine("el costo de su ticket es de " + costo + " dolares");
                         }
 
                         if (clase == "turista")
                         {
                             costo = dias * 950;
-                            Console.WriteLine("el costo de su ticket es de " + costo + "dolares ");
+                            Console.WriteLine("el costo de su ticket es de " + costo + " dolares ");
 
                         }
 
                         if (clase == "negocios")
                         {
                             costo = dias * 850;
-                            Console.WriteLine("el costo de su ticket es de " + costo + "dolares");
+                            Console.WriteLine("el costo de su ticket es de " + costo + " dolares");
                         }
 
                         codigo = rnd.Next(100000, 999999);
                         Console.WriteLine("Estimado cliente " + nombre + " Usted ha comprado un vuelo desde El Salvador con destino a " + pais);
                         Console.WriteLine("Con una duracion de " + dias + " dias");
-                        Console.WriteLine("El numero de su vuelo es: " + codigo + " ¡le deseamos un excelente viaje");
+                        Console.WriteLine("El numero de su vuelo es: " + codigo + " ¡Le deseamos un excelente viaje!");
                         Console.ReadKey();
 
                         break;
@@ -2338,26 +2338,26 @@
                         if (clase == "primeraclase")
                         {
                             costo = dias * 900;
-                            Console.WriteLine("el costo de su ticket es de " + costo + "dolares");
+                            Console.WriteLine("el costo de su ticket es de " + costo + " dolares");
                         }
 
                         if (clase == "turista")
                         {
                             costo = dias * 850;
-                            Console.WriteLine("el costo de su ticket es de " + costo + "dolares ");
+                            Console.WriteLine("el costo de su ticket es de " + costo + " dolares ");
 
                         }
 
                         if (clase == "negocios")
                         {
                             costo = dias * 750;
-                            Console.WriteLine("el costo de su ticket es de " + costo + "dolares");
+                            Console.WriteLine("el costo de su ticket es de " + costo + " dolares");
                         }
 
                         codigo = rnd.Next(100000, 999999);
                         Console.WriteLine("Estimado cliente " + nombre + " Usted ha comprado un vuelo desde El Salvador con destino a " + pais);
                         Console.WriteLine("Con una duracion de " + dias + " dias");
-                        Console.WriteLine("El numero de su vuelo es: " + codigo + " ¡le deseamos un excelente viaje");
+                        Console.WriteLine("El numero de su vuelo es: " + codigo + " ¡Le deseamos un excelente viaje!");
                         Console.ReadKey();
 
                         break;
@@ -2378,26 +2378,26 @@
                         if (clase == "primeraclase")
                         {
                             costo = dias * 1200;
-                            Console.WriteLine("el costo de su ticket es de " + costo + "dolares");
+                            Console.WriteLine("el costo de su ticket es de " + costo + " dolares");
                         }
 
                         if (clase == "turista")
                         {
                             costo = dias * 850;
-                            Console.WriteLine("el costo de su ticket es de " + costo + "dolares ");
+                            Console.WriteLine("el costo de su ticket es de " + costo + " dolares ");
 
                         }
 
                         if (clase == "negocios")
                         {
                             costo = dias * 900;
-                            Console.WriteLine("el costo de su ticket es de " + costo + "dolares");
+                            Console.WriteLine("el costo de su ticket es de " + costo + " dolares");
                         }
 
                         codigo = rnd.Next(100000, 999999);
                         Console.WriteLine("Estimado cliente " + nombre + " Usted ha comprado un vuelo desde El Salvador con destino a " + pais);
                         Console.WriteLine("Con una duracion de " + dias + " dias");
-                        Console.WriteLine("El numero de su vuelo es: " + codigo + " ¡le deseamos un excelente viaje");
+                        Console.WriteLine("El numero de su vuelo es: " + codigo + " ¡Le deseamos un excelente viaje!");
                         Console.ReadKey();
 
                         break;
@@ -2418,26 +2418,26 @@
                         if (clase == "primeraclase")
                         {
                             costo = dias * 1500;
-                            Console.WriteLine("el costo de su ticket es de " + costo + "dolares");
+                            Console.WriteLine("el costo de su ticket es de " + costo + " dolares");
                         }
 
                         if (clase == "turista")
                         {
                             costo = dias * 1000;
-                            Console.WriteLine("el costo de su ticket es de " + costo + "dolares ");
+                            Console.WriteLine("el costo de su ticket es de " + costo + " dolares ");
 
                         }
 
                         if (clase == "negocios")
                         {
                             costo = dias * 1000;
-                            Console.WriteLine("el costo de su ticket es de " + costo + "dolares");
+                            Console.WriteLine("el costo de su ticket es de " + costo + " dolares");
                         }
 
                         codigo = rnd.Next(100000, 999999);
                         Console.WriteLine("Estimado cliente " + nombre + " Usted ha comprado un vuelo desde El Salvador con destino a " + pais);
                         Console.WriteLine("Con una duracion de " + dias + " dias");
-                        Console.WriteLine("El numero de su vuelo es: " + codigo + " ¡le deseamos un excelente viaje");
+                        Console.WriteLine("El numero de su vuelo es: " + codigo + " ¡Le deseamos un excelente viaje!");
                         Console.ReadKey();
 
                         break;
@@ -2458,26 +2458,26 @@
                         if (clase == "primeraclase")
                         {
                             costo = dias * 900;
-                            Console.WriteLine("el costo de su ticket es de " + costo + "dolares");
+                            Console.WriteLine("el costo de su ticket es de " + costo + " dolares");
                         }
 
                         if (clase == "turista")
                         {
                             costo = dias * 850;
-                            Console.WriteLine("el costo de su ticket es de " + costo + "dolares ");
+                            Console.WriteLine("el costo de su ticket es de " + costo + " dolares ");
 
                         }
 
                         if (clase == "negocios")
                         {
                             costo = dias * 750;
-                            Console.WriteLine("el costo de su ticket es de " + costo + "dolares");
+                            Console.WriteLine("el costo de su ticket es de " + costo + " dolares");
                         }
 
                         codigo = rnd.Next(100000, 999999);
                         Console.WriteLine("Estimado cliente " + nombre + " Usted ha comprado un vuelo desde El Salvador con destino a " + pais);
                         Console.WriteLine("Con una duracion de " + dias + " dias");
-                        Console.WriteLine("El numero de su vuelo es: " + codigo + " ¡le deseamos un excelente viaje");
+                        Console.WriteLine("El numero de su vuelo es: " + codigo + " ¡Le deseamos un excelente viaje!");
                         Console.ReadKey();
 
                         break;
@@ -2498,26 +2498,26 @@
                         if (clase == "primeraclase")
                         {
                             costo = dias * 1000;
-                            Console.WriteLine("el costo de su ticket es de " + costo + "dolares");
+                            Console.WriteLine("el costo de su ticket es de " + costo + " dolares");
                         }
 
                         if (clase == "turista")
                         {
                             costo = dias * 900;
-                            Console.WriteLine("el costo de su ticket es de " + costo + "dolares ");
+                            Console.WriteLine("el costo de su ticket es de " + costo + " dolares ");
 
                         }
 
                         if (clase == "negocios")
                         {
                             costo = dias * 950;
-                            Console.WriteLine("el costo de su ticket es de " + costo + "dolares");
+                            Console.WriteLine("el costo de su ticket es de " + costo + " dolares");
                         }
 
                         codigo = rnd.Next(100000, 999999);
                         Console.WriteLine("Estimado cliente " + nombre + " Usted ha comprado un vuelo desde El Salvador con destino a " + pais);
                         Console.WriteLine("Con una duracion de " + dias + " dias");
-                        Console.WriteLine("El numero de su vuelo es: " + codigo + " ¡le deseamos un excelente viaje");
+                        Console.WriteLine("El numero de su vuelo es: " + codigo + " ¡Le deseamos un excelente viaje!");
                         Console.ReadKey();
 
                         break;
@@ -2538,26 +2538,26 @@
                         if (clase == "primeraclase")
                         {
                             costo = dias * 850;
-                            Console.WriteLine("el costo de su ticket es de " + costo + "dolares");
+                            Console.WriteLine("el costo de su ticket es de " + costo + " dolares");
                         }
 
                         if (clase == "turista")
                         {
                             costo = dias * 800;
-                            Console.WriteLine("el costo de su ticket es de " + costo + "dolares ");
+                            Console.WriteLine("el costo de su ticket es de " + costo + " dolares ");
 
                         }
 
                         if (clase == "negocios")
                         {
                             costo = dias * 750;
-                            Console.WriteLine("el costo de su ticket es de " + costo + "dolares");
+                            Console.WriteLine("el costo de su ticket es de " + costo + " dolares");
                         }
 
                         codigo = rnd.Next(100000, 999999);
                         Console.WriteLine("Estimado cliente " + nombre + " Usted ha comprado un vuelo desde El Salvador con destino a " + pais);
                         Console.WriteLine("Con una duracion de " + dias + " dias");
-                        Console.WriteLine("El numero de su vuelo es: " + codigo + " ¡le deseamos un excelente viaje");
+                        Console.WriteLine("El numero de su vuelo es: " + codigo + " ¡Le deseamos un excelente viaje!");
                         Console.ReadKey();
 
                         break;
@@ -2578,26 +2578,26 @@
                         if (clase == "primeraclase")
                         {
                             costo = dias * 900;
-                            Console.WriteLine("el costo de su ticket es de " + costo + "dolares");
+                            Console.WriteLine("el costo de su ticket es de " + costo + " dolares");
                         }
 
                         if (clase == "turista")
                         {
                             costo = dias * 850;
-                            Console.WriteLine("el costo de su ticket es de " + costo + "dolares ");
+                            Console.WriteLine("el costo de su ticket es de " + costo + " dolares ");
 
                         }
 
                         if (clase == "negocios")
                         {
                             costo = dias * 750;
-                            Console.WriteLine("el costo de su ticket es de " + costo + "dolares");
+                            Console.WriteLine("el costo de su ticket es de " + costo + " dolares");
                         }
 
                         codigo = rnd.Next(100000, 999999);
                         Console.WriteLine("Estimado cliente " + nombre + " Usted ha comprado un vuelo desde El Salvador con destino a " + pais);
                         Console.WriteLine("Con una duracion de " + dias + " dias");
-                        Console.WriteLine("El numero de su vuelo es: " + codigo + " ¡le deseamos un excelente viaje");
+                        Console.WriteLine("El numero de su vuelo es: " + codigo + " ¡Le deseamos un excelente viaje!");
                         Console.ReadKey();
 
                         break;
@@ -2618,26 +2618,26 @@
                         if (clase == "primeraclase")
                         {
                             costo = dias * 1200;
-                            Console.WriteLine("el costo de su ticket es de " + costo + "dolares");
+                            Console.WriteLine("el costo de su ticket es de " + costo + " dolares");
                         }
 
                         if (clase == "turista")
                         {
                             costo = dias * 900;
-                            Console.WriteLine("el costo de su ticket es de " + costo + "dolares ");
+                            Console.WriteLine("el costo de su ticket es de " + costo + " dolares ");
 
                         }
 
                         if (clase == "negocios")
                         {
                             costo = dias * 1000;
-                            Console.WriteLine("el costo de su ticket es de " + costo + "dolares");
+                            Console.WriteLine("el costo de su ticket es de " + costo + " dolares");
                         }
 
                         codigo = rnd.Next(100000, 999999);
                         Console.WriteLine("Estimado cliente " + nombre + " Usted ha comprado un vuelo desde El Salvador con destino a " + pais);
                         Console.WriteLine("Con una duracion de " + dias + " dias");
-                        Console.WriteLine("El numero de su vuelo es: " + codigo + " ¡le deseamos un excelente viaje");
+                        Console.WriteLine("El numero de su vuelo es: " + codigo + " ¡Le deseamos un excelente viaje!");
                         Console.ReadKey();
 
                         break;
@@ -2658,26 +2658,26 @@
                         if (clase == "primeraclase")
                         {
                             costo = dias * 900;
-                            Console.WriteLine("el costo de su ticket es de " + costo + "dolares");
+                            Console.WriteLine("el costo de su ticket es de " + costo + " dolares");
                         }
 
                         if (clase == "turista")
                         {
                             costo = dias * 850;
-                            Console.WriteLine("el costo de su ticket es de " + costo + "dolares ");
+                            Console.WriteLine("el costo de su ticket es de " + costo + " dolares ");
 
                         }
 
                         if (clase == "negocios")
                         {
                             costo = dias * 750;
-                            Console.WriteLine("el costo de su ticket es de " + costo + "dolares");
+                            Console.WriteLine("el costo de su ticket es de " + costo + " dolares");
                         }
 
                         codigo = rnd.Next(100000, 999999);
                         Console.WriteLine("Estimado cliente " + nombre + " Usted ha comprado un vuelo desde El Salvador con destino a " + pais);
                         Console.WriteLine("Con una duracion de " + dias + " dias");
-                        Console.WriteLine("El numero de su vuelo es: " + codigo + " ¡le deseamos un excelente viaje");
+                        Console.WriteLine("El numero de su vuelo es: " + codigo + " ¡Le deseamos un excelente viaje!");
                         Console.ReadKey();
 
                         break;
@@ -2698,26 +2698,26 @@
                         if (clase == "primeraclase")
                         {
                             costo = dias * 1100;
-                            Console.WriteLine("el costo de su ticket es de " + costo + "dolares");
+                            Console.WriteLine("el costo de su ticket es de " + costo + " dolares");
                         }
 
                         if (clase == "turista")
                         {
                             costo = dias * 950;
-                            Console.WriteLine("el costo de su ticket es de " + costo + "dolares ");
+                            Console.WriteLine("el costo de su ticket es de " + costo + " dolares ");
 
                         }
 
                         if (clase == "negocios")
                         {
                             costo = dias * 1000;
-                            Console.WriteLine("el costo de su ticket es de " + costo + "dolares");
+                            Console.WriteLine("el costo de su ticket es de " + costo + " dolares");
                         }
 
                         codigo = rnd.Next(100000, 999999);
                         Console.WriteLine("Estimado cliente " + nombre + " Usted ha comprado un vuelo desde El Salvador con destino a " + pais);
                         Console.WriteLine("Con una duracion de " + dias + " dias");
-                        Console.WriteLine("El numero de su vuelo es: " + codigo + " ¡le deseamos un excelente viaje");
+                        Console.WriteLine("El numero de su vuelo es: " + codigo + " ¡Le deseamos un excelente viaje!");
                         Console.ReadKey();
 
                         break;
@@ -2738,26 +2738,26 @@
                         if (clase == "primeraclase")
                         {
                             costo = dias * 900;
-                            Console.WriteLine("el costo de su ticket es de " + costo + "dolares");
+                            Console.WriteLine("el costo de su ticket es de " + costo + " dolares");
                         }
 
                         if (clase == "turista")
                         {
                             costo = dias * 850;
-                            Console.WriteLine("el costo de su ticket es de " + costo + "dolares ");
+                            Console.WriteLine("el costo de su ticket es de " + costo + " dolares ");
 
                         }
 
                         if (clase == "negocios")
                         {
                             costo = dias * 750;
-                            Console.WriteLine("el costo de su ticket es de " + costo + "dolares");
+                            Console.WriteLine("el costo de su ticket es de " + costo + " dolares");
                         }
 
                         codigo = rnd.Next(100000, 999999);
                         Console.WriteLine("Estimado cliente " + nombre + " Usted ha comprado un vuelo desde El Salvador con destino a " + pais);
                         Console.WriteLine("Con una duracion de " + dias + " dias");
-                        Console.WriteLine("El numero de su vuelo es: " + codigo + " ¡le deseamos un excelente viaje");
+                        Console.WriteLine("El numero de su vuelo es: " + codigo + " ¡Le deseamos un excelente viaje!");
                         Console.ReadKey();
 
                         break;
@@ -2778,26 +2778,26 @@
                         if (clase == "primeraclase")
                         {
                             costo = dias * 1300;
-                            Console.WriteLine("el costo de su ticket es de " + costo + "dolares");
+                            Console.WriteLine("el costo de su ticket es de " + costo + " dolares");
                         }
 
                         if (clase == "turista")
                         {
                             costo = dias * 1000;
-                            Console.WriteLine("el costo de su ticket es de " + costo + "dolares ");
+                            Console.WriteLine("el costo de su ticket es de " + costo + " dolares ");
 
                         }
 
                         if (clase == "negocios")
                         {
                             costo = dias * 1100;
-                            Console.WriteLine("el costo de su ticket es de " + costo + "dolares");
+                            Console.WriteLine("el costo de su ticket es de " + costo + " dolares");
                         }
 
                         codigo = rnd.Next(100000, 999999);
                         Console.WriteLine("Estimado cliente " + nombre + " Usted ha comprado un vuelo desde El Salvador con destino a " + pais);
                         Console.WriteLine("Con una duracion de " + dias + " dias");
-                        Console.WriteLine("El numero de su vuelo es: " + codigo + " ¡le deseamos un excelente viaje");
+                        Console.WriteLine("El numero de su vuelo es: " + codigo + " ¡Le deseamos un excelente viaje!");
                         Console.ReadKey();
 
                         break;
@@ -2818,26 +2818,26 @@
                         if (clase == "primeraclase")
                         {
                             costo = dias * 2000;
-                            Console.WriteLine("el costo de su ticket es de " + costo + "dolares");
+                            Console.WriteLine("el costo de su ticket es de " + costo + " dolares");
                         }
 
                         if (clase == "turista")
                         {
                             costo = dias * 1500;
-                            Console.WriteLine("el costo de su ticket es de " + costo + "dolares ");
+                            Console.WriteLine("el costo de su ticket es de " + costo + " dolares ");
 
                         }
 
                         if (clase == "negocios")
                         {
                             costo = dias * 1800;
-                            Console.WriteLine("el costo de su ticket es de " + costo + "dolares");
+                            Console.WriteLine("el costo de su ticket es de " + costo + " dolares");
                         }
 
                         codigo = rnd.Next(100000, 999999);
                         Console.WriteLine("Estimado cliente " + nombre + " Usted ha comprado un vuelo desde El Salvador con destino a " + pais);
                         Console.WriteLine("Con una duracion de " + dias + " dias");
-                        Console.WriteLine("El numero de su vuelo es: " + codigo + " ¡le deseamos un excelente viaje");
+                        Console.WriteLine("El numero de su vuelo es: " + codigo + " ¡Le deseamos un excelente viaje!");
                         Console.ReadKey();
 
                         break;
@@ -2858,26 +2858,26 @@
                         if (clase == "primeraclase")
                         {
                             costo = dias * 900;
-                            Console.WriteLine("el costo de su ticket es de " + costo + "dolares");
+                            Console.WriteLine("el costo de su ticket es de " + costo + " dolares");
                         }
 
                         if (clase == "turista")
                         {
                             costo = dias * 850;
-                            Console.WriteLine("el costo de su ticket es de " + costo + "dolares ");
+                            Console.WriteLine("el costo de su ticket es de " + costo + " dolares ");
 
                         }
 
                         if (clase == "negocios")
                         {
                             costo = dias * 750;
-                            Console.WriteLine("el costo de su ticket es de " + costo + "dolares");
+                            Console.WriteLine("el costo de su ticket es de " + costo + " dolares");
                         }
 
                         codigo = rnd.Next(100000, 999999);
                         Console.WriteLine("Estimado cliente " + nombre + " Usted ha comprado un vuelo desde El Salvador con destino a " + pais);
                         Console.WriteLine("Con una duracion de " + dias + " dias");
-                        Console.WriteLine("El numero de su vuelo es: " + codigo + " ¡le deseamos un excelente viaje");
+                        Console.WriteLine("El numero de su vuelo es: " + codigo + " ¡Le deseamos un excelente viaje!");
                         Console.ReadKey();
 
                         break;
@@ -2917,7 +2917,7 @@
                         codigo = rnd.Next(100000, 999999);
                         Console.WriteLine("Estimado cliente " + nombre + " Usted ha comprado un vuelo desde El Salvador con destino a " + pais);
                         Console.WriteLine("Con una duracion de " + dias + " dias");
-                        Console.WriteLine("El numero de su vuelo es: " + codigo + " ¡le deseamos un excelente viaje");
+                        Console.WriteLine("El numero de su vuelo es: " + codigo + " ¡Le deseamos un excelente viaje!");
                         Console.ReadKey();
 
                         break;
@@ -2978,9 +2978,9 @@
                 Console.WriteLine("YEMEN");
                 Console.WriteLine(" ");
 
-                pais = Console.ReadLine();
+                pais = Console.ReadLine().ToUpper();
 
-                switch (pais.ToUpper())
+                switch (pais)
                 {
                     case "AFGANISTAN":
                         Console.WriteLine(" ");
@@ -3056,7 +3056,7 @@
                         codigo = rnd.Next(100000, 999999);
                         Console.WriteLine("Estimado cliente " + nombre + " Usted ha comprado un vuelo desde El Salvador con destino a " + pais);
                         Console.WriteLine("Con una duracion de " + dias + " dias");
-                        Console.WriteLine("El numero de su vuelo es: " + codigo + " ¡le deseamos un excelente viaje");
+                        Console.WriteLine("El numero de su vuelo es: " + codigo + " ¡Le deseamos un excelente viaje!");
                         Console.ReadKey();
 
                         break;
@@ -3096,7 +3096,7 @@
                         codigo = rnd.Next(100000, 999999);
                         Console.WriteLine("Estimado cliente " + nombre + " Usted ha comprado un vuelo desde El Salvador con destino a " + pais);
                         Console.WriteLine("Con una duracion de " + dias + " dias");
-                        Console.WriteLine("El numero de su vuelo es: " + codigo + " ¡le deseamos un excelente viaje");
+                        Console.WriteLine("El numero de su vuelo es: " + codigo + " ¡Le deseamos un excelente viaje!");
                         Console.ReadKey();
 
                         break;
@@ -3136,7 +3136,7 @@
                         codigo = rnd.Next(100000, 999999);
                         Console.WriteLine("Estimado cliente " + nombre + " Usted ha comprado un vuelo desde El Salvador con destino a " + pais);
                         Console.WriteLine("Con una duracion de " + dias + " dias");
-                        Console.WriteLine("El numero de su vuelo es: " + codigo + " ¡le deseamos un excelente viaje");
+                        Console.WriteLine("El numero de su vuelo es: " + codigo + " ¡Le deseamos un excelente viaje!");
                         Console.ReadKey();
 
                         break;
@@ -3175,7 +3175,7 @@
                         codigo = rnd.Next(100000, 999999);
                         Console.WriteLine("Estimado cliente " + nombre + " Usted ha comprado un vuelo desde El Salvador con destino a " + pais);
                         Console.WriteLine("Con una duracion de " + dias + " dias");
-                        Console.WriteLine("El numero de su vuelo es: " + codigo + " ¡le deseamos un excelente viaje");
+                        Console.WriteLine("El numero de su vuelo es: " + codigo + " ¡Le deseamos un excelente viaje!");
                         Console.ReadKey();
 
                         break;                     
@@ -3214,7 +3214,7 @@
                         codigo = rnd.Next(100000, 999999);
                         Console.WriteLine("Estimado cliente " + nombre + " Usted ha comprado un vuelo desde El Salvador con destino a " + pais);
                         Console.WriteLine("Con una duracion de " + dias + " dias");
-                        Console.WriteLine("El numero de su vuelo es: " + codigo + " ¡le deseamos un excelente viaje");
+                        Console.WriteLine("El numero de su vuelo es: " + codigo + " ¡Le deseamos un excelente viaje!");
                         Console.ReadKey();
 
                         break;
@@ -3253,7 +3253,7 @@
                         codigo = rnd.Next(100000, 999999);
                         Console.WriteLine("Estimado cliente " + nombre + " Usted ha comprado un vuelo desde El Salvador con destino a " + pais);
                         Console.WriteLine("Con una duracion de " + dias + " dias");
-                        Console.WriteLine("El numero de su vuelo es: " + codigo + " ¡le deseamos un excelente viaje");
+                        Console.WriteLine("El numero de su vuelo es: " + codigo + " ¡Le deseamos un excelente viaje!");
                         Console.ReadKey();
 
                         break;
@@ -3292,7 +3292,7 @@
                         codigo = rnd.Next(100000, 999999);
                         Console.WriteLine("Estimado cliente " + nombre + " Usted ha comprado un vuelo desde El Salvador con destino a " + pais);
                         Console.WriteLine("Con una duracion de " + dias + " dias");
-                        Console.WriteLine("El numero de su vuelo es: " + codigo + " ¡le deseamos un excelente viaje");
+                        Console.WriteLine("El numero de su vuelo es: " + codigo + " ¡Le deseamos un excelente viaje!");
                         Console.ReadKey();
 
                         break;
@@ -3331,7 +3331,7 @@
                         codigo = rnd.Next(100000, 999999);
                         Console.WriteLine("Estimado cliente " + nombre + " Usted ha comprado un vuelo desde El Salvador con destino a " + pais);
                         Console.WriteLine("Con una duracion de " + dias + " dias");
-                        Console.WriteLine("El numero de su vuelo es: " + codigo + " ¡le deseamos un excelente viaje");
+                        Console.WriteLine("El numero de su vuelo es: " + codigo + " ¡Le deseamos un excelente viaje!");
                         Console.ReadKey();
 
                         break;
@@ -3370,7 +3370,7 @@
                         codigo = rnd.Next(100000, 999999);
                         Console.WriteLine("Estimado cliente " + nombre + " Usted ha comprado un vuelo desde El Salvador con destino a " + pais);
                         Console.WriteLine("Con una duracion de " + dias + " dias");
-                        Console.WriteLine("El numero de su vuelo es: " + codigo + " ¡le deseamos un excelente viaje");
+                        Console.WriteLine("El numero de su vuelo es: " + codigo + " ¡Le deseamos un excelente viaje!");
                         Console.ReadKey();
 
                         break;
@@ -3409,7 +3409,7 @@
                         codigo = rnd.Next(100000, 999999);
                         Console.WriteLine("Estimado cliente " + nombre + " Usted ha comprado un vuelo desde El Salvador con destino a " + pais);
                         Console.WriteLine("Con una duracion de " + dias + " dias");
-                        Console.WriteLine("El numero de su vuelo es: " + codigo + " ¡le deseamos un excelente viaje");
+                        Console.WriteLine("El numero de su vuelo es: " + codigo + " ¡Le deseamos un excelente viaje!");
                         Console.ReadKey();
 
                         break;
@@ -3448,7 +3448,7 @@
                         codigo = rnd.Next(100000, 999999);
                         Console.WriteLine("Estimado cliente " + nombre + " Usted ha comprado un vuelo desde El Salvador con destino a " + pais);
                         Console.WriteLine("Con una duracion de " + dias + " dias");
-                        Console.WriteLine("El numero de su vuelo es: " + codigo + " ¡le deseamos un excelente viaje");
+                        Console.WriteLine("El numero de su vuelo es: " + codigo + " ¡Le deseamos un excelente viaje!");
                         Console.ReadKey();
 
                         break;
@@ -3487,7 +3487,7 @@
                         codigo = rnd.Next(100000, 999999);
                         Console.WriteLine("Estimado cliente " + nombre + " Usted ha comprado un vuelo desde El Salvador con destino a " + pais);
                         Console.WriteLine("Con una duracion de " + dias + " dias");
-                        Console.WriteLine("El numero de su vuelo es: " + codigo + " ¡le deseamos un excelente viaje");
+                        Console.WriteLine("El numero de su vuelo es: " + codigo + " ¡Le deseamos un excelente viaje!");
                         Console.ReadKey();
 
                         break;
@@ -3532,7 +3532,7 @@
                         codigo = rnd.Next(100000, 999999);
                         Console.WriteLine("Estimado cliente " + nombre + " Usted ha comprado un vuelo desde El Salvador con destino a " + pais);
                         Console.WriteLine("Con una duracion de " + dias + " dias");
-                        Console.WriteLine("El numero de su vuelo es: " + codigo + " ¡le deseamos un excelente viaje");
+                        Console.WriteLine("El numero de su vuelo es: " + codigo + " ¡Le deseamos un excelente viaje!");
                         Console.ReadKey();
 
                         break;
@@ -3572,7 +3572,7 @@
                         codigo = rnd.Next(100000, 999999);
                         Console.WriteLine("Estimado cliente " + nombre + " Usted ha comprado un vuelo desde El Salvador con destino a " + pais);
                         Console.WriteLine("Con una duracion de " + dias + " dias");
-                        Console.WriteLine("El numero de su vuelo es: " + codigo + " ¡le deseamos un excelente viaje");
+                        Console.WriteLine("El numero de su vuelo es: " + codigo + " ¡Le deseamos un excelente viaje!");
                         Console.ReadKey();
 
                         break;
@@ -3611,7 +3611,7 @@
                         codigo = rnd.Next(100000, 999999);
                         Console.WriteLine("Estimado cliente " + nombre + " Usted ha comprado un vuelo desde El Salvador con destino a " + pais);
                         Console.WriteLine("Con una duracion de " + dias + " dias");
-                        Console.WriteLine("El numero de su vuelo es: " + codigo + " ¡le deseamos un excelente viaje");
+                        Console.WriteLine("El numero de su vuelo es: " + codigo + " ¡Le deseamos un excelente viaje!");
                         Console.ReadKey();
 
                         break;
@@ -3650,7 +3650,7 @@
                         codigo = rnd.Next(100000, 999999);
                         Console.WriteLine("Estimado cliente " + nombre + " Usted ha comprado un vuelo desde El Salvador con destino a " + pais);
                         Console.WriteLine("Con una duracion de " + dias + " dias");
-                        Console.WriteLine("El numero de su vuelo es: " + codigo + " ¡le deseamos un excelente viaje");
+                        Console.WriteLine("El numero de su vuelo es: " + codigo + " ¡Le deseamos un excelente viaje!");
                         Console.ReadKey();
 
                         break;
@@ -3689,7 +3689,7 @@
                         codigo = rnd.Next(100000, 999999);
                         Console.WriteLine("Estimado cliente " + nombre + " Usted ha comprado un vuelo desde El Salvador con destino a " + pais);
                         Console.WriteLine("Con una duracion de " + dias + " dias");
-                        Console.WriteLine("El numero de su vuelo es: " + codigo + " ¡le deseamos un excelente viaje");
+                        Console.WriteLine("El numero de su vuelo es: " + codigo + " ¡Le deseamos un excelente viaje!");
                         Console.ReadKey();
 
                         break;
@@ -3728,7 +3728,7 @@
                         codigo = rnd.Next(100000, 999999);
                         Console.WriteLine("Estimado cliente " + nombre + " Usted ha comprado un vuelo desde El Salvador con destino a " + pais);
                         Console.WriteLine("Con una duracion de " + dias + " dias");
-                        Console.WriteLine("El numero de su vuelo es: " + codigo + " ¡le deseamos un excelente viaje");
+                        Console.WriteLine("El numero de su vuelo es: " + codigo + " ¡Le deseamos un excelente viaje!");
                         Console.ReadKey();
 
                         break;
@@ -3767,7 +3767,7 @@
                         codigo = rnd.Next(100000, 999999);
                         Console.WriteLine("Estimado cliente " + nombre + " Usted ha comprado un vuelo desde El Salvador con destino a " + pais);
                         Console.WriteLine("Con una duracion de " + dias + " dias");
-                        Console.WriteLine("El numero de su vuelo es: " + codigo + " ¡le deseamos un excelente viaje");
+                        Console.WriteLine("El numero de su vuelo es: " + codigo + " ¡Le deseamos un excelente viaje!");
                         Console.ReadKey();
 
                         break;
@@ -3806,7 +3806,7 @@
                         codigo = rnd.Next(100000, 999999);
                         Console.WriteLine("Estimado cliente " + nombre + " Usted ha comprado un vuelo desde El Salvador con destino a " + pais);
                         Console.WriteLine("Con una duracion de " + dias + " dias");
-                        Console.WriteLine("El numero de su vuelo es: " + codigo + " ¡le deseamos un excelente viaje");
+                        Console.WriteLine("El numero de su vuelo es: " + codigo + " ¡Le deseamos un excelente viaje!");
                         Console.ReadKey();
 
                         break;
@@ -3845,7 +3845,7 @@
                         codigo = rnd.Next(100000, 999999);
                         Console.WriteLine("Estimado cliente " + nombre + " Usted ha comprado un vuelo desde El Salvador con destino a " + pais);
                         Console.WriteLine("Con una duracion de " + dias + " dias");
-                        Console.WriteLine("El numero de su vuelo es: " + codigo + " ¡le deseamos un excelente viaje");
+                        Console.WriteLine("El numero de su vuelo es: " + codigo + " ¡Le deseamos un excelente viaje!");
                         Console.ReadKey();
 
                         break;
@@ -3884,7 +3884,7 @@
                         codigo = rnd.Next(100000, 999999);
                         Console.WriteLine("Estimado cliente " + nombre + " Usted ha comprado un vuelo desde El Salvador con destino a " + pais);
                         Console.WriteLine("Con una duracion de " + dias + " dias");
-                        Console.WriteLine("El numero de su vuelo es: " + codigo + " ¡le deseamos un excelente viaje");
+                        Console.WriteLine("El numero de su vuelo es: " + codigo + " ¡Le deseamos un excelente viaje!");
                         Console.ReadKey();
 
                         break;
@@ -3923,7 +3923,7 @@
                         codigo = rnd.Next(100000, 999999);
                         Console.WriteLine("Estimado cliente " + nombre + " Usted ha comprado un vuelo desde El Salvador con destino a " + pais);
                         Console.WriteLine("Con una duracion de " + dias + " dias");
-                        Console.WriteLine("El numero de su vuelo es: " + codigo + " ¡le deseamos un excelente viaje");
+                        Console.WriteLine("El numero de su vuelo es: " + codigo + " ¡Le deseamos un excelente viaje!");
                         Console.ReadKey();
 
                         break;
@@ -3962,7 +3962,7 @@
                         codigo = rnd.Next(100000, 999999);
                         Console.WriteLine("Estimado cliente " + nombre + " Usted ha comprado un vuelo desde El Salvador con destino a " + pais);
                         Console.WriteLine("Con una duracion de " + dias + " dias");
-                        Console.WriteLine("El numero de su vuelo es: " + codigo + " ¡le deseamos un excelente viaje");
+                        Console.WriteLine("El numero de su vuelo es: " + codigo + " ¡Le deseamos un excelente viaje!");
                         Console.ReadKey();
 
                         break;
@@ -4002,7 +4002,7 @@
                         codigo = rnd.Next(100000, 999999);
                         Console.WriteLine("Estimado cliente " + nombre + " Usted ha comprado un vuelo desde El Salvador con destino a " + pais);
                         Console.WriteLine("Con una duracion de " + dias + " dias");
-                        Console.WriteLine("El numero de su vuelo es: " + codigo + " ¡le deseamos un excelente viaje");
+                        Console.WriteLine("El numero de su vuelo es: " + codigo + " ¡Le deseamos un excelente viaje!");
                         Console.ReadKey();
 
                         break;
@@ -4042,7 +4042,7 @@
                         codigo = rnd.Next(100000, 999999);
                         Console.WriteLine("Estimado cliente " + nombre + " Usted ha comprado un vuelo desde El Salvador con destino a " + pais);
                         Console.WriteLine("Con una duracion de " + dias + " dias");
-                        Console.WriteLine("El numero de su vuelo es: " + codigo + " ¡le deseamos un excelente viaje");
+                        Console.WriteLine("El numero de su vuelo es: " + codigo + " ¡Le deseamos un excelente viaje!");
                         Console.ReadKey();
 
                         break;
@@ -4082,7 +4082,7 @@
                         codigo = rnd.Next(100000, 999999);
                         Console.WriteLine("Estimado cliente " + nombre + " Usted ha comprado un vuelo desde El Salvador con destino a " + pais);
                         Console.WriteLine("Con una duracion de " + dias + " dias");
-                        Console.WriteLine("El numero de su vuelo es: " + codigo + " ¡le deseamos un excelente viaje");
+                        Console.WriteLine("El numero de su vuelo es: " + codigo + " ¡Le deseamos un excelente viaje!");
                         Console.ReadKey();
 
                         break;
@@ -4122,7 +4122,7 @@
                         codigo = rnd.Next(100000, 999999);
                         Console.WriteLine("Estimado cliente " + nombre + " Usted ha comprado un vuelo desde El Salvador con destino a " + pais);
                         Console.WriteLine("Con una duracion de " + dias + " dias");
-                        Console.WriteLine("El numero de su vuelo es: " + codigo + " ¡le deseamos un excelente viaje");
+                        Console.WriteLine("El numero de su vuelo es: " + codigo + " ¡Le deseamos un excelente viaje!");
                         Console.ReadKey();
 
                         break;
@@ -4162,7 +4162,7 @@
                         codigo = rnd.Next(100000, 999999);
                         Console.WriteLine("Estimado cliente " + nombre + " Usted ha comprado un vuelo desde El Salvador con destino a " + pais);
                         Console.WriteLine("Con una duracion de " + dias + " dias");
-                        Console.WriteLine("El numero de su vuelo es: " + codigo + " ¡le deseamos un excelente viaje");
+                        Console.WriteLine("El numero de su vuelo es: " + codigo + " ¡Le deseamos un excelente viaje!");
                         Console.ReadKey();
 
                         break;
@@ -4202,7 +4202,7 @@
                         codigo = rnd.Next(100000, 999999);
                         Console.WriteLine("Estimado cliente " + nombre + " Usted ha comprado un vuelo desde El Salvador con destino a " + pais);
                         Console.WriteLine("Con una duracion de " + dias + " dias");
-                        Console.WriteLine("El numero de su vuelo es: " + codigo + " ¡le deseamos un excelente viaje");
+                        Console.WriteLine("El numero de su vuelo es: " + codigo + " ¡Le deseamos un excelente viaje!");
                         Console.ReadKey();
 
                         break;
@@ -4241,7 +4241,7 @@
                         codigo = rnd.Next(100000, 999999);
                         Console.WriteLine("Estimado cliente " + nombre + " Usted ha comprado un vuelo desde El Salvador con destino a " + pais);
                         Console.WriteLine("Con una duracion de " + dias + " dias");
-                        Console.WriteLine("El numero de su vuelo es: " + codigo + " ¡le deseamos un excelente viaje");
+                        Console.WriteLine("El numero de su vuelo es: " + codigo + " ¡Le deseamos un excelente viaje!");
                         Console.ReadKey();
 
                         break;
@@ -4281,7 +4281,7 @@
                         codigo = rnd.Next(100000, 999999);
                         Console.WriteLine("Estimado cliente " + nombre + " Usted ha comprado un vuelo desde El Salvador con destino a " + pais);
                         Console.WriteLine("Con una duracion de " + dias + " dias");
-                        Console.WriteLine("El numero de su vuelo es: " + codigo + " ¡le deseamos un excelente viaje");
+                        Console.WriteLine("El numero de su vuelo es: " + codigo + " ¡Le deseamos un excelente viaje!");
                         Console.ReadKey();
 
                         break;
@@ -4321,7 +4321,7 @@
                         codigo = rnd.Next(100000, 999999);
                         Console.WriteLine("Estimado cliente " + nombre + " Usted ha comprado un vuelo desde El Salvador con destino a " + pais);
                         Console.WriteLine("Con una duracion de " + dias + " dias");
-                        Console.WriteLine("El numero de su vuelo es: " + codigo + " ¡le deseamos un excelente viaje");
+                        Console.WriteLine("El numero de su vuelo es: " + codigo + " ¡Le deseamos un excelente viaje!");
                         Console.ReadKey();
 
                         break;
@@ -4361,7 +4361,7 @@
                         codigo = rnd.Next(100000, 999999);
                         Console.WriteLine("Estimado cliente " + nombre + " Usted ha comprado un vuelo desde El Salvador con destino a " + pais);
                         Console.WriteLine("Con una duracion de " + dias + " dias");
-                        Console.WriteLine("El numero de su vuelo es: " + codigo + " ¡le deseamos un excelente viaje");
+                        Console.WriteLine("El numero de su vuelo es: " + codigo + " ¡Le deseamos un excelente viaje!");
                         Console.ReadKey();
 
                         break;
@@ -4401,7 +4401,7 @@
                         codigo = rnd.Next(100000, 999999);
                         Console.WriteLine("Estimado cliente " + nombre + " Usted ha comprado un vuelo desde El Salvador con destino a " + pais);
                         Console.WriteLine("Con una duracion de " + dias + " dias");
-                        Console.WriteLine("El numero de su vuelo es: " + codigo + " ¡le deseamos un excelente viaje");
+                        Console.WriteLine("El numero de su vuelo es: " + codigo + " ¡Le deseamos un excelente viaje!");
                         Console.ReadKey();
 
                         break;
@@ -4440,7 +4440,7 @@
                         codigo = rnd.Next(100000, 999999);
                         Console.WriteLine("Estimado cliente " + nombre + " Usted ha comprado un vuelo desde El Salvador con destino a " + pais);
                         Console.WriteLine("Con una duracion de " + dias + " dias");
-                        Console.WriteLine("El numero de su vuelo es: " + codigo + " ¡le deseamos un excelente viaje");
+                        Console.WriteLine("El numero de su vuelo es: " + codigo + " ¡Le deseamos un excelente viaje!");
                         Console.ReadKey();
 
                         break;
@@ -4480,7 +4480,7 @@
                         codigo = rnd.Next(100000, 999999);
                         Console.WriteLine("Estimado cliente " + nombre + " Usted ha comprado un vuelo desde El Salvador con destino a " + pais);
                         Console.WriteLine("Con una duracion de " + dias + " dias");
-                        Console.WriteLine("El numero de su vuelo es: " + codigo + " ¡le deseamos un excelente viaje");
+                        Console.WriteLine("El numero de su vuelo es: " + codigo + " ¡Le deseamos un excelente viaje!");
                         Console.ReadKey();
 
                         break;
@@ -4520,7 +4520,7 @@
                         codigo = rnd.Next(100000, 999999);
                         Console.WriteLine("Estimado cliente " + nombre + " Usted ha comprado un vuelo desde El Salvador con destino a " + pais);
                         Console.WriteLine("Con una duracion de " + dias + " dias");
-                        Console.WriteLine("El numero de su vuelo es: " + codigo + " ¡le deseamos un excelente viaje");
+                        Console.WriteLine("El numero de su vuelo es: " + codigo + " ¡Le deseamos un excelente viaje!");
                         Console.ReadKey();
 
                         break;
@@ -4560,7 +4560,7 @@
                         codigo = rnd.Next(100000, 999999);
                         Console.WriteLine("Estimado cliente " + nombre + " Usted ha comprado un vuelo desde El Salvador con destino a " + pais);
                         Console.WriteLine("Con una duracion de " + dias + " dias");
-                        Console.WriteLine("El numero de su vuelo es: " + codigo + " ¡le deseamos un excelente viaje");
+                        Console.WriteLine("El numero de su vuelo es: " + codigo + " ¡Le deseamos un excelente viaje!");
                         Console.ReadKey();
 
                         break;
@@ -4600,7 +4600,7 @@
                         codigo = rnd.Next(100000, 999999);
                         Console.WriteLine("Estimado cliente " + nombre + " Usted ha comprado un vuelo desde El Salvador con destino a " + pais);
                         Console.WriteLine("Con una duracion de " + dias + " dias");
-                        Console.WriteLine("El numero de su vuelo es: " + codigo + " ¡le deseamos un excelente viaje");
+                        Console.WriteLine("El numero de su vuelo es: " + codigo + " ¡Le deseamos un excelente viaje!");
                         Console.ReadKey();
 
                         break;
@@ -4640,7 +4640,7 @@
                         codigo = rnd.Next(100000, 999999);
                         Console.WriteLine("Estimado cliente " + nombre + " Usted ha comprado un vuelo desde El Salvador con destino a " + pais);
                         Console.WriteLine("Con una duracion de " + dias + " dias");
-                        Console.WriteLine("El numero de su vuelo es: " + codigo + " ¡le deseamos un excelente viaje");
+                        Console.WriteLine("El numero de su vuelo es: " + codigo + " ¡Le deseamos un excelente viaje!");
                         Console.ReadKey();
 
                         break;
@@ -4679,7 +4679,7 @@
                         codigo = rnd.Next(100000, 999999);
                         Console.WriteLine("Estimado cliente " + nombre + " Usted ha comprado un vuelo desde El Salvador con destino a " + pais);
                         Console.WriteLine("Con una duracion de " + dias + " dias");
-                        Console.WriteLine("El numero de su vuelo es: " + codigo + " ¡le deseamos un excelente viaje");
+                        Console.WriteLine("El numero de su vuelo es: " + codigo + " ¡Le deseamos un excelente viaje!");
                         Console.ReadKey();
 
                         break;
@@ -4718,7 +4718,7 @@
                         codigo = rnd.Next(100000, 999999);
                         Console.WriteLine("Estimado cliente " + nombre + " Usted ha comprado un vuelo desde El Salvador con destino a " + pais);
                         Console.WriteLine("Con una duracion de " + dias + " dias");
-                        Console.WriteLine("El numero de su vuelo es: " + codigo + " ¡le deseamos un excelente viaje");
+                        Console.WriteLine("El numero de su vuelo es: " + codigo + " ¡Le deseamos un excelente viaje!");
                         Console.ReadKey();
 
                         break;
@@ -4757,7 +4757,7 @@
                         codigo = rnd.Next(100000, 999999);
                         Console.WriteLine("Estimado cliente " + nombre + " Usted ha comprado un vuelo desde El Salvador con destino a " + pais);
                         Console.WriteLine("Con una duracion de " + dias + " dias");
-                        Console.WriteLine("El numero de su vuelo es: " + codigo + " ¡le deseamos un excelente viaje");
+                        Console.WriteLine("El numero de su vuelo es: " + codigo + " ¡Le deseamos un excelente viaje!");
                         Console.ReadKey();
 
                         break;
@@ -4796,9 +4796,9 @@
                 Console.WriteLine("WALLIS Y FUTUNA");
                 Console.WriteLine(" ");
 
-                pais = Console.ReadLine();
+                pais = Console.ReadLine().ToUpper();
 
-                switch (pais.ToUpper())
+                switch (pais)
                 {
 
                     case "AUSTRALIA":
@@ -5800,9 +5800,9 @@
                 Console.WriteLine("ZIMBABUE");
                 Console.WriteLine(" ");
 
-                pais = Console.ReadLine();
+                pais = Console.ReadLine().ToUpper();
 
-                switch (pais.ToUpper())
+                switch (pais)
                 {
 
                     case "ANGOLA":
@@ -5840,7 +5840,7 @@
                         codigo = rnd.Next(100000, 999999);
                         Console.WriteLine("Estimado cliente " + nombre + " Usted ha comprado un vuelo desde El Salvador con destino a " + pais);
                         Console.WriteLine("Con una duracion de " + dias + " dias");
-                        Console.WriteLine("El numero de su vuelo es: " + codigo + " ¡le deseamos un excelente viaje");
+                        Console.WriteLine("El numero de su vuelo es: " + codigo + " ¡Le deseamos un excelente viaje!");
                         Console.ReadKey();
 
                         break;
@@ -5880,7 +5880,7 @@
                         codigo = rnd.Next(100000, 999999);
                         Console.WriteLine("Estimado cliente " + nombre + " Usted ha comprado un vuelo desde El Salvador con destino a " + pais);
                         Console.WriteLine("Con una duracion de " + dias + " dias");
-                        Console.WriteLine("El numero de su vuelo es: " + codigo + " ¡le deseamos un excelente viaje");
+                        Console.WriteLine("El numero de su vuelo es: " + codigo + " ¡Le deseamos un excelente viaje!");
                         Console.ReadKey();
 
                         break;
@@ -5920,7 +5920,7 @@
                         codigo = rnd.Next(100000, 999999);
                         Console.WriteLine("Estimado cliente " + nombre + " Usted ha comprado un vuelo desde El Salvador con destino a " + pais);
                         Console.WriteLine("Con una duracion de " + dias + " dias");
-                        Console.WriteLine("El numero de su vuelo es: " + codigo + " ¡le deseamos un excelente viaje");
+                        Console.WriteLine("El numero de su vuelo es: " + codigo + " ¡Le deseamos un excelente viaje!");
                         Console.ReadKey();
 
                         break;
@@ -5960,7 +5960,7 @@
                         codigo = rnd.Next(100000, 999999);
                         Console.WriteLine("Estimado cliente " + nombre + " Usted ha comprado un vuelo desde El Salvador con destino a " + pais);
                         Console.WriteLine("Con una duracion de " + dias + " dias");
-                        Console.WriteLine("El numero de su vuelo es: " + codigo + " ¡le deseamos un excelente viaje");
+                        Console.WriteLine("El numero de su vuelo es: " + codigo + " ¡Le deseamos un excelente viaje!");
                         Console.ReadKey();
 
                         break;
@@ -6000,7 +6000,7 @@
                         codigo = rnd.Next(100000, 999999);
                         Console.WriteLine("Estimado cliente " + nombre + " Usted ha comprado un vuelo desde El Salvador con destino a " + pais);
                         Console.WriteLine("Con una duracion de " + dias + " dias");
-                        Console.WriteLine("El numero de su vuelo es: " + codigo + " ¡le deseamos un excelente viaje");
+                        Console.WriteLine("El numero de su vuelo es: " + codigo + " ¡Le deseamos un excelente viaje!");
                         Console.ReadKey();
 
                         break;
@@ -6040,7 +6040,7 @@
                         codigo = rnd.Next(100000, 999999);
                         Console.WriteLine("Estimado cliente " + nombre + " Usted ha comprado un vuelo desde El Salvador con destino a " + pais);
                         Console.WriteLine("Con una duracion de " + dias + " dias");
-                        Console.WriteLine("El numero de su vuelo es: " + codigo + " ¡le deseamos un excelente viaje");
+                        Console.WriteLine("El numero de su vuelo es: " + codigo + " ¡Le deseamos un excelente viaje!");
                         Console.ReadKey();
 
                         break;
@@ -6080,7 +6080,7 @@
                         codigo = rnd.Next(100000, 999999);
                         Console.WriteLine("Estimado cliente " + nombre + " Usted ha comprado un vuelo desde El Salvador con destino a " + pais);
                         Console.WriteLine("Con una duracion de " + dias + " dias");
-                        Console.WriteLine("El numero de su vuelo es: " + codigo + " ¡le deseamos un excelente viaje");
+                        Console.WriteLine("El numero de su vuelo es: " + codigo + " ¡Le deseamos un excelente viaje!");
                         Console.ReadKey();
 
                         break;
@@ -6120,7 +6120,7 @@
                         codigo = rnd.Next(100000, 999999);
                         Console.WriteLine("Estimado cliente " + nombre + " Usted ha comprado un vuelo desde El Salvador con destino a " + pais);
                         Console.WriteLine("Con una duracion de " + dias + " dias");
-                        Console.WriteLine("El numero de su vuelo es: " + codigo + " ¡le deseamos un excelente viaje");
+                        Console.WriteLine("El numero de su vuelo es: " + codigo + " ¡Le deseamos un excelente viaje!");
                         Console.ReadKey();
 
                         break;
@@ -6160,7 +6160,7 @@
                         codigo = rnd.Next(100000, 999999);
                         Console.WriteLine("Estimado cliente " + nombre + " Usted ha comprado un vuelo desde El Salvador con destino a " + pais);
                         Console.WriteLine("Con una duracion de " + dias + " dias");
-                        Console.WriteLine("El numero de su vuelo es: " + codigo + " ¡le deseamos un excelente viaje");
+                        Console.WriteLine("El numero de su vuelo es: " + codigo + " ¡Le deseamos un excelente viaje!");
                         Console.ReadKey();
 
                         break;
@@ -6200,7 +6200,7 @@
                         codigo = rnd.Next(100000, 999999);
                         Console.WriteLine("Estimado cliente " + nombre + " Usted ha comprado un vuelo desde El Salvador con destino a " + pais);
                         Console.WriteLine("Con una duracion de " + dias + " dias");
-                        Console.WriteLine("El numero de su vuelo es: " + codigo + " ¡le deseamos un excelente viaje");
+                        Console.WriteLine("El numero de su vuelo es: " + codigo + " ¡Le deseamos un excelente viaje!");
                         Console.ReadKey();
 
                         break;
@@ -6240,7 +6240,7 @@
                         codigo = rnd.Next(100000, 999999);
                         Console.WriteLine("Estimado cliente " + nombre + " Usted ha comprado un vuelo desde El Salvador con destino a " + pais);
                         Console.WriteLine("Con una duracion de " + dias + " dias");
-                        Console.WriteLine("El numero de su vuelo es: " + codigo + " ¡le deseamos un excelente viaje");
+                        Console.WriteLine("El numero de su vuelo es: " + codigo + " ¡Le deseamos un excelente viaje!");
                         Console.ReadKey();
 
                         break;
@@ -6280,7 +6280,7 @@
                         codigo = rnd.Next(100000, 999999);
                         Console.WriteLine("Estimado cliente " + nombre + " Usted ha comprado un vuelo desde El Salvador con destino a " + pais);
                         Console.WriteLine("Con una duracion de " + dias + " dias");
-                        Console.WriteLine("El numero de su vuelo es: " + codigo + " ¡le deseamos un excelente viaje");
+                        Console.WriteLine("El numero de su vuelo es: " + codigo + " ¡Le deseamos un excelente viaje!");
                         Console.ReadKey();
 
                         break;
@@ -6320,7 +6320,7 @@
                         codigo = rnd.Next(100000, 999999);
                         Console.WriteLine("Estimado cliente " + nombre + " Usted ha comprado un vuelo desde El Salvador con destino a " + pais);
                         Console.WriteLine("Con una duracion de " + dias + " dias");
-                        Console.WriteLine("El numero de su vuelo es: " + codigo + " ¡le deseamos un excelente viaje");
+                        Console.WriteLine("El numero de su vuelo es: " + codigo + " ¡Le deseamos un excelente viaje!");
                         Console.ReadKey();
 
                         break;
@@ -6360,7 +6360,7 @@
                         codigo = rnd.Next(100000, 999999);
                         Console.WriteLine("Estimado cliente " + nombre + " Usted ha comprado un vuelo desde El Salvador con destino a " + pais);
                         Console.WriteLine("Con una duracion de " + dias + " dias");
-                        Console.WriteLine("El numero de su vuelo es: " + codigo + " ¡le deseamos un excelente viaje");
+                        Console.WriteLine("El numero de su vuelo es: " + codigo + " ¡Le deseamos un excelente viaje!");
                         Console.ReadKey();
 
                         break;
@@ -6400,7 +6400,7 @@
                         codigo = rnd.Next(100000, 999999);
                         Console.WriteLine("Estimado cliente " + nombre + " Usted ha comprado un vuelo desde El Salvador con destino a " + pais);
                         Console.WriteLine("Con una duracion de " + dias + " dias");
-                        Console.WriteLine("El numero de su vuelo es: " + codigo + " ¡le deseamos un excelente viaje");
+                        Console.WriteLine("El numero de su vuelo es: " + codigo + " ¡Le deseamos un excelente viaje!");
                         Console.ReadKey();
 
                         break;
@@ -6440,7 +6440,7 @@
                         codigo = rnd.Next(100000, 999999);
                         Console.WriteLine("Estimado cliente " + nombre + " Usted ha comprado un vuelo desde El Salvador con destino a " + pais);
                         Console.WriteLine("Con una duracion de " + dias + " dias");
-                        Console.WriteLine("El numero de su vuelo es: " + codigo + " ¡le deseamos un excelente viaje");
+                        Console.WriteLine("El numero de su vuelo es: " + codigo + " ¡Le deseamos un excelente viaje!");
                         Console.ReadKey();
 
                         break;
@@ -6480,7 +6480,7 @@
                         codigo = rnd.Next(100000, 999999);
                         Console.WriteLine("Estimado cliente " + nombre + " Usted ha comprado un vuelo desde El Salvador con destino a " + pais);
                         Console.WriteLine("Con una duracion de " + dias + " dias");
-                        Console.WriteLine("El numero de su vuelo es: " + codigo + " ¡le deseamos un excelente viaje");
+                        Console.WriteLine("El numero de su vuelo es: " + codigo + " ¡Le deseamos un excelente viaje!");
                         Console.ReadKey();
 
                         break;
@@ -6519,7 +6519,7 @@
                         codigo = rnd.Next(100000, 999999);
                         Console.WriteLine("Estimado cliente " + nombre + " Usted ha comprado un vuelo desde El Salvador con destino a " + pais);
                         Console.WriteLine("Con una duracion de " + dias + " dias");
-                        Console.WriteLine("El numero de su vuelo es: " + codigo + " ¡le deseamos un excelente viaje");
+                        Console.WriteLine("El numero de su vuelo es: " + codigo + " ¡Le deseamos un excelente viaje!");
                         Console.ReadKey();
 
                         break;
@@ -6559,7 +6559,7 @@
                         codigo = rnd.Next(100000, 999999);
                         Console.WriteLine("Estimado cliente " + nombre + " Usted ha comprado un vuelo desde El Salvador con destino a " + pais);
                         Console.WriteLine("Con una duracion de " + dias + " dias");
-                        Console.WriteLine("El numero de su vuelo es: " + codigo + " ¡le deseamos un excelente viaje");
+                        Console.WriteLine("El numero de su vuelo es: " + codigo + " ¡Le deseamos un excelente viaje!");
                         Console.ReadKey();
 
                         break;
@@ -6599,7 +6599,7 @@
                         codigo = rnd.Next(100000, 999999);
                         Console.WriteLine("Estimado cliente " + nombre + " Usted ha comprado un vuelo desde El Salvador con destino a " + pais);
                         Console.WriteLine("Con una duracion de " + dias + " dias");
-                        Console.WriteLine("El numero de su vuelo es: " + codigo + " ¡le deseamos un excelente viaje");
+                        Console.WriteLine("El numero de su vuelo es: " + codigo + " ¡Le deseamos un excelente viaje!");
                         Console.ReadKey();
 
                         break;
@@ -6639,7 +6639,7 @@
                         codigo = rnd.Next(100000, 999999);
                         Console.WriteLine("Estimado cliente " + nombre + " Usted ha comprado un vuelo desde El Salvador con destino a " + pais);
                         Console.WriteLine("Con una duracion de " + dias + " dias");
-                        Console.WriteLine("El numero de su vuelo es: " + codigo + " ¡le deseamos un excelente viaje");
+                        Console.WriteLine("El numero de su vuelo es: " + codigo + " ¡Le deseamos un excelente viaje!");
                         Console.ReadKey();
 
                         break;
@@ -6679,7 +6679,7 @@
                         codigo = rnd.Next(100000, 999999);
                         Console.WriteLine("Estimado cliente " + nombre + " Usted ha comprado un vuelo desde El Salvador con destino a " + pais);
                         Console.WriteLine("Con una duracion de " + dias + " dias");
-                        Console.WriteLine("El numero de su vuelo es: " + codigo + " ¡le deseamos un excelente viaje");
+                        Console.WriteLine("El numero de su vuelo es: " + codigo + " ¡Le deseamos un excelente viaje!");
                         Console.ReadKey();
 
                         break;
@@ -6719,7 +6719,7 @@
                         codigo = rnd.Next(100000, 999999);
                         Console.WriteLine("Estimado cliente " + nombre + " Usted ha comprado un vuelo desde El Salvador con destino a " + pais);
                         Console.WriteLine("Con una duracion de " + dias + " dias");
-                        Console.WriteLine("El numero de su vuelo es: " + codigo + " ¡le deseamos un excelente viaje");
+                        Console.WriteLine("El numero de su vuelo es: " + codigo + " ¡Le deseamos un excelente viaje!");
                         Console.ReadKey();
 
                         break;
@@ -6759,7 +6759,7 @@
                         codigo = rnd.Next(100000, 999999);
                         Console.WriteLine("Estimado cliente " + nombre + " Usted ha comprado un vuelo desde El Salvador con destino a " + pais);
                         Console.WriteLine("Con una duracion de " + dias + " dias");
-                        Console.WriteLine("El numero de su vuelo es: " + codigo + " ¡le deseamos un excelente viaje");
+                        Console.WriteLine("El numero de su vuelo es: " + codigo + " ¡Le deseamos un excelente viaje!");
                         Console.ReadKey();
 
                         break;
@@ -6799,7 +6799,7 @@
                         codigo = rnd.Next(100000, 999999);
                         Console.WriteLine("Estimado cliente " + nombre + " Usted ha comprado un vuelo desde El Salvador con destino a " + pais);
                         Console.WriteLine("Con una duracion de " + dias + " dias");
-                        Console.WriteLine("El numero de su vuelo es: " + codigo + " ¡le deseamos un excelente viaje");
+                        Console.WriteLine("El numero de su vuelo es: " + codigo + " ¡Le deseamos un excelente viaje!");
                         Console.ReadKey();
 
                         break;
@@ -6839,7 +6839,7 @@
                         codigo = rnd.Next(100000, 999999);
                         Console.WriteLine("Estimado cliente " + nombre + " Usted ha comprado un vuelo desde El Salvador con destino a " + pais);
                         Console.WriteLine("Con una duracion de " + dias + " dias");
-                        Console.WriteLine("El numero de su vuelo es: " + codigo + " ¡le deseamos un excelente viaje");
+                        Console.WriteLine("El numero de su vuelo es: " + codigo + " ¡Le deseamos un excelente viaje!");
                         Console.ReadKey();
 
                         break;
@@ -6879,7 +6879,7 @@
                         codigo = rnd.Next(100000, 999999);
                         Console.WriteLine("Estimado cliente " + nombre + " Usted ha comprado un vuelo desde El Salvador con destino a " + pais);
                         Console.WriteLine("Con una duracion de " + dias + " dias");
-                        Console.WriteLine("El numero de su vuelo es: " + codigo + " ¡le deseamos un excelente viaje");
+                        Console.WriteLine("El numero de su vuelo es: " + codigo + " ¡Le deseamos un excelente viaje!");
                         Console.ReadKey();
 
                         break;
@@ -6919,7 +6919,7 @@
                         codigo = rnd.Next(100000, 999999);
                         Console.WriteLine("Estimado cliente " + nombre + " Usted ha comprado un vuelo desde El Salvador con destino a " + pais);
                         Console.WriteLine("Con una duracion de " + dias + " dias");
-                        Console.WriteLine("El numero de su vuelo es: " + codigo + " ¡le deseamos un excelente viaje");
+                        Console.WriteLine("El numero de su vuelo es: " + codigo + " ¡Le deseamos un excelente viaje!");
                         Console.ReadKey();
 
                         break;
@@ -6959,7 +6959,7 @@
                         codigo = rnd.Next(100000, 999999);
                         Console.WriteLine("Estimado cliente " + nombre + " Usted ha comprado un vuelo desde El Salvador con destino a " + pais);
                         Console.WriteLine("Con una duracion de " + dias + " dias");
-                        Console.WriteLine("El numero de su vuelo es: " + codigo + " ¡le deseamos un excelente viaje");
+                        Console.WriteLine("El numero de su vuelo es: " + codigo + " ¡Le deseamos un excelente viaje!");
                         Console.ReadKey();
 
                         break;
@@ -6999,7 +6999,7 @@
                         codigo = rnd.Next(100000, 999999);
                         Console.WriteLine("Estimado cliente " + nombre + " Usted ha comprado un vuelo desde El Salvador con destino a " + pais);
                         Console.WriteLine("Con una duracion de " + dias + " dias");
-                        Console.WriteLine("El numero de su vuelo es: " + codigo + " ¡le deseamos un excelente viaje");
+                        Console.WriteLine("El numero de su vuelo es: " + codigo + " ¡Le deseamos un excelente viaje!");
                         Console.ReadKey();
 
                         break;
@@ -7039,7 +7039,7 @@
                         codigo = rnd.Next(100000, 999999);
                         Console.WriteLine("Estimado cliente " + nombre + " Usted ha comprado un vuelo desde El Salvador con destino a " + pais);
                         Console.WriteLine("Con una duracion de " + dias + " dias");
-                        Console.WriteLine("El numero de su vuelo es: " + codigo + " ¡le deseamos un excelente viaje");
+                        Console.WriteLine("El numero de su vuelo es: " + codigo + " ¡Le deseamos un excelente viaje!");
                         Console.ReadKey();
 
                         break;
@@ -7079,7 +7079,7 @@
                         codigo = rnd.Next(100000, 999999);
                         Console.WriteLine("Estimado cliente " + nombre + " Usted ha comprado un vuelo desde El Salvador con destino a " + pais);
                         Console.WriteLine("Con una duracion de " + dias + " dias");
-                        Console.WriteLine("El numero de su vuelo es: " + codigo + " ¡le deseamos un excelente viaje");
+                        Console.WriteLine("El numero de su vuelo es: " + codigo + " ¡Le deseamos un excelente viaje!");
                         Console.ReadKey();
 
                         break;
@@ -7119,7 +7119,7 @@
                         codigo = rnd.Next(100000, 999999);
                         Console.WriteLine("Estimado cliente " + nombre + " Usted ha comprado un vuelo desde El Salvador con destino a " + pais);
                         Console.WriteLine("Con una duracion de " + dias + " dias");
-                        Console.WriteLine("El numero de su vuelo es: " + codigo + " ¡le deseamos un excelente viaje");
+                        Console.WriteLine("El numero de su vuelo es: " + codigo + " ¡Le deseamos un excelente viaje!");
                         Console.ReadKey();
 
                         break;
@@ -7159,7 +7159,7 @@
                         codigo = rnd.Next(100000, 999999);
                         Console.WriteLine("Estimado cliente " + nombre + " Usted ha comprado un vuelo desde El Salvador con destino a " + pais);
                         Console.WriteLine("Con una duracion de " + dias + " dias");
-                        Console.WriteLine("El numero de su vuelo es: " + codigo + " ¡le deseamos un excelente viaje");
+                        Console.WriteLine("El numero de su vuelo es: " + codigo + " ¡Le deseamos un excelente viaje!");
                         Console.ReadKey();
 
                         break;
@@ -7199,7 +7199,7 @@
                         codigo = rnd.Next(100000, 999999);
                         Console.WriteLine("Estimado cliente " + nombre + " Usted ha comprado un vuelo desde El Salvador con destino a " + pais);
                         Console.WriteLine("Con una duracion de " + dias + " dias");
-                        Console.WriteLine("El numero de su vuelo es: " + codigo + " ¡le deseamos un excelente viaje");
+                        Console.WriteLine("El numero de su vuelo es: " + codigo + " ¡Le deseamos un excelente viaje!");
                         Console.ReadKey();
 
                         break;
@@ -7239,7 +7239,7 @@
                         codigo = rnd.Next(100000, 999999);
                         Console.WriteLine("Estimado cliente " + nombre + " Usted ha comprado un vuelo desde El Salvador con destino a " + pais);
                         Console.WriteLine("Con una duracion de " + dias + " dias");
-                        Console.WriteLine("El numero de su vuelo es: " + codigo + " ¡le deseamos un excelente viaje");
+                        Console.WriteLine("El numero de su vuelo es: " + codigo + " ¡Le deseamos un excelente viaje!");
                         Console.ReadKey();
 
                         break;
@@ -7279,7 +7279,7 @@
                         codigo = rnd.Next(100000, 999999);
                         Console.WriteLine("Estimado cliente " + nombre + " Usted ha comprado un vuelo desde El Salvador con destino a " + pais);
                         Console.WriteLine("Con una duracion de " + dias + " dias");
-                        Console.WriteLine("El numero de su vuelo es: " + codigo + " ¡le deseamos un excelente viaje");
+                        Console.WriteLine("El numero de su vuelo es: " + codigo + " ¡Le deseamos un excelente viaje!");
                         Console.ReadKey();
 
                         break;
@@ -7319,7 +7319,7 @@
                         codigo = rnd.Next(100000, 999999);
                         Console.WriteLine("Estimado cliente " + nombre + " Usted ha comprado un vuelo desde El Salvador con destino a " + pais);
                         Console.WriteLine("Con una duracion de " + dias + " dias");
-                        Console.WriteLine("El numero de su vuelo es: " + codigo + " ¡le deseamos un excelente viaje");
+                        Console.WriteLine("El numero de su vuelo es: " + codigo + " ¡Le deseamos un excelente viaje!");
                         Console.ReadKey();
 
                         break;
@@ -7359,7 +7359,7 @@
                         codigo = rnd.Next(100000, 999999);
                         Console.WriteLine("Estimado cliente " + nombre + " Usted ha comprado un vuelo desde El Salvador con destino a " + pais);
                         Console.WriteLine("Con una duracion de " + dias + " dias");
-                        Console.WriteLine("El numero de su vuelo es: " + codigo + " ¡le deseamos un excelente viaje");
+                        Console.WriteLine("El numero de su vuelo es: " + codigo + " ¡Le deseamos un excelente viaje!");
                         Console.ReadKey();
 
                         break;
@@ -7399,7 +7399,7 @@
                         codigo = rnd.Next(100000, 999999);
                         Console.WriteLine("Estimado cliente " + nombre + " Usted ha comprado un vuelo desde El Salvador con destino a " + pais);
                         Console.WriteLine("Con una duracion de " + dias + " dias");
-                        Console.WriteLine("El numero de su vuelo es: " + codigo + " ¡le deseamos un excelente viaje");
+                        Console.WriteLine("El numero de su vuelo es: " + codigo + " ¡Le deseamos un excelente viaje!");
                         Console.ReadKey();
 
                         break;
@@ -7439,7 +7439,7 @@
                         codigo = rnd.Next(100000, 999999);
                         Console.WriteLine("Estimado cliente " + nombre + " Usted ha comprado un vuelo desde El Salvador con destino a " + pais);
                         Console.WriteLine("Con una duracion de " + dias + " dias");
-                        Console.WriteLine("El numero de su vuelo es: " + codigo + " ¡le deseamos un excelente viaje");
+                        Console.WriteLine("El numero de su vuelo es: " + codigo + " ¡Le deseamos un excelente viaje!");
                         Console.ReadKey();
 
                         break;
@@ -7479,7 +7479,7 @@
                         codigo = rnd.Next(100000, 999999);
                         Console.WriteLine("Estimado cliente " + nombre + " Usted ha comprado un vuelo desde El Salvador con destino a " + pais);
                         Console.WriteLine("Con una duracion de " + dias + " dias");
-                        Console.WriteLine("El numero de su vuelo es: " + codigo + " ¡le deseamos un excelente viaje");
+                        Console.WriteLine("El numero de su vuelo es: " + codigo + " ¡Le deseamos un excelente viaje!");
                         Console.ReadKey();
 
                         break;
@@ -7519,7 +7519,7 @@
                         codigo = rnd.Next(100000, 999999);
                         Console.WriteLine("Estimado cliente " + nombre + " Usted ha comprado un vuelo desde El Salvador con destino a " + pais);
                         Console.WriteLine("Con una duracion de " + dias + " dias");
-                        Console.WriteLine("El numero de su vuelo es: " + codigo + " ¡le deseamos un excelente viaje");
+                        Console.WriteLine("El numero de su vuelo es: " + codigo + " ¡Le deseamos un excelente viaje!");
                         Console.ReadKey();
 
                         break;
@@ -7559,7 +7559,7 @@
                         codigo = rnd.Next(100000, 999999);
                         Console.WriteLine("Estimado cliente " + nombre + " Usted ha comprado un vuelo desde El Salvador con destino a " + pais);
                         Console.WriteLine("Con una duracion de " + dias + " dias");
-                        Console.WriteLine("El numero de su vuelo es: " + codigo + " ¡le deseamos un excelente viaje");
+                        Console.WriteLine("El numero de su vuelo es: " + codigo + " ¡Le deseamos un excelente viaje!");
                         Console.ReadKey();
 
                         break;
@@ -7599,7 +7599,7 @@
                         codigo = rnd.Next(100000, 999999);
                         Console.WriteLine("Estimado cliente " + nombre + " Usted ha comprado un vuelo desde El Salvador con destino a " + pais);
                         Console.WriteLine("Con una duracion de " + dias + " dias");
-                        Console.WriteLine("El numero de su vuelo es: " + codigo + " ¡le deseamos un excelente viaje");
+                        Console.WriteLine("El numero de su vuelo es: " + codigo + " ¡Le deseamos un excelente viaje!");
                         Console.ReadKey();
 
                         break;
@@ -7639,7 +7639,7 @@
                         codigo = rnd.Next(100000, 999999);
                         Console.WriteLine("Estimado cliente " + nombre + " Usted ha comprado un vuelo desde El Salvador con destino a " + pais);
                         Console.WriteLine("Con una duracion de " + dias + " dias");
-                        Console.WriteLine("El numero de su vuelo es: " + codigo + " ¡le deseamos un excelente viaje");
+                        Console.WriteLine("El numero de su vuelo es: " + codigo + " ¡Le deseamos un excelente viaje!");
                         Console.ReadKey();
 
                         break;
@@ -7679,7 +7679,7 @@
                         codigo = rnd.Next(100000, 999999);
                         Console.WriteLine("Estimado cliente " + nombre + " Usted ha comprado un vuelo desde El Salvador con destino a " + pais);
                         Console.WriteLine("Con una duracion de " + dias + " dias");
-                        Console.WriteLine("El numero de su vuelo es: " + codigo + " ¡le deseamos un excelente viaje");
+                        Console.WriteLine("El numero de su vuelo es: " + codigo + " ¡Le deseamos un excelente viaje!");
                         Console.ReadKey();
 
                         break;
@@ -7719,7 +7719,7 @@
                         codigo = rnd.Next(100000, 999999);
                         Console.WriteLine("Estimado cliente " + nombre + " Usted ha comprado un vuelo desde El Salvador con destino a " + pais);
                         Console.WriteLine("Con una duracion de " + dias + " dias");
-                        Console.WriteLine("El numero de su vuelo es: " + codigo + " ¡le deseamos un excelente viaje");
+                        Console.WriteLine("El numero de su vuelo es: " + codigo + " ¡Le deseamos un excelente viaje!");
                         Console.ReadKey();
 
                         break;
@@ -7759,7 +7759,7 @@
                         codigo = rnd.Next(100000, 999999);
                         Console.WriteLine("Estimado cliente " + nombre + " Usted ha comprado un vuelo desde El Salvador con destino a " + pais);
                         Console.WriteLine("Con una duracion de " + dias + " dias");
-                        Console.WriteLine("El numero de su vuelo es: " + codigo + " ¡le deseamos un excelente viaje");
+                        Console.WriteLine("El numero de su vuelo es: " + codigo + " ¡Le deseamos un excelente viaje!");
                         Console.ReadKey();
 
                         break;
@@ -7799,7 +7799,7 @@
                         codigo = rnd.Next(100000, 999999);
                         Console.WriteLine("Estimado cliente " + nombre + " Usted ha comprado un vuelo desde El Salvador con destino a " + pais);
                         Console.WriteLine("Con una duracion de " + dias + " dias");
-                        Console.WriteLine("El numero de su vuelo es: " + codigo + " ¡le deseamos un excelente viaje");
+                        Console.WriteLine("El numero de su vuelo es: " + codigo + " ¡Le deseamos un excelente viaje!");
                         Console.ReadKey();
 
                         break;
@@ -7839,7 +7839,7 @@
                         codigo = rnd.Next(100000, 999999);
                         Console.WriteLine("Estimado cliente " + nombre + " Usted ha comprado un vuelo desde El Salvador con destino a " + pais);
                         Console.WriteLine("Con una duracion de " + dias + " dias");
-                        Console.WriteLine("El numero de su vuelo es: " + codigo + " ¡le deseamos un excelente viaje");
+                        Console.WriteLine("El numero de su vuelo es: " + codigo + " ¡Le deseamos un excelente viaje!");
                         Console.ReadKey();
 
                         break;
@@ -7879,7 +7879,7 @@
                         codigo = rnd.Next(100000, 999999);
                         Console.WriteLine("Estimado cliente " + nombre + " Usted ha comprado un vuelo desde El Salvador con destino a " + pais);
                         Console.WriteLine("Con una duracion de " + dias + " dias");
-                        Console.WriteLine("El numero de su vuelo es: " + codigo + " ¡le deseamos un excelente viaje");
+                        Console.WriteLine("El numero de su vuelo es: " + codigo + " ¡Le deseamos un excelente viaje!");
                         Console.ReadKey();
 
                         break;
@@ -7919,7 +7919,7 @@
                         codigo = rnd.Next(100000, 999999);
                         Console.WriteLine("Estimado cliente " + nombre + " Usted ha comprado un vuelo desde El Salvador con destino a " + pais);
                         Console.WriteLine("Con una duracion de " + dias + " dias");
-                        Console.WriteLine("El numero de su vuelo es: " + codigo + " ¡le deseamos un excelente viaje");
+                        Console.WriteLine("El numero de su vuelo es: " + codigo + " ¡Le deseamos un excelente viaje!");
                         Console.ReadKey();
 
                         break;
