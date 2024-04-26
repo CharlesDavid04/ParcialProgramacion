@@ -14,7 +14,7 @@
         Console.WriteLine(" ");
         nombre = Console.ReadLine();
         Console.WriteLine(" ");
-        Console.WriteLine("Ingrese su o sus apellidos para continuar");
+        Console.WriteLine("Ingrese su o sus apellidos para continuar");/* esta es una prueba*/
         Console.WriteLine(" ");
         apellido = Console.ReadLine();
         Console.WriteLine(" ");
